@@ -1,0 +1,811 @@
+2023-08-16 08:53:36.1692147216 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "444444",
+    "password": "73882ab1fa529d7273da0db6b49cc4f3"
+}
+
+2023-08-16 08:53:36.1692147216 src/cgi/login_cgi.cpp:268 [INFO] : account = 444444, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-16 08:53:36.1692147216 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 08:53:36.1692147216 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 73882ab1fa529d7273da0db6b49cc4f3, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-16 08:53:36.1692147216 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 08:53:36.1692147216 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 08:53:36.1692147216 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 444444730485195399
+2023-08-16 08:53:36.1692147216 src/cgi/login_cgi.cpp:276 [INFO] : token = 5c3726a8bb9ce9448be863a77064e0283137322e31382e34362e
+2023-08-16 08:54:01.1692147241 src/cgi/md5_cgi.cpp:265 [INFO] : buf = {
+    "account": "000",
+    "fileName": "pdf.png",
+    "md5": "5bca57194380c34002c0dd086a242ee7",
+    "token": "5c3726a8bb9ce9448be863a77064e0283137322e31382e34362e"
+}
+
+2023-08-16 08:54:01.1692147241 src/cgi/md5_cgi.cpp:286 [INFO] : account=000, token=5c3726a8bb9ce9448be863a77064e0283137322e31382e34362e, md5=5bca57194380c34002c0dd086a242ee7, fileName=pdf.png
+2023-08-16 08:54:01.1692147241 src/redis_op.cpp:21 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+2023-08-16 08:54:01.1692147241 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 08:54:48.1692147288 src/cgi/myfiles_cgi.cpp:422 [INFO] : cmd = count
+2023-08-16 08:54:48.1692147288 src/cgi/myfiles_cgi.cpp:447 [INFO] : buf = {
+    "account": "000",
+    "token": "5c3726a8bb9ce9448be863a77064e0283137322e31382e34362e"
+}
+
+2023-08-16 08:54:48.1692147288 src/redis_op.cpp:21 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+2023-08-16 08:54:48.1692147288 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 08:54:48.1692147288 src/cgi/myfiles_cgi.cpp:184 [INFO] : line = 0
+2023-08-16 08:54:58.1692147298 src/cgi/myfiles_cgi.cpp:422 [INFO] : cmd = count
+2023-08-16 08:54:58.1692147298 src/cgi/myfiles_cgi.cpp:447 [INFO] : buf = {
+    "account": "000",
+    "token": "5c3726a8bb9ce9448be863a77064e0283137322e31382e34362e"
+}
+
+2023-08-16 08:54:58.1692147298 src/redis_op.cpp:21 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+2023-08-16 08:54:58.1692147298 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 08:54:58.1692147298 src/cgi/myfiles_cgi.cpp:184 [INFO] : line = 0
+2023-08-16 08:55:08.1692147308 src/cgi/myfiles_cgi.cpp:422 [INFO] : cmd = count
+2023-08-16 08:55:08.1692147308 src/cgi/myfiles_cgi.cpp:447 [INFO] : buf = {
+    "account": "000",
+    "token": "5c3726a8bb9ce9448be863a77064e0283137322e31382e34362e"
+}
+
+2023-08-16 08:55:08.1692147308 src/redis_op.cpp:21 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+2023-08-16 08:55:08.1692147308 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 08:55:08.1692147308 src/cgi/myfiles_cgi.cpp:184 [INFO] : line = 0
+2023-08-16 08:55:14.1692147314 src/cgi/myfiles_cgi.cpp:422 [INFO] : cmd = count
+2023-08-16 08:55:14.1692147314 src/cgi/myfiles_cgi.cpp:447 [INFO] : buf = {
+    "account": "000",
+    "token": "5c3726a8bb9ce9448be863a77064e0283137322e31382e34362e"
+}
+
+2023-08-16 08:55:14.1692147314 src/redis_op.cpp:21 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+2023-08-16 08:55:14.1692147314 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 08:55:14.1692147314 src/cgi/myfiles_cgi.cpp:184 [INFO] : line = 0
+2023-08-16 09:15:01.1692148501 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "333333",
+    "password": "1a100d2c0dab19c4430e7d73762b3423"
+}
+
+2023-08-16 09:15:01.1692148501 src/cgi/login_cgi.cpp:268 [INFO] : account = 333333, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 09:15:01.1692148501 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 09:15:01.1692148501 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 1a100d2c0dab19c4430e7d73762b3423, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 09:15:01.1692148501 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 09:15:01.1692148501 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 09:15:01.1692148501 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 333333467774285195
+2023-08-16 09:15:01.1692148501 src/cgi/login_cgi.cpp:276 [INFO] : token = 0fb19f557158c215bc7cd5f2bcfe7b413137322e31382e34362e
+2023-08-16 09:15:20.1692148520 src/cgi/md5_cgi.cpp:265 [INFO] : buf = {
+    "account": "000",
+    "fileName": "null.png",
+    "md5": "18566eb2eeab122773d776f8280e0026",
+    "token": "0fb19f557158c215bc7cd5f2bcfe7b413137322e31382e34362e"
+}
+
+2023-08-16 09:15:20.1692148520 src/cgi/md5_cgi.cpp:286 [INFO] : account=000, token=0fb19f557158c215bc7cd5f2bcfe7b413137322e31382e34362e, md5=18566eb2eeab122773d776f8280e0026, fileName=null.png
+2023-08-16 09:15:20.1692148520 src/redis_op.cpp:21 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+2023-08-16 09:15:20.1692148520 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 09:44:25.1692150265 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 09:44:25.1692150265 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-16 09:44:25.1692150265 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 09:44:25.1692150265 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 09:44:25.1692150265 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 09:44:25.1692150265 src/cgi/sharefiles_cgi.cpp:87 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 09:44:25.1692150265 src/cgi/sharefiles_cgi.cpp:92 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 09:44:25.1692150265 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 09:44:25.1692150265 src/cgi/dealsharefile_cgi.cpp:100 [INFO] : redis:[ip=172.18.46.97, port=6379], password=123456
+2023-08-16 09:44:49.1692150289 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-16 09:44:49.1692150289 src/cgi/login_cgi.cpp:268 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-16 09:44:49.1692150289 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 09:44:49.1692150289 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = e3ceb5881a0a1fdaad01296d7554868d, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-16 09:44:49.1692150289 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 09:44:49.1692150289 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 09:44:49.1692150289 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 222222745612281578
+2023-08-16 09:44:49.1692150289 src/cgi/login_cgi.cpp:276 [INFO] : token = e61b359d4aff46554d5882c8edd08d6a3137322e31382e34362e
+2023-08-16 09:45:02.1692150302 src/cgi/md5_cgi.cpp:265 [INFO] : buf = {
+    "account": "000",
+    "fileName": "pdf.png",
+    "md5": "5bca57194380c34002c0dd086a242ee7",
+    "token": "e61b359d4aff46554d5882c8edd08d6a3137322e31382e34362e"
+}
+
+2023-08-16 09:45:02.1692150302 src/cgi/md5_cgi.cpp:286 [INFO] : account=000, token=e61b359d4aff46554d5882c8edd08d6a3137322e31382e34362e, md5=5bca57194380c34002c0dd086a242ee7, fileName=pdf.png
+2023-08-16 09:45:02.1692150302 src/redis_op.cpp:21 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+2023-08-16 09:45:02.1692150302 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 11:35:10.1692156910 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "333333",
+    "password": "1a100d2c0dab19c4430e7d73762b3423"
+}
+
+2023-08-16 11:35:10.1692156910 src/cgi/login_cgi.cpp:268 [INFO] : account = 333333, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 11:35:10.1692156910 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 11:35:10.1692156910 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 1a100d2c0dab19c4430e7d73762b3423, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 11:35:10.1692156910 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 11:35:10.1692156910 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 11:35:10.1692156910 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 33333332870724641
+2023-08-16 11:35:10.1692156910 src/cgi/login_cgi.cpp:276 [INFO] : token = 77bf6351d25828ed35edab21f1e234183137322e31382e34362e
+2023-08-16 11:35:17.1692156917 src/cgi/md5_cgi.cpp:265 [INFO] : buf = {
+    "account": "000",
+    "fileName": "pdf.png",
+    "md5": "5bca57194380c34002c0dd086a242ee7",
+    "token": "77bf6351d25828ed35edab21f1e234183137322e31382e34362e"
+}
+
+2023-08-16 11:35:17.1692156917 src/cgi/md5_cgi.cpp:286 [INFO] : account=000, token=77bf6351d25828ed35edab21f1e234183137322e31382e34362e, md5=5bca57194380c34002c0dd086a242ee7, fileName=pdf.png
+2023-08-16 11:35:17.1692156917 src/redis_op.cpp:21 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+2023-08-16 11:35:17.1692156917 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 11:44:48.1692157488 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "333333",
+    "password": "1a100d2c0dab19c4430e7d73762b3423"
+}
+
+2023-08-16 11:44:48.1692157488 src/cgi/login_cgi.cpp:268 [INFO] : account = 333333, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 11:44:48.1692157488 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 11:44:48.1692157488 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 1a100d2c0dab19c4430e7d73762b3423, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 11:44:48.1692157488 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 11:44:48.1692157488 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 11:44:48.1692157488 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 333333845611533895
+2023-08-16 11:44:48.1692157488 src/cgi/login_cgi.cpp:276 [INFO] : token = da77c8596c227965d2b02f0799e3ffbd3137322e31382e34362e
+2023-08-16 11:44:54.1692157494 src/cgi/md5_cgi.cpp:265 [INFO] : buf = {
+    "account": "000",
+    "fileName": "pdf.png",
+    "md5": "5bca57194380c34002c0dd086a242ee7",
+    "token": "da77c8596c227965d2b02f0799e3ffbd3137322e31382e34362e"
+}
+
+2023-08-16 11:44:54.1692157494 src/cgi/md5_cgi.cpp:286 [INFO] : account=000, token=da77c8596c227965d2b02f0799e3ffbd3137322e31382e34362e, md5=5bca57194380c34002c0dd086a242ee7, fileName=pdf.png
+2023-08-16 11:44:54.1692157494 src/redis_op.cpp:21 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+2023-08-16 11:44:54.1692157494 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 14:30:33.1692167433 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 14:30:33.1692167433 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-16 14:30:33.1692167433 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 14:30:33.1692167433 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 14:30:33.1692167433 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 14:30:33.1692167433 src/cgi/sharefiles_cgi.cpp:87 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 14:30:33.1692167433 src/cgi/sharefiles_cgi.cpp:92 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 14:30:33.1692167433 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 14:30:33.1692167433 src/cgi/dealsharefile_cgi.cpp:100 [INFO] : redis:[ip=172.18.46.97, port=6379], password=123456
+2023-08-16 14:30:45.1692167445 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "333333",
+    "password": "1a100d2c0dab19c4430e7d73762b3423"
+}
+
+2023-08-16 14:30:45.1692167445 src/cgi/login_cgi.cpp:268 [INFO] : account = 333333, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 14:30:45.1692167445 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 14:30:45.1692167445 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 1a100d2c0dab19c4430e7d73762b3423, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 14:30:45.1692167445 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 14:30:45.1692167445 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 14:30:45.1692167445 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 333333614489629330
+2023-08-16 14:30:45.1692167445 src/cgi/login_cgi.cpp:276 [INFO] : token = d3fedd582fb98ba9d9156a0b251d8df33137322e31382e34362e
+2023-08-16 14:30:50.1692167450 src/cgi/md5_cgi.cpp:265 [INFO] : buf = {
+    "account": "000",
+    "fileName": "pdf.png",
+    "md5": "5bca57194380c34002c0dd086a242ee7",
+    "token": "d3fedd582fb98ba9d9156a0b251d8df33137322e31382e34362e"
+}
+
+2023-08-16 14:30:50.1692167450 src/cgi/md5_cgi.cpp:286 [INFO] : account=000, token=d3fedd582fb98ba9d9156a0b251d8df33137322e31382e34362e, md5=5bca57194380c34002c0dd086a242ee7, fileName=pdf.png
+2023-08-16 14:30:50.1692167450 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 14:30:50.1692167450 src/util_cgi.cpp:152 [INFO] : token=d3fedd582fb98ba9d9156a0b251d8df33137322e31382e34362e, tmp_token=
+2023-08-16 14:30:50.1692167450 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 14:43:19.1692168199 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 14:43:19.1692168199 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-16 14:43:19.1692168199 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 14:43:19.1692168199 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 14:43:19.1692168199 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 14:43:19.1692168199 src/cgi/sharefiles_cgi.cpp:87 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 14:43:19.1692168199 src/cgi/sharefiles_cgi.cpp:92 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 14:43:19.1692168199 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 14:43:19.1692168199 src/cgi/dealsharefile_cgi.cpp:100 [INFO] : redis:[ip=172.18.46.97, port=6379], password=123456
+2023-08-16 14:43:42.1692168222 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-16 14:43:42.1692168222 src/cgi/login_cgi.cpp:268 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-16 14:43:42.1692168222 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 14:43:42.1692168222 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = e3ceb5881a0a1fdaad01296d7554868d, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-16 14:43:42.1692168222 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 14:43:42.1692168222 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 14:43:42.1692168222 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 222222288275209473
+2023-08-16 14:43:42.1692168222 src/cgi/login_cgi.cpp:276 [INFO] : token = 659be492b5bb9eccc7e8a32279cf38c53137322e31382e34362e
+2023-08-16 14:43:51.1692168231 src/cgi/md5_cgi.cpp:265 [INFO] : buf = {
+    "account": "000",
+    "fileName": "pdf.png",
+    "md5": "5bca57194380c34002c0dd086a242ee7",
+    "token": "659be492b5bb9eccc7e8a32279cf38c53137322e31382e34362e"
+}
+
+2023-08-16 14:43:51.1692168231 src/cgi/md5_cgi.cpp:286 [INFO] : account=000, token=659be492b5bb9eccc7e8a32279cf38c53137322e31382e34362e, md5=5bca57194380c34002c0dd086a242ee7, fileName=pdf.png
+2023-08-16 14:43:51.1692168231 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 14:43:51.1692168231 src/redis_op.cpp:711 [INFO] : rop_get_string fail
+2023-08-16 14:43:51.1692168231 src/util_cgi.cpp:152 [INFO] : token=659be492b5bb9eccc7e8a32279cf38c53137322e31382e34362e, tmp_token=
+2023-08-16 14:43:51.1692168231 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+================================================================================
+
+
+2023-08-16 14:58:47.1692169127 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 14:58:47.1692169127 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-16 14:58:47.1692169127 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 14:58:47.1692169127 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 14:58:47.1692169127 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 14:58:47.1692169127 src/cgi/sharefiles_cgi.cpp:87 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 14:58:47.1692169127 src/cgi/sharefiles_cgi.cpp:92 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 14:58:48.1692169128 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 14:58:48.1692169128 src/cgi/dealsharefile_cgi.cpp:100 [INFO] : redis:[ip=172.18.46.97, port=6379], password=123456
+2023-08-16 14:59:06.1692169146 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "111111",
+    "password": "96e79218965eb72c92a549dd5a330112"
+}
+
+2023-08-16 14:59:06.1692169146 src/cgi/login_cgi.cpp:268 [INFO] : account = 111111, password = 96e79218965eb72c92a549dd5a330112
+2023-08-16 14:59:06.1692169146 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 14:59:06.1692169146 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 111111, password = 96e79218965eb72c92a549dd5a330112
+2023-08-16 14:59:20.1692169160 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-16 14:59:20.1692169160 src/cgi/login_cgi.cpp:268 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-16 14:59:20.1692169160 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 14:59:20.1692169160 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = e3ceb5881a0a1fdaad01296d7554868d, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-16 14:59:20.1692169160 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 14:59:20.1692169160 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 14:59:20.1692169160 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 222222110138122750
+2023-08-16 14:59:20.1692169160 src/cgi/login_cgi.cpp:276 [INFO] : token = a977b7c766afd0c84eed86f4a5cdb1f43137322e31382e34362e
+2023-08-16 14:59:42.1692169182 src/cgi/md5_cgi.cpp:265 [INFO] : buf = {
+    "account": "000",
+    "fileName": "pdf.png",
+    "md5": "5bca57194380c34002c0dd086a242ee7",
+    "token": "a977b7c766afd0c84eed86f4a5cdb1f43137322e31382e34362e"
+}
+
+2023-08-16 14:59:42.1692169182 src/cgi/md5_cgi.cpp:286 [INFO] : account=000, token=a977b7c766afd0c84eed86f4a5cdb1f43137322e31382e34362e, md5=5bca57194380c34002c0dd086a242ee7, fileName=pdf.png
+2023-08-16 14:59:42.1692169182 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 14:59:42.1692169182 src/redis_op.cpp:711 [INFO] : rop_get_string fail, key=000
+2023-08-16 14:59:42.1692169182 src/util_cgi.cpp:152 [INFO] : token=a977b7c766afd0c84eed86f4a5cdb1f43137322e31382e34362e, tmp_token=
+2023-08-16 14:59:42.1692169182 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+===================================================================================
+
+2023-08-16 15:25:27.1692170727 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 15:25:27.1692170727 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-16 15:25:28.1692170728 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 15:25:28.1692170728 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 15:25:28.1692170728 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 15:25:28.1692170728 src/cgi/sharefiles_cgi.cpp:87 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 15:25:28.1692170728 src/cgi/sharefiles_cgi.cpp:92 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 15:25:28.1692170728 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 15:25:28.1692170728 src/cgi/dealsharefile_cgi.cpp:100 [INFO] : redis:[ip=172.18.46.97, port=6379], password=123456
+2023-08-16 15:25:46.1692170746 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "444444",
+    "password": "73882ab1fa529d7273da0db6b49cc4f3"
+}
+
+2023-08-16 15:25:46.1692170746 src/cgi/login_cgi.cpp:268 [INFO] : account = 444444, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-16 15:25:46.1692170746 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 15:25:46.1692170746 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 73882ab1fa529d7273da0db6b49cc4f3, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-16 15:25:46.1692170746 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 15:25:46.1692170746 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 15:25:46.1692170746 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 444444698434346595
+2023-08-16 15:25:46.1692170746 src/cgi/login_cgi.cpp:276 [INFO] : token = 3d229b54e0d7bba0f0ffe2d7ecd2e24f3137322e31382e34362e
+2023-08-16 15:26:05.1692170765 src/cgi/md5_cgi.cpp:265 [INFO] : buf = {
+    "account": "444444",
+    "fileName": "pdf.png",
+    "md5": "5bca57194380c34002c0dd086a242ee7",
+    "token": "3d229b54e0d7bba0f0ffe2d7ecd2e24f3137322e31382e34362e"
+}
+
+2023-08-16 15:26:05.1692170765 src/cgi/md5_cgi.cpp:286 [INFO] : account=444444, token=3d229b54e0d7bba0f0ffe2d7ecd2e24f3137322e31382e34362e, md5=5bca57194380c34002c0dd086a242ee7, fileName=pdf.png
+2023-08-16 15:26:05.1692170765 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 15:26:05.1692170765 src/util_cgi.cpp:152 [INFO] : token=3d229b54e0d7bba0f0ffe2d7ecd2e24f3137322e31382e34362e, tmp_token=3d229b54e0d7bba0f0ffe2d7ecd2e24f3137322e31382e34362e
+2023-08-16 15:26:05.1692170765 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 15:47:13.1692172033 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "333333",
+    "password": "1a100d2c0dab19c4430e7d73762b3423"
+}
+
+2023-08-16 15:47:13.1692172033 src/cgi/login_cgi.cpp:268 [INFO] : account = 333333, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 15:47:13.1692172033 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 15:47:13.1692172033 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 1a100d2c0dab19c4430e7d73762b3423, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 15:47:13.1692172033 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 15:47:13.1692172033 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 15:47:13.1692172033 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 333333584992950748
+2023-08-16 15:47:13.1692172033 src/cgi/login_cgi.cpp:276 [INFO] : token = cbac05ab86c87a48d78e7a886968706e3137322e31382e34362e
+2023-08-16 15:47:20.1692172040 src/cgi/md5_cgi.cpp:265 [INFO] : buf = {
+    "account": "333333",
+    "fileName": "pdf.png",
+    "md5": "5bca57194380c34002c0dd086a242ee7",
+    "token": "cbac05ab86c87a48d78e7a886968706e3137322e31382e34362e"
+}
+
+2023-08-16 15:47:20.1692172040 src/cgi/md5_cgi.cpp:286 [INFO] : account=333333, token=cbac05ab86c87a48d78e7a886968706e3137322e31382e34362e, md5=5bca57194380c34002c0dd086a242ee7, fileName=pdf.png
+2023-08-16 15:47:20.1692172040 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 15:47:20.1692172040 src/util_cgi.cpp:152 [INFO] : token=cbac05ab86c87a48d78e7a886968706e3137322e31382e34362e, tmp_token=cbac05ab86c87a48d78e7a886968706e3137322e31382e34362e
+2023-08-16 15:47:20.1692172040 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 15:53:28.1692172408 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-16 15:53:28.1692172408 src/cgi/login_cgi.cpp:268 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-16 15:53:28.1692172408 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 15:53:28.1692172408 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = e3ceb5881a0a1fdaad01296d7554868d, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-16 15:53:28.1692172408 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 15:53:28.1692172408 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 15:53:28.1692172408 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 222222338773565803
+2023-08-16 15:53:28.1692172408 src/cgi/login_cgi.cpp:276 [INFO] : token = a200c9d9fa14077e0a426e5763023d1a3137322e31382e34362e
+2023-08-16 15:53:33.1692172413 src/cgi/md5_cgi.cpp:265 [INFO] : buf = {
+    "account": "222222",
+    "fileName": "pdf.png",
+    "md5": "5bca57194380c34002c0dd086a242ee7",
+    "token": "a200c9d9fa14077e0a426e5763023d1a3137322e31382e34362e"
+}
+
+2023-08-16 15:53:33.1692172413 src/cgi/md5_cgi.cpp:286 [INFO] : account=222222, token=a200c9d9fa14077e0a426e5763023d1a3137322e31382e34362e, md5=5bca57194380c34002c0dd086a242ee7, fileName=pdf.png
+2023-08-16 15:53:33.1692172413 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 15:53:33.1692172413 src/util_cgi.cpp:152 [INFO] : token=a200c9d9fa14077e0a426e5763023d1a3137322e31382e34362e, tmp_token=a200c9d9fa14077e0a426e5763023d1a3137322e31382e34362e
+2023-08-16 15:53:33.1692172413 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 16:23:00.1692174180 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 16:23:00.1692174180 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-16 16:23:00.1692174180 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 16:23:01.1692174181 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 16:23:01.1692174181 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 16:23:01.1692174181 src/cgi/sharefiles_cgi.cpp:87 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 16:23:01.1692174181 src/cgi/sharefiles_cgi.cpp:92 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 16:23:01.1692174181 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 16:23:01.1692174181 src/cgi/dealsharefile_cgi.cpp:100 [INFO] : redis:[ip=172.18.46.97, port=6379], password=123456
+2023-08-16 16:23:28.1692174208 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "333333",
+    "password": "1a100d2c0dab19c4430e7d73762b3423"
+}
+
+2023-08-16 16:23:28.1692174208 src/cgi/login_cgi.cpp:268 [INFO] : account = 333333, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 16:23:28.1692174208 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 16:23:28.1692174208 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 1a100d2c0dab19c4430e7d73762b3423, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 16:23:28.1692174208 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 16:23:28.1692174208 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 16:23:28.1692174208 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 333333142372973838
+2023-08-16 16:23:28.1692174208 src/cgi/login_cgi.cpp:276 [INFO] : token = 29d3e2b938daf7002c92994a7e25b9413137322e31382e34362e
+2023-08-16 16:23:35.1692174215 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "333333",
+    "fileName": "pdf.png",
+    "md5": "5bca57194380c34002c0dd086a242ee7",
+    "token": "29d3e2b938daf7002c92994a7e25b9413137322e31382e34362e"
+}
+
+2023-08-16 16:23:35.1692174215 src/cgi/md5_cgi.cpp:293 [INFO] : account=333333, token=29d3e2b938daf7002c92994a7e25b9413137322e31382e34362e, md5=5bca57194380c34002c0dd086a242ee7, fileName=pdf.png
+2023-08-16 16:23:35.1692174215 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 16:23:35.1692174215 src/util_cgi.cpp:152 [INFO] : token=29d3e2b938daf7002c92994a7e25b9413137322e31382e34362e, tmp_token=29d3e2b938daf7002c92994a7e25b9413137322e31382e34362e
+2023-08-16 16:23:35.1692174215 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 16:27:59.1692174479 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "444444",
+    "password": "73882ab1fa529d7273da0db6b49cc4f3"
+}
+
+2023-08-16 16:27:59.1692174479 src/cgi/login_cgi.cpp:268 [INFO] : account = 444444, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-16 16:27:59.1692174479 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 16:27:59.1692174479 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 73882ab1fa529d7273da0db6b49cc4f3, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-16 16:27:59.1692174479 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 16:27:59.1692174479 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 16:27:59.1692174479 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 444444502517102166
+2023-08-16 16:27:59.1692174479 src/cgi/login_cgi.cpp:276 [INFO] : token = db47fc22a82bf84b7e53b1fb715204e93137322e31382e34362e
+2023-08-16 16:28:11.1692174491 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "444444",
+    "fileName": "null.png",
+    "md5": "18566eb2eeab122773d776f8280e0026",
+    "token": "db47fc22a82bf84b7e53b1fb715204e93137322e31382e34362e"
+}
+
+2023-08-16 16:28:11.1692174491 src/cgi/md5_cgi.cpp:293 [INFO] : account=444444, token=db47fc22a82bf84b7e53b1fb715204e93137322e31382e34362e, md5=18566eb2eeab122773d776f8280e0026, fileName=null.png
+2023-08-16 16:28:11.1692174491 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 16:28:11.1692174491 src/util_cgi.cpp:152 [INFO] : token=db47fc22a82bf84b7e53b1fb715204e93137322e31382e34362e, tmp_token=db47fc22a82bf84b7e53b1fb715204e93137322e31382e34362e
+2023-08-16 16:28:11.1692174491 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 16:30:49.1692174649 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-16 16:30:49.1692174649 src/cgi/login_cgi.cpp:268 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-16 16:30:49.1692174649 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 16:30:49.1692174649 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = e3ceb5881a0a1fdaad01296d7554868d, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-16 16:30:49.1692174649 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 16:30:49.1692174649 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 16:30:49.1692174649 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 22222228377427733
+2023-08-16 16:30:49.1692174649 src/cgi/login_cgi.cpp:276 [INFO] : token = 83356a747eb53fbb94cd468a58636e353137322e31382e34362e
+2023-08-16 16:31:00.1692174660 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "222222",
+    "fileName": "k-on-1.png",
+    "md5": "8cbf7499980c34f26c956f7632f1e081",
+    "token": "83356a747eb53fbb94cd468a58636e353137322e31382e34362e"
+}
+
+2023-08-16 16:31:00.1692174660 src/cgi/md5_cgi.cpp:293 [INFO] : account=222222, token=83356a747eb53fbb94cd468a58636e353137322e31382e34362e, md5=8cbf7499980c34f26c956f7632f1e081, fileName=k-on-1.png
+2023-08-16 16:31:00.1692174660 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 16:31:00.1692174660 src/util_cgi.cpp:152 [INFO] : token=83356a747eb53fbb94cd468a58636e353137322e31382e34362e, tmp_token=83356a747eb53fbb94cd468a58636e353137322e31382e34362e
+2023-08-16 16:31:00.1692174660 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 16:35:40.1692174940 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "444444",
+    "password": "73882ab1fa529d7273da0db6b49cc4f3"
+}
+
+2023-08-16 16:35:40.1692174940 src/cgi/login_cgi.cpp:268 [INFO] : account = 444444, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-16 16:35:40.1692174940 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 16:35:40.1692174940 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 73882ab1fa529d7273da0db6b49cc4f3, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-16 16:35:40.1692174940 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 16:35:40.1692174940 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 16:35:40.1692174940 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 44444414316338826
+2023-08-16 16:35:40.1692174940 src/cgi/login_cgi.cpp:276 [INFO] : token = 3d8ea8ca021bbc0969b3fcbd2a6ee2283137322e31382e34362e
+2023-08-16 16:49:24.1692175764 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "333333",
+    "password": "1a100d2c0dab19c4430e7d73762b3423"
+}
+
+2023-08-16 16:49:24.1692175764 src/cgi/login_cgi.cpp:268 [INFO] : account = 333333, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 16:49:24.1692175764 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 16:49:24.1692175764 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 1a100d2c0dab19c4430e7d73762b3423, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 16:49:24.1692175764 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 16:49:24.1692175764 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 16:49:24.1692175764 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 333333106155747824
+2023-08-16 16:49:24.1692175764 src/cgi/login_cgi.cpp:276 [INFO] : token = 20956bfac3eb401a92d4d9ebf5a308de3137322e31382e34362e
+2023-08-16 16:49:36.1692175776 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "333333",
+    "fileName": "other.png",
+    "md5": "153af6cc06f72211708927b58990b689",
+    "token": "20956bfac3eb401a92d4d9ebf5a308de3137322e31382e34362e"
+}
+
+2023-08-16 16:49:36.1692175776 src/cgi/md5_cgi.cpp:293 [INFO] : account=333333, token=20956bfac3eb401a92d4d9ebf5a308de3137322e31382e34362e, md5=153af6cc06f72211708927b58990b689, fileName=other.png
+2023-08-16 16:49:36.1692175776 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 16:49:36.1692175776 src/util_cgi.cpp:152 [INFO] : token=20956bfac3eb401a92d4d9ebf5a308de3137322e31382e34362e, tmp_token=20956bfac3eb401a92d4d9ebf5a308de3137322e31382e34362e
+2023-08-16 16:49:36.1692175776 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 17:16:02.1692177362 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-16 17:16:02.1692177362 src/cgi/login_cgi.cpp:268 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-16 17:16:02.1692177362 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 17:16:02.1692177362 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = e3ceb5881a0a1fdaad01296d7554868d, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-16 17:16:02.1692177362 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 17:16:02.1692177362 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 17:16:02.1692177362 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 222222825510763587
+2023-08-16 17:16:02.1692177362 src/cgi/login_cgi.cpp:276 [INFO] : token = 9805839c7595b27368205e727ed4aba53137322e31382e34362e
+2023-08-16 17:16:12.1692177372 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "222222",
+    "fileName": "null.png",
+    "md5": "18566eb2eeab122773d776f8280e0026",
+    "token": "9805839c7595b27368205e727ed4aba53137322e31382e34362e"
+}
+
+2023-08-16 17:16:12.1692177372 src/cgi/md5_cgi.cpp:293 [INFO] : account=222222, token=9805839c7595b27368205e727ed4aba53137322e31382e34362e, md5=18566eb2eeab122773d776f8280e0026, fileName=null.png
+2023-08-16 17:16:12.1692177372 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 17:16:12.1692177372 src/util_cgi.cpp:152 [INFO] : token=9805839c7595b27368205e727ed4aba53137322e31382e34362e, tmp_token=9805839c7595b27368205e727ed4aba53137322e31382e34362e
+2023-08-16 17:16:12.1692177372 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 17:20:48.1692177648 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "333333",
+    "password": "1a100d2c0dab19c4430e7d73762b3423"
+}
+
+2023-08-16 17:20:48.1692177648 src/cgi/login_cgi.cpp:268 [INFO] : account = 333333, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 17:20:48.1692177648 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 17:20:48.1692177648 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 1a100d2c0dab19c4430e7d73762b3423, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 17:20:48.1692177648 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 17:20:48.1692177648 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 17:20:48.1692177648 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 33333398376628987
+2023-08-16 17:20:48.1692177648 src/cgi/login_cgi.cpp:276 [INFO] : token = 31d42cabd4392c2b160466fbb89c5ce43137322e31382e34362e
+2023-08-16 17:20:56.1692177656 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "333333",
+    "fileName": "null.png",
+    "md5": "18566eb2eeab122773d776f8280e0026",
+    "token": "31d42cabd4392c2b160466fbb89c5ce43137322e31382e34362e"
+}
+
+2023-08-16 17:20:56.1692177656 src/cgi/md5_cgi.cpp:293 [INFO] : account=333333, token=31d42cabd4392c2b160466fbb89c5ce43137322e31382e34362e, md5=18566eb2eeab122773d776f8280e0026, fileName=null.png
+2023-08-16 17:20:56.1692177656 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 17:20:56.1692177656 src/util_cgi.cpp:152 [INFO] : token=31d42cabd4392c2b160466fbb89c5ce43137322e31382e34362e, tmp_token=31d42cabd4392c2b160466fbb89c5ce43137322e31382e34362e
+2023-08-16 17:20:56.1692177656 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 17:21:21.1692177681 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "333333",
+    "password": "1a100d2c0dab19c4430e7d73762b3423"
+}
+
+2023-08-16 17:21:21.1692177681 src/cgi/login_cgi.cpp:268 [INFO] : account = 333333, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 17:21:21.1692177681 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 17:21:21.1692177681 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 1a100d2c0dab19c4430e7d73762b3423, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 17:21:21.1692177681 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 17:21:21.1692177681 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 17:21:21.1692177681 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 333333590162323854
+2023-08-16 17:21:21.1692177681 src/cgi/login_cgi.cpp:276 [INFO] : token = e65c56001ca4be39c29dfd6bc79ee8193137322e31382e34362e
+2023-08-16 17:21:27.1692177687 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "333333",
+    "fileName": "null.png",
+    "md5": "18566eb2eeab122773d776f8280e0026",
+    "token": "e65c56001ca4be39c29dfd6bc79ee8193137322e31382e34362e"
+}
+
+2023-08-16 17:21:27.1692177687 src/cgi/md5_cgi.cpp:293 [INFO] : account=333333, token=e65c56001ca4be39c29dfd6bc79ee8193137322e31382e34362e, md5=18566eb2eeab122773d776f8280e0026, fileName=null.png
+2023-08-16 17:21:27.1692177687 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 17:21:27.1692177687 src/util_cgi.cpp:152 [INFO] : token=e65c56001ca4be39c29dfd6bc79ee8193137322e31382e34362e, tmp_token=e65c56001ca4be39c29dfd6bc79ee8193137322e31382e34362e
+2023-08-16 17:21:27.1692177687 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 17:23:00.1692177780 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "333333",
+    "password": "1a100d2c0dab19c4430e7d73762b3423"
+}
+
+2023-08-16 17:23:00.1692177780 src/cgi/login_cgi.cpp:268 [INFO] : account = 333333, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 17:23:00.1692177780 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 17:23:00.1692177780 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 1a100d2c0dab19c4430e7d73762b3423, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 17:23:00.1692177780 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 17:23:00.1692177780 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 17:23:00.1692177780 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 333333398360844528
+2023-08-16 17:23:00.1692177780 src/cgi/login_cgi.cpp:276 [INFO] : token = ec402d6fe5a5e2c101a7c4098a0676733137322e31382e34362e
+2023-08-16 17:23:06.1692177786 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "333333",
+    "fileName": "null.png",
+    "md5": "18566eb2eeab122773d776f8280e0026",
+    "token": "ec402d6fe5a5e2c101a7c4098a0676733137322e31382e34362e"
+}
+
+2023-08-16 17:23:06.1692177786 src/cgi/md5_cgi.cpp:293 [INFO] : account=333333, token=ec402d6fe5a5e2c101a7c4098a0676733137322e31382e34362e, md5=18566eb2eeab122773d776f8280e0026, fileName=null.png
+2023-08-16 17:23:06.1692177786 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 17:23:06.1692177786 src/util_cgi.cpp:152 [INFO] : token=ec402d6fe5a5e2c101a7c4098a0676733137322e31382e34362e, tmp_token=ec402d6fe5a5e2c101a7c4098a0676733137322e31382e34362e
+2023-08-16 17:23:06.1692177786 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 17:23:06.1692177786 src/cgi/upload_cgi.cpp:172 [INFO] : wrong no  boundary!
+2023-08-16 17:23:13.1692177793 src/cgi/myfiles_cgi.cpp:422 [INFO] : cmd = count
+2023-08-16 17:23:13.1692177793 src/cgi/myfiles_cgi.cpp:447 [INFO] : buf = {
+    "account": "333333",
+    "token": "ec402d6fe5a5e2c101a7c4098a0676733137322e31382e34362e"
+}
+
+2023-08-16 17:23:13.1692177793 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 17:23:13.1692177793 src/util_cgi.cpp:152 [INFO] : token=ec402d6fe5a5e2c101a7c4098a0676733137322e31382e34362e, tmp_token=ec402d6fe5a5e2c101a7c4098a0676733137322e31382e34362e
+2023-08-16 17:23:13.1692177793 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 17:23:13.1692177793 src/cgi/myfiles_cgi.cpp:184 [INFO] : line = 0
+2023-08-16 17:24:18.1692177858 src/cgi/myfiles_cgi.cpp:422 [INFO] : cmd = count
+2023-08-16 17:24:18.1692177858 src/cgi/myfiles_cgi.cpp:447 [INFO] : buf = {
+    "account": "333333",
+    "token": "ec402d6fe5a5e2c101a7c4098a0676733137322e31382e34362e"
+}
+
+2023-08-16 17:24:18.1692177858 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 17:24:18.1692177858 src/util_cgi.cpp:152 [INFO] : token=ec402d6fe5a5e2c101a7c4098a0676733137322e31382e34362e, tmp_token=ec402d6fe5a5e2c101a7c4098a0676733137322e31382e34362e
+2023-08-16 17:24:18.1692177858 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 17:24:18.1692177858 src/cgi/myfiles_cgi.cpp:184 [INFO] : line = 0
+2023-08-16 17:42:38.1692178958 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "444444",
+    "password": "73882ab1fa529d7273da0db6b49cc4f3"
+}
+
+2023-08-16 17:42:38.1692178958 src/cgi/login_cgi.cpp:268 [INFO] : account = 444444, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-16 17:42:38.1692178958 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 17:42:38.1692178958 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 73882ab1fa529d7273da0db6b49cc4f3, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-16 17:42:38.1692178958 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 17:42:38.1692178958 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 17:42:38.1692178958 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 444444294452647167
+2023-08-16 17:42:38.1692178958 src/cgi/login_cgi.cpp:276 [INFO] : token = f7939acab5299fb9bc5707524c9deb0d3137322e31382e34362e
+2023-08-16 17:42:46.1692178966 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "444444",
+    "fileName": "null.png",
+    "md5": "18566eb2eeab122773d776f8280e0026",
+    "token": "f7939acab5299fb9bc5707524c9deb0d3137322e31382e34362e"
+}
+
+2023-08-16 17:42:46.1692178966 src/cgi/md5_cgi.cpp:293 [INFO] : account=444444, token=f7939acab5299fb9bc5707524c9deb0d3137322e31382e34362e, md5=18566eb2eeab122773d776f8280e0026, fileName=null.png
+2023-08-16 17:42:46.1692178966 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 17:42:46.1692178966 src/util_cgi.cpp:152 [INFO] : token=f7939acab5299fb9bc5707524c9deb0d3137322e31382e34362e, tmp_token=f7939acab5299fb9bc5707524c9deb0d3137322e31382e34362e
+2023-08-16 17:42:46.1692178966 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 17:42:46.1692178966 src/cgi/upload_cgi.cpp:172 [INFO] : wrong no  boundary!
+2023-08-16 17:44:12.1692179052 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-16 17:44:12.1692179052 src/cgi/login_cgi.cpp:268 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-16 17:44:12.1692179052 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 17:44:12.1692179052 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = e3ceb5881a0a1fdaad01296d7554868d, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-16 17:44:12.1692179052 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 17:44:12.1692179052 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 17:44:12.1692179052 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 22222214118229339
+2023-08-16 17:44:12.1692179052 src/cgi/login_cgi.cpp:276 [INFO] : token = 3c057eb96c173e614525c8df5cbcbb713137322e31382e34362e
+2023-08-16 17:44:18.1692179058 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "222222",
+    "fileName": "null.png",
+    "md5": "18566eb2eeab122773d776f8280e0026",
+    "token": "3c057eb96c173e614525c8df5cbcbb713137322e31382e34362e"
+}
+
+2023-08-16 17:44:18.1692179058 src/cgi/md5_cgi.cpp:293 [INFO] : account=222222, token=3c057eb96c173e614525c8df5cbcbb713137322e31382e34362e, md5=18566eb2eeab122773d776f8280e0026, fileName=null.png
+2023-08-16 17:44:18.1692179058 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 17:44:18.1692179058 src/util_cgi.cpp:152 [INFO] : token=3c057eb96c173e614525c8df5cbcbb713137322e31382e34362e, tmp_token=3c057eb96c173e614525c8df5cbcbb713137322e31382e34362e
+2023-08-16 17:44:18.1692179058 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 17:44:18.1692179058 src/cgi/upload_cgi.cpp:172 [INFO] : wrong no  boundary!
+2023-08-16 17:48:08.1692179288 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-16 17:48:08.1692179288 src/cgi/login_cgi.cpp:268 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-16 17:48:08.1692179288 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 17:48:08.1692179288 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = e3ceb5881a0a1fdaad01296d7554868d, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-16 17:48:08.1692179288 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 17:48:08.1692179288 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 17:48:08.1692179288 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 2222227434556129
+2023-08-16 17:48:08.1692179288 src/cgi/login_cgi.cpp:276 [INFO] : token = 03462584253c5da55a957f085680e1143137322e31382e34362e
+2023-08-16 17:48:14.1692179294 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "222222",
+    "fileName": "other.png",
+    "md5": "153af6cc06f72211708927b58990b689",
+    "token": "03462584253c5da55a957f085680e1143137322e31382e34362e"
+}
+
+2023-08-16 17:48:14.1692179294 src/cgi/md5_cgi.cpp:293 [INFO] : account=222222, token=03462584253c5da55a957f085680e1143137322e31382e34362e, md5=153af6cc06f72211708927b58990b689, fileName=other.png
+2023-08-16 17:48:14.1692179294 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 17:48:14.1692179294 src/util_cgi.cpp:152 [INFO] : token=03462584253c5da55a957f085680e1143137322e31382e34362e, tmp_token=03462584253c5da55a957f085680e1143137322e31382e34362e
+2023-08-16 17:48:14.1692179294 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 17:48:14.1692179294 src/cgi/upload_cgi.cpp:172 [INFO] : wrong no  boundary!
+2023-08-16 17:56:27.1692179787 src/cgi/myfiles_cgi.cpp:422 [INFO] : cmd = count
+2023-08-16 17:56:27.1692179787 src/cgi/myfiles_cgi.cpp:447 [INFO] : buf = {
+    "account": "222222",
+    "token": "03462584253c5da55a957f085680e1143137322e31382e34362e"
+}
+
+2023-08-16 17:56:27.1692179787 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 17:56:27.1692179787 src/util_cgi.cpp:152 [INFO] : token=03462584253c5da55a957f085680e1143137322e31382e34362e, tmp_token=03462584253c5da55a957f085680e1143137322e31382e34362e
+2023-08-16 17:56:27.1692179787 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 17:56:27.1692179787 src/cgi/myfiles_cgi.cpp:184 [INFO] : line = 0
+2023-08-16 17:56:30.1692179790 src/cgi/myfiles_cgi.cpp:422 [INFO] : cmd = count
+2023-08-16 17:56:30.1692179790 src/cgi/myfiles_cgi.cpp:447 [INFO] : buf = {
+    "account": "222222",
+    "token": "03462584253c5da55a957f085680e1143137322e31382e34362e"
+}
+
+2023-08-16 17:56:30.1692179790 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 17:56:30.1692179790 src/util_cgi.cpp:152 [INFO] : token=03462584253c5da55a957f085680e1143137322e31382e34362e, tmp_token=03462584253c5da55a957f085680e1143137322e31382e34362e
+2023-08-16 17:56:30.1692179790 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 17:56:30.1692179790 src/cgi/myfiles_cgi.cpp:184 [INFO] : line = 0
+2023-08-16 17:56:32.1692179792 src/cgi/myfiles_cgi.cpp:422 [INFO] : cmd = count
+2023-08-16 17:56:32.1692179792 src/cgi/myfiles_cgi.cpp:447 [INFO] : buf = {
+    "account": "222222",
+    "token": "03462584253c5da55a957f085680e1143137322e31382e34362e"
+}
+
+2023-08-16 17:56:32.1692179792 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 17:56:32.1692179792 src/util_cgi.cpp:152 [INFO] : token=03462584253c5da55a957f085680e1143137322e31382e34362e, tmp_token=03462584253c5da55a957f085680e1143137322e31382e34362e
+2023-08-16 17:56:32.1692179792 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 17:56:32.1692179792 src/cgi/myfiles_cgi.cpp:184 [INFO] : line = 0
+2023-08-16 18:19:21.1692181161 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "333333",
+    "password": "1a100d2c0dab19c4430e7d73762b3423"
+}
+
+2023-08-16 18:19:21.1692181161 src/cgi/login_cgi.cpp:268 [INFO] : account = 333333, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 18:19:21.1692181161 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 18:19:21.1692181161 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 1a100d2c0dab19c4430e7d73762b3423, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 18:19:21.1692181161 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 18:19:21.1692181161 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 18:19:21.1692181161 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 33333371951665141
+2023-08-16 18:19:21.1692181161 src/cgi/login_cgi.cpp:276 [INFO] : token = b127ea5470e679ac89bf653abeef302f3137322e31382e34362e
+2023-08-16 18:19:35.1692181175 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "333333",
+    "fileName": "pdf.png",
+    "md5": "5bca57194380c34002c0dd086a242ee7",
+    "token": "b127ea5470e679ac89bf653abeef302f3137322e31382e34362e"
+}
+
+2023-08-16 18:19:35.1692181175 src/cgi/md5_cgi.cpp:293 [INFO] : account=333333, token=b127ea5470e679ac89bf653abeef302f3137322e31382e34362e, md5=5bca57194380c34002c0dd086a242ee7, fileName=pdf.png
+2023-08-16 18:19:35.1692181175 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 18:19:35.1692181175 src/util_cgi.cpp:152 [INFO] : token=b127ea5470e679ac89bf653abeef302f3137322e31382e34362e, tmp_token=b127ea5470e679ac89bf653abeef302f3137322e31382e34362e
+2023-08-16 18:19:35.1692181175 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 18:19:35.1692181175 src/cgi/upload_cgi.cpp:172 [INFO] : wrong no  boundary!
+2023-08-16 18:42:45.1692182565 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 18:42:45.1692182565 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-16 18:42:45.1692182565 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 18:42:45.1692182565 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 18:42:45.1692182565 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 18:42:46.1692182566 src/cgi/sharefiles_cgi.cpp:87 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 18:42:46.1692182566 src/cgi/sharefiles_cgi.cpp:92 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 18:42:46.1692182566 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-16 18:42:46.1692182566 src/cgi/dealsharefile_cgi.cpp:100 [INFO] : redis:[ip=172.18.46.97, port=6379], password=123456
+2023-08-16 18:43:11.1692182591 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "333333",
+    "password": "1a100d2c0dab19c4430e7d73762b3423"
+}
+
+2023-08-16 18:43:11.1692182591 src/cgi/login_cgi.cpp:268 [INFO] : account = 333333, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 18:43:11.1692182591 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-16 18:43:11.1692182591 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 1a100d2c0dab19c4430e7d73762b3423, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-16 18:43:11.1692182591 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-16 18:43:11.1692182591 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 18:43:11.1692182591 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 333333461852656339
+2023-08-16 18:43:11.1692182591 src/cgi/login_cgi.cpp:276 [INFO] : token = d758535bf1561d3b7c857330d89352da3137322e31382e34362e
+2023-08-16 18:43:17.1692182597 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "333333",
+    "fileName": "null.png",
+    "md5": "18566eb2eeab122773d776f8280e0026",
+    "token": "d758535bf1561d3b7c857330d89352da3137322e31382e34362e"
+}
+
+2023-08-16 18:43:17.1692182597 src/cgi/md5_cgi.cpp:293 [INFO] : account=333333, token=d758535bf1561d3b7c857330d89352da3137322e31382e34362e, md5=18566eb2eeab122773d776f8280e0026, fileName=null.png
+2023-08-16 18:43:17.1692182597 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-16 18:43:17.1692182597 src/util_cgi.cpp:152 [INFO] : token=d758535bf1561d3b7c857330d89352da3137322e31382e34362e, tmp_token=d758535bf1561d3b7c857330d89352da3137322e31382e34362e
+2023-08-16 18:43:17.1692182597 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-16 18:43:17.1692182597 src/cgi/upload_cgi.cpp:172 [INFO] : wrong no  boundary!

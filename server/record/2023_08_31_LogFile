@@ -1,0 +1,1378 @@
+2023-08-31 13:47:17.1693460837 src/cgi/upload_cgi.cpp:121 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 13:47:17.1693460837 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-31 13:47:17.1693460837 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 13:47:17.1693460837 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 13:47:17.1693460837 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 13:47:17.1693460837 src/cgi/sharefiles_cgi.cpp:84 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 13:47:17.1693460837 src/cgi/sharefiles_cgi.cpp:87 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 13:47:18.1693460838 src/cgi/dealsharefile_cgi.cpp:92 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 13:47:18.1693460838 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : redis:[ip=47.109.133.176, port=6379], password=123456
+2023-08-31 13:51:23.1693461083 src/cgi/upload_cgi.cpp:121 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 13:51:23.1693461083 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-31 13:51:23.1693461083 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 13:51:23.1693461083 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 13:51:23.1693461083 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 13:51:23.1693461083 src/cgi/sharefiles_cgi.cpp:84 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 13:51:23.1693461083 src/cgi/sharefiles_cgi.cpp:87 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 13:51:23.1693461083 src/cgi/dealsharefile_cgi.cpp:92 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 13:51:23.1693461083 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : redis:[ip=47.109.133.176, port=6379], password=123456
+2023-08-31 14:06:33.1693461993 src/cgi/upload_cgi.cpp:121 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 14:06:33.1693461993 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-31 14:06:33.1693461993 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 14:06:33.1693461993 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 14:06:33.1693461993 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 14:06:33.1693461993 src/cgi/sharefiles_cgi.cpp:84 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 14:06:33.1693461993 src/cgi/sharefiles_cgi.cpp:87 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 14:06:33.1693461993 src/cgi/dealsharefile_cgi.cpp:92 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 14:06:33.1693461993 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : redis:[ip=47.109.133.176, port=6379], password=123456
+2023-08-31 14:06:33.1693461993 src/cgi/myinfo_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 14:29:17.1693463357 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = count
+2023-08-31 14:29:17.1693463357 src/cgi/sharefiles_cgi.cpp:120 [INFO] : line = 2
+2023-08-31 14:29:17.1693463357 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = count
+2023-08-31 14:29:17.1693463357 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "",
+    "token": ""
+}
+
+2023-08-31 14:29:17.1693463357 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 14:29:17.1693463357 src/redis_op.cpp:705 [INFO] : rop_get_string fail, key=
+2023-08-31 14:29:17.1693463357 src/util_cgi.cpp:152 [INFO] : token=, tmp_token=
+2023-08-31 14:29:17.1693463357 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 14:29:17.1693463357 src/cgi/myfiles_cgi.cpp:181 [INFO] : SELECT count FROM account_file_count WHERE account='' Command execution failed
+2023-08-31 14:29:17.1693463357 src/cgi/myinfo_cgi.cpp:482 [INFO] : cmd = info
+2023-08-31 14:29:17.1693463357 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = normal
+2023-08-31 14:29:17.1693463357 src/cgi/sharefiles_cgi.cpp:557 [INFO] : buf = {
+    "count": 2,
+    "start": 0
+}
+
+2023-08-31 14:29:17.1693463357 src/cgi/sharefiles_cgi.cpp:562 [INFO] : start = 0, count = 2
+2023-08-31 14:29:17.1693463357 src/cgi/myinfo_cgi.cpp:269 [INFO] : SELECT count(*) FROM account_file_list WHERE shared_status = 1 AND account =  操作失败
+2023-08-31 14:29:17.1693463357 src/cgi/sharefiles_cgi.cpp:210 [INFO] : SELECT share_file_list.*, file_info.url, file_info.size, file_info.type FROM file_info, share_file_list WHERE file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+2023-08-31 14:29:17.1693463357 src/cgi/sharefiles_cgi.cpp:299 [INFO] : share files: {
+	"files":	[{
+			"account":	"222222",
+			"md5":	"ab4458c852bfe4cc86a083927e3d4987",
+			"file_name":	"trash.png",
+			"share_status":	1,
+			"downloads":	2,
+			"create_time":	"2023-08-19 15:50:04",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNr6Aed8ZAAACq5pyp6E065.png",
+			"size":	683,
+			"type":	"png"
+		}, {
+			"account":	"222222",
+			"md5":	"a1bb76fb5bae04b7af840d3f6d9aa86f",
+			"file_name":	"report.docx",
+			"share_status":	1,
+			"downloads":	1,
+			"create_time":	"2023-08-19 15:50:12",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNuOAdc4uAAJWAMZMYXA70.docx",
+			"size":	153088,
+			"type":	"docx"
+		}]
+}
+2023-08-31 14:30:07.1693463407 src/cgi/login_cgi.cpp:264 [INFO] : buf = {
+    "account": "333333",
+    "password": "1a100d2c0dab19c4430e7d73762b3423"
+}
+
+2023-08-31 14:30:07.1693463407 src/cgi/login_cgi.cpp:270 [INFO] : account = 333333, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-31 14:30:07.1693463407 src/cgi/login_cgi.cpp:118 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-31 14:30:07.1693463407 src/cgi/login_cgi.cpp:134 [INFO] : login password judge db_Password = 1a100d2c0dab19c4430e7d73762b3423, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-31 14:30:07.1693463407 src/cgi/login_cgi.cpp:157 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 14:30:07.1693463407 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 14:30:07.1693463407 src/cgi/login_cgi.cpp:178 [INFO] : tmp = 333333418569575983
+2023-08-31 14:30:07.1693463407 src/cgi/login_cgi.cpp:278 [INFO] : token = c5f353d1d591786b76b14828a4ff7ef134372e3130392e313333
+2023-08-31 14:32:12.1693463532 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = count
+2023-08-31 14:32:12.1693463532 src/cgi/sharefiles_cgi.cpp:120 [INFO] : line = 2
+2023-08-31 14:32:13.1693463533 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = count
+2023-08-31 14:32:13.1693463533 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "",
+    "token": ""
+}
+
+2023-08-31 14:32:13.1693463533 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 14:32:13.1693463533 src/redis_op.cpp:705 [INFO] : rop_get_string fail, key=
+2023-08-31 14:32:13.1693463533 src/util_cgi.cpp:152 [INFO] : token=, tmp_token=
+2023-08-31 14:32:13.1693463533 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 14:32:13.1693463533 src/cgi/myfiles_cgi.cpp:181 [INFO] : SELECT count FROM account_file_count WHERE account='' Command execution failed
+2023-08-31 14:32:13.1693463533 src/cgi/myinfo_cgi.cpp:482 [INFO] : cmd = info
+2023-08-31 14:32:13.1693463533 src/cgi/myinfo_cgi.cpp:269 [INFO] : SELECT count(*) FROM account_file_list WHERE shared_status = 1 AND account =  操作失败
+2023-08-31 14:32:13.1693463533 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = normal
+2023-08-31 14:32:13.1693463533 src/cgi/sharefiles_cgi.cpp:557 [INFO] : buf = {
+    "count": 2,
+    "start": 0
+}
+
+2023-08-31 14:32:13.1693463533 src/cgi/sharefiles_cgi.cpp:562 [INFO] : start = 0, count = 2
+2023-08-31 14:32:13.1693463533 src/cgi/sharefiles_cgi.cpp:210 [INFO] : SELECT share_file_list.*, file_info.url, file_info.size, file_info.type FROM file_info, share_file_list WHERE file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+2023-08-31 14:32:13.1693463533 src/cgi/sharefiles_cgi.cpp:299 [INFO] : share files: {
+	"files":	[{
+			"account":	"222222",
+			"md5":	"ab4458c852bfe4cc86a083927e3d4987",
+			"file_name":	"trash.png",
+			"share_status":	1,
+			"downloads":	2,
+			"create_time":	"2023-08-19 15:50:04",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNr6Aed8ZAAACq5pyp6E065.png",
+			"size":	683,
+			"type":	"png"
+		}, {
+			"account":	"222222",
+			"md5":	"a1bb76fb5bae04b7af840d3f6d9aa86f",
+			"file_name":	"report.docx",
+			"share_status":	1,
+			"downloads":	1,
+			"create_time":	"2023-08-19 15:50:12",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNuOAdc4uAAJWAMZMYXA70.docx",
+			"size":	153088,
+			"type":	"docx"
+		}]
+}
+2023-08-31 14:34:03.1693463643 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = count
+2023-08-31 14:34:03.1693463643 src/cgi/sharefiles_cgi.cpp:120 [INFO] : line = 2
+2023-08-31 14:34:04.1693463644 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = count
+2023-08-31 14:34:04.1693463644 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "",
+    "token": ""
+}
+
+2023-08-31 14:34:04.1693463644 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 14:34:04.1693463644 src/redis_op.cpp:705 [INFO] : rop_get_string fail, key=
+2023-08-31 14:34:04.1693463644 src/util_cgi.cpp:152 [INFO] : token=, tmp_token=
+2023-08-31 14:34:04.1693463644 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 14:34:04.1693463644 src/cgi/myfiles_cgi.cpp:181 [INFO] : SELECT count FROM account_file_count WHERE account='' Command execution failed
+2023-08-31 14:34:04.1693463644 src/cgi/myinfo_cgi.cpp:482 [INFO] : cmd = info
+2023-08-31 14:34:04.1693463644 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = normal
+2023-08-31 14:34:04.1693463644 src/cgi/sharefiles_cgi.cpp:557 [INFO] : buf = {
+    "count": 2,
+    "start": 0
+}
+
+2023-08-31 14:34:04.1693463644 src/cgi/sharefiles_cgi.cpp:562 [INFO] : start = 0, count = 2
+2023-08-31 14:34:04.1693463644 src/cgi/sharefiles_cgi.cpp:210 [INFO] : SELECT share_file_list.*, file_info.url, file_info.size, file_info.type FROM file_info, share_file_list WHERE file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+2023-08-31 14:34:04.1693463644 src/cgi/sharefiles_cgi.cpp:299 [INFO] : share files: {
+	"files":	[{
+			"account":	"222222",
+			"md5":	"ab4458c852bfe4cc86a083927e3d4987",
+			"file_name":	"trash.png",
+			"share_status":	1,
+			"downloads":	2,
+			"create_time":	"2023-08-19 15:50:04",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNr6Aed8ZAAACq5pyp6E065.png",
+			"size":	683,
+			"type":	"png"
+		}, {
+			"account":	"222222",
+			"md5":	"a1bb76fb5bae04b7af840d3f6d9aa86f",
+			"file_name":	"report.docx",
+			"share_status":	1,
+			"downloads":	1,
+			"create_time":	"2023-08-19 15:50:12",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNuOAdc4uAAJWAMZMYXA70.docx",
+			"size":	153088,
+			"type":	"docx"
+		}]
+}
+2023-08-31 14:34:04.1693463644 src/cgi/myinfo_cgi.cpp:269 [INFO] : SELECT count(*) FROM account_file_list WHERE shared_status = 1 AND account =  操作失败
+2023-08-31 14:34:12.1693463652 src/cgi/login_cgi.cpp:264 [INFO] : buf = {
+    "account": "333333",
+    "password": "1a100d2c0dab19c4430e7d73762b3423"
+}
+
+2023-08-31 14:34:12.1693463652 src/cgi/login_cgi.cpp:270 [INFO] : account = 333333, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-31 14:34:12.1693463652 src/cgi/login_cgi.cpp:118 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-31 14:34:12.1693463652 src/cgi/login_cgi.cpp:134 [INFO] : login password judge db_Password = 1a100d2c0dab19c4430e7d73762b3423, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-31 14:34:12.1693463652 src/cgi/login_cgi.cpp:157 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 14:34:12.1693463652 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 14:34:12.1693463652 src/cgi/login_cgi.cpp:178 [INFO] : tmp = 333333689757990160
+2023-08-31 14:34:12.1693463652 src/cgi/login_cgi.cpp:278 [INFO] : token = 546caef45c1e5d9db0a9837e67262f1734372e3130392e313333
+2023-08-31 14:47:30.1693464450 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = count
+2023-08-31 14:47:30.1693464450 src/cgi/sharefiles_cgi.cpp:120 [INFO] : line = 2
+2023-08-31 14:47:30.1693464450 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = count
+2023-08-31 14:47:30.1693464450 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "",
+    "token": ""
+}
+
+2023-08-31 14:47:30.1693464450 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 14:47:30.1693464450 src/redis_op.cpp:705 [INFO] : rop_get_string fail, key=
+2023-08-31 14:47:30.1693464450 src/util_cgi.cpp:152 [INFO] : token=, tmp_token=
+2023-08-31 14:47:30.1693464450 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 14:47:30.1693464450 src/cgi/myfiles_cgi.cpp:181 [INFO] : SELECT count FROM account_file_count WHERE account='' Command execution failed
+2023-08-31 14:47:30.1693464450 src/cgi/myinfo_cgi.cpp:482 [INFO] : cmd = info
+2023-08-31 14:47:30.1693464450 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = normal
+2023-08-31 14:47:30.1693464450 src/cgi/sharefiles_cgi.cpp:557 [INFO] : buf = {
+    "count": 2,
+    "start": 0
+}
+
+2023-08-31 14:47:30.1693464450 src/cgi/sharefiles_cgi.cpp:562 [INFO] : start = 0, count = 2
+2023-08-31 14:47:30.1693464450 src/cgi/sharefiles_cgi.cpp:210 [INFO] : SELECT share_file_list.*, file_info.url, file_info.size, file_info.type FROM file_info, share_file_list WHERE file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+2023-08-31 14:47:30.1693464450 src/cgi/myinfo_cgi.cpp:269 [INFO] : SELECT count(*) FROM account_file_list WHERE shared_status = 1 AND account =  操作失败
+2023-08-31 14:47:30.1693464450 src/cgi/sharefiles_cgi.cpp:299 [INFO] : share files: {
+	"files":	[{
+			"account":	"222222",
+			"md5":	"ab4458c852bfe4cc86a083927e3d4987",
+			"file_name":	"trash.png",
+			"share_status":	1,
+			"downloads":	2,
+			"create_time":	"2023-08-19 15:50:04",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNr6Aed8ZAAACq5pyp6E065.png",
+			"size":	683,
+			"type":	"png"
+		}, {
+			"account":	"222222",
+			"md5":	"a1bb76fb5bae04b7af840d3f6d9aa86f",
+			"file_name":	"report.docx",
+			"share_status":	1,
+			"downloads":	1,
+			"create_time":	"2023-08-19 15:50:12",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNuOAdc4uAAJWAMZMYXA70.docx",
+			"size":	153088,
+			"type":	"docx"
+		}]
+}
+2023-08-31 14:47:37.1693464457 src/cgi/login_cgi.cpp:264 [INFO] : buf = {
+    "account": "333333",
+    "password": "1a100d2c0dab19c4430e7d73762b3423"
+}
+
+2023-08-31 14:47:37.1693464457 src/cgi/login_cgi.cpp:270 [INFO] : account = 333333, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-31 14:47:37.1693464457 src/cgi/login_cgi.cpp:118 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-31 14:47:37.1693464457 src/cgi/login_cgi.cpp:134 [INFO] : login password judge db_Password = 1a100d2c0dab19c4430e7d73762b3423, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-31 14:47:37.1693464457 src/cgi/login_cgi.cpp:157 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 14:47:37.1693464457 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 14:47:37.1693464457 src/cgi/login_cgi.cpp:178 [INFO] : tmp = 333333724627749299
+2023-08-31 14:47:37.1693464457 src/cgi/login_cgi.cpp:278 [INFO] : token = 1a7cb6191ca9f2bca576991cf104129234372e3130392e313333
+2023-08-31 14:47:40.1693464460 src/cgi/myinfo_cgi.cpp:482 [INFO] : cmd = info
+2023-08-31 14:47:40.1693464460 src/cgi/myinfo_cgi.cpp:278 [INFO] : SELECT count FROM account_file_count WHERE account = 333333 操作失败
+
+====================================================================================================================
+
+2023-08-31 14:54:01.1693464841 src/cgi/upload_cgi.cpp:121 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 14:54:01.1693464841 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-31 14:54:01.1693464841 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 14:54:01.1693464841 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 14:54:01.1693464841 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 14:54:01.1693464841 src/cgi/sharefiles_cgi.cpp:84 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 14:54:01.1693464841 src/cgi/sharefiles_cgi.cpp:87 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 14:54:01.1693464841 src/cgi/dealsharefile_cgi.cpp:92 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 14:54:01.1693464841 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : redis:[ip=47.109.133.176, port=6379], password=123456
+2023-08-31 14:54:01.1693464841 src/cgi/myinfo_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 14:54:10.1693464850 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = count
+2023-08-31 14:54:10.1693464850 src/cgi/sharefiles_cgi.cpp:120 [INFO] : line = 2
+2023-08-31 14:54:11.1693464851 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = count
+2023-08-31 14:54:11.1693464851 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "",
+    "token": ""
+}
+
+2023-08-31 14:54:11.1693464851 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 14:54:11.1693464851 src/redis_op.cpp:705 [INFO] : rop_get_string fail, key=
+2023-08-31 14:54:11.1693464851 src/util_cgi.cpp:152 [INFO] : token=, tmp_token=
+2023-08-31 14:54:11.1693464851 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 14:54:11.1693464851 src/cgi/myfiles_cgi.cpp:181 [INFO] : SELECT count FROM account_file_count WHERE account='' Command execution failed
+2023-08-31 14:54:11.1693464851 src/cgi/myinfo_cgi.cpp:482 [INFO] : cmd = info
+2023-08-31 14:54:11.1693464851 src/cgi/myinfo_cgi.cpp:278 [INFO] : SELECT count FROM account_file_count WHERE account = '' Operation failed: 
+2023-08-31 14:54:11.1693464851 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = normal
+2023-08-31 14:54:11.1693464851 src/cgi/sharefiles_cgi.cpp:557 [INFO] : buf = {
+    "count": 2,
+    "start": 0
+}
+
+2023-08-31 14:54:11.1693464851 src/cgi/sharefiles_cgi.cpp:562 [INFO] : start = 0, count = 2
+2023-08-31 14:54:11.1693464851 src/cgi/sharefiles_cgi.cpp:210 [INFO] : SELECT share_file_list.*, file_info.url, file_info.size, file_info.type FROM file_info, share_file_list WHERE file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+2023-08-31 14:54:11.1693464851 src/cgi/sharefiles_cgi.cpp:299 [INFO] : share files: {
+	"files":	[{
+			"account":	"222222",
+			"md5":	"ab4458c852bfe4cc86a083927e3d4987",
+			"file_name":	"trash.png",
+			"share_status":	1,
+			"downloads":	2,
+			"create_time":	"2023-08-19 15:50:04",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNr6Aed8ZAAACq5pyp6E065.png",
+			"size":	683,
+			"type":	"png"
+		}, {
+			"account":	"222222",
+			"md5":	"a1bb76fb5bae04b7af840d3f6d9aa86f",
+			"file_name":	"report.docx",
+			"share_status":	1,
+			"downloads":	1,
+			"create_time":	"2023-08-19 15:50:12",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNuOAdc4uAAJWAMZMYXA70.docx",
+			"size":	153088,
+			"type":	"docx"
+		}]
+}
+2023-08-31 14:54:15.1693464855 src/cgi/login_cgi.cpp:264 [INFO] : buf = {
+    "account": "333333",
+    "password": "1a100d2c0dab19c4430e7d73762b3423"
+}
+
+2023-08-31 14:54:15.1693464855 src/cgi/login_cgi.cpp:270 [INFO] : account = 333333, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-31 14:54:15.1693464855 src/cgi/login_cgi.cpp:118 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-31 14:54:15.1693464855 src/cgi/login_cgi.cpp:134 [INFO] : login password judge db_Password = 1a100d2c0dab19c4430e7d73762b3423, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-31 14:54:15.1693464855 src/cgi/login_cgi.cpp:157 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 14:54:15.1693464855 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 14:54:15.1693464855 src/cgi/login_cgi.cpp:178 [INFO] : tmp = 333333397498980687
+2023-08-31 14:54:15.1693464855 src/cgi/login_cgi.cpp:278 [INFO] : token = 5c1b25ad5200e1142874fdd345e9940134372e3130392e313333
+2023-08-31 14:54:17.1693464857 src/cgi/myinfo_cgi.cpp:482 [INFO] : cmd = info
+2023-08-31 14:54:17.1693464857 src/cgi/myinfo_cgi.cpp:278 [INFO] : SELECT count FROM account_file_count WHERE account = '333333' Operation failed: 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+2023-08-31 14:57:19.1693465039 src/cgi/upload_cgi.cpp:121 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 14:57:19.1693465039 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-31 14:57:19.1693465039 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 14:57:19.1693465039 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 14:57:19.1693465039 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 14:57:19.1693465039 src/cgi/sharefiles_cgi.cpp:84 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 14:57:19.1693465039 src/cgi/sharefiles_cgi.cpp:87 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 14:57:19.1693465039 src/cgi/dealsharefile_cgi.cpp:92 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 14:57:19.1693465039 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : redis:[ip=47.109.133.176, port=6379], password=123456
+2023-08-31 14:57:19.1693465039 src/cgi/myinfo_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 14:57:24.1693465044 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = count
+2023-08-31 14:57:24.1693465044 src/cgi/sharefiles_cgi.cpp:120 [INFO] : line = 2
+2023-08-31 14:57:24.1693465044 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = count
+2023-08-31 14:57:24.1693465044 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "",
+    "token": ""
+}
+
+2023-08-31 14:57:24.1693465044 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 14:57:24.1693465044 src/redis_op.cpp:705 [INFO] : rop_get_string fail, key=
+2023-08-31 14:57:24.1693465044 src/util_cgi.cpp:152 [INFO] : token=, tmp_token=
+2023-08-31 14:57:24.1693465044 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 14:57:24.1693465044 src/cgi/myfiles_cgi.cpp:181 [INFO] : SELECT count FROM account_file_count WHERE account='' Command execution failed
+2023-08-31 14:57:24.1693465044 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = normal
+2023-08-31 14:57:24.1693465044 src/cgi/sharefiles_cgi.cpp:557 [INFO] : buf = {
+    "count": 2,
+    "start": 0
+}
+
+2023-08-31 14:57:24.1693465044 src/cgi/sharefiles_cgi.cpp:562 [INFO] : start = 0, count = 2
+2023-08-31 14:57:24.1693465044 src/cgi/myinfo_cgi.cpp:482 [INFO] : cmd = info
+2023-08-31 14:57:24.1693465044 src/cgi/sharefiles_cgi.cpp:210 [INFO] : SELECT share_file_list.*, file_info.url, file_info.size, file_info.type FROM file_info, share_file_list WHERE file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+2023-08-31 14:57:24.1693465044 src/cgi/sharefiles_cgi.cpp:299 [INFO] : share files: {
+	"files":	[{
+			"account":	"222222",
+			"md5":	"ab4458c852bfe4cc86a083927e3d4987",
+			"file_name":	"trash.png",
+			"share_status":	1,
+			"downloads":	2,
+			"create_time":	"2023-08-19 15:50:04",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNr6Aed8ZAAACq5pyp6E065.png",
+			"size":	683,
+			"type":	"png"
+		}, {
+			"account":	"222222",
+			"md5":	"a1bb76fb5bae04b7af840d3f6d9aa86f",
+			"file_name":	"report.docx",
+			"share_status":	1,
+			"downloads":	1,
+			"create_time":	"2023-08-19 15:50:12",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNuOAdc4uAAJWAMZMYXA70.docx",
+			"size":	153088,
+			"type":	"docx"
+		}]
+}
+2023-08-31 14:57:24.1693465044 src/cgi/myinfo_cgi.cpp:278 [INFO] : SELECT count FROM account_file_count WHERE account = '' Operation failed: 
+2023-08-31 14:57:28.1693465048 src/cgi/login_cgi.cpp:264 [INFO] : buf = {
+    "account": "333333",
+    "password": "1a100d2c0dab19c4430e7d73762b3423"
+}
+
+2023-08-31 14:57:28.1693465048 src/cgi/login_cgi.cpp:270 [INFO] : account = 333333, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-31 14:57:28.1693465048 src/cgi/login_cgi.cpp:118 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-31 14:57:28.1693465048 src/cgi/login_cgi.cpp:134 [INFO] : login password judge db_Password = 1a100d2c0dab19c4430e7d73762b3423, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-31 14:57:28.1693465048 src/cgi/login_cgi.cpp:157 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 14:57:28.1693465048 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 14:57:28.1693465048 src/cgi/login_cgi.cpp:178 [INFO] : tmp = 333333996426390679
+2023-08-31 14:57:28.1693465048 src/cgi/login_cgi.cpp:278 [INFO] : token = 4037234a3e7db34d16c0f531c0309ce734372e3130392e313333
+2023-08-31 14:57:30.1693465050 src/cgi/myinfo_cgi.cpp:482 [INFO] : cmd = info
+2023-08-31 14:57:30.1693465050 src/cgi/myinfo_cgi.cpp:278 [INFO] : SELECT count FROM account_file_count WHERE account = '333333' Operation failed: 
+2023-08-31 15:12:34.1693465954 src/cgi/upload_cgi.cpp:121 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 15:12:34.1693465954 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-31 15:12:34.1693465954 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 15:12:34.1693465954 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 15:12:34.1693465954 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 15:12:34.1693465954 src/cgi/sharefiles_cgi.cpp:84 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 15:12:34.1693465954 src/cgi/sharefiles_cgi.cpp:87 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 15:12:34.1693465954 src/cgi/dealsharefile_cgi.cpp:92 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 15:12:34.1693465954 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : redis:[ip=47.109.133.176, port=6379], password=123456
+2023-08-31 15:12:34.1693465954 src/cgi/myinfo_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 15:13:25.1693466005 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = count
+2023-08-31 15:13:25.1693466005 src/cgi/sharefiles_cgi.cpp:120 [INFO] : line = 2
+2023-08-31 15:13:25.1693466005 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = count
+2023-08-31 15:13:25.1693466005 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "",
+    "token": ""
+}
+
+2023-08-31 15:13:25.1693466005 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 15:13:25.1693466005 src/redis_op.cpp:705 [INFO] : rop_get_string fail, key=
+2023-08-31 15:13:25.1693466005 src/util_cgi.cpp:152 [INFO] : token=, tmp_token=
+2023-08-31 15:13:25.1693466005 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 15:13:25.1693466005 src/cgi/myfiles_cgi.cpp:181 [INFO] : SELECT count FROM account_file_count WHERE account='' Command execution failed
+2023-08-31 15:13:25.1693466005 src/cgi/myinfo_cgi.cpp:495 [INFO] : cmd = info
+2023-08-31 15:13:25.1693466005 src/cgi/myinfo_cgi.cpp:226 [INFO] : [  ]get my json buf: {
+    "account": ""
+}
+
+2023-08-31 15:13:25.1693466005 src/cgi/myinfo_cgi.cpp:284 [INFO] : share files number: 0
+2023-08-31 15:13:25.1693466005 src/cgi/myinfo_cgi.cpp:289 [INFO] : SELECT count FROM account_file_count WHERE account = '' Operation failed: 
+2023-08-31 15:13:25.1693466005 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = normal
+2023-08-31 15:13:25.1693466005 src/cgi/sharefiles_cgi.cpp:557 [INFO] : buf = {
+    "count": 2,
+    "start": 0
+}
+
+2023-08-31 15:13:25.1693466005 src/cgi/sharefiles_cgi.cpp:562 [INFO] : start = 0, count = 2
+2023-08-31 15:13:25.1693466005 src/cgi/sharefiles_cgi.cpp:210 [INFO] : SELECT share_file_list.*, file_info.url, file_info.size, file_info.type FROM file_info, share_file_list WHERE file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+2023-08-31 15:13:25.1693466005 src/cgi/sharefiles_cgi.cpp:299 [INFO] : share files: {
+	"files":	[{
+			"account":	"222222",
+			"md5":	"ab4458c852bfe4cc86a083927e3d4987",
+			"file_name":	"trash.png",
+			"share_status":	1,
+			"downloads":	2,
+			"create_time":	"2023-08-19 15:50:04",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNr6Aed8ZAAACq5pyp6E065.png",
+			"size":	683,
+			"type":	"png"
+		}, {
+			"account":	"222222",
+			"md5":	"a1bb76fb5bae04b7af840d3f6d9aa86f",
+			"file_name":	"report.docx",
+			"share_status":	1,
+			"downloads":	1,
+			"create_time":	"2023-08-19 15:50:12",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNuOAdc4uAAJWAMZMYXA70.docx",
+			"size":	153088,
+			"type":	"docx"
+		}]
+}
+2023-08-31 15:13:32.1693466012 src/cgi/login_cgi.cpp:264 [INFO] : buf = {
+    "account": "333333",
+    "password": "1a100d2c0dab19c4430e7d73762b3423"
+}
+
+2023-08-31 15:13:32.1693466012 src/cgi/login_cgi.cpp:270 [INFO] : account = 333333, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-31 15:13:32.1693466012 src/cgi/login_cgi.cpp:118 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-31 15:13:32.1693466012 src/cgi/login_cgi.cpp:134 [INFO] : login password judge db_Password = 1a100d2c0dab19c4430e7d73762b3423, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-31 15:13:32.1693466012 src/cgi/login_cgi.cpp:157 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 15:13:32.1693466012 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 15:13:32.1693466012 src/cgi/login_cgi.cpp:178 [INFO] : tmp = 333333121918285287
+2023-08-31 15:13:32.1693466012 src/cgi/login_cgi.cpp:278 [INFO] : token = 6686e25d53c349406afd636ab0d51a2634372e3130392e313333
+2023-08-31 15:13:35.1693466015 src/cgi/myinfo_cgi.cpp:495 [INFO] : cmd = info
+2023-08-31 15:13:35.1693466015 src/cgi/myinfo_cgi.cpp:226 [INFO] : [  ]get my json buf: {
+    "account": "333333"
+}
+
+2023-08-31 15:13:35.1693466015 src/cgi/myinfo_cgi.cpp:284 [INFO] : share files number: 0
+2023-08-31 15:13:35.1693466015 src/cgi/myinfo_cgi.cpp:289 [INFO] : SELECT count FROM account_file_count WHERE account = '333333' Operation failed: 
+
+===================================================================
+
+2023-08-31 15:30:14.1693467014 src/cgi/upload_cgi.cpp:121 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 15:30:14.1693467014 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-31 15:30:14.1693467014 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 15:30:14.1693467014 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 15:30:14.1693467014 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 15:30:15.1693467015 src/cgi/sharefiles_cgi.cpp:84 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 15:30:15.1693467015 src/cgi/sharefiles_cgi.cpp:87 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 15:30:15.1693467015 src/cgi/dealsharefile_cgi.cpp:92 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 15:30:15.1693467015 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : redis:[ip=47.109.133.176, port=6379], password=123456
+2023-08-31 15:30:15.1693467015 src/cgi/myinfo_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 15:30:20.1693467020 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = count
+2023-08-31 15:30:20.1693467020 src/cgi/sharefiles_cgi.cpp:120 [INFO] : line = 2
+2023-08-31 15:30:20.1693467020 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = count
+2023-08-31 15:30:20.1693467020 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "",
+    "token": ""
+}
+
+2023-08-31 15:30:20.1693467020 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 15:30:20.1693467020 src/redis_op.cpp:705 [INFO] : rop_get_string fail, key=
+2023-08-31 15:30:20.1693467020 src/util_cgi.cpp:152 [INFO] : token=, tmp_token=
+2023-08-31 15:30:20.1693467020 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 15:30:20.1693467020 src/cgi/myfiles_cgi.cpp:181 [INFO] : SELECT count FROM account_file_count WHERE account='' Command execution failed
+2023-08-31 15:30:20.1693467020 src/cgi/myinfo_cgi.cpp:496 [INFO] : cmd = info
+2023-08-31 15:30:20.1693467020 src/cgi/myinfo_cgi.cpp:226 [INFO] : get my json buf: {
+    "account": ""
+}
+
+2023-08-31 15:30:20.1693467020 src/cgi/myinfo_cgi.cpp:284 [INFO] : share files number: 0
+2023-08-31 15:30:20.1693467020 src/cgi/myinfo_cgi.cpp:289 [INFO] : SELECT count FROM account_file_count WHERE account = '' Operation failed: 
+2023-08-31 15:30:20.1693467020 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = normal
+2023-08-31 15:30:20.1693467020 src/cgi/sharefiles_cgi.cpp:557 [INFO] : buf = {
+    "count": 2,
+    "start": 0
+}
+
+2023-08-31 15:30:20.1693467020 src/cgi/sharefiles_cgi.cpp:562 [INFO] : start = 0, count = 2
+2023-08-31 15:30:20.1693467020 src/cgi/sharefiles_cgi.cpp:210 [INFO] : SELECT share_file_list.*, file_info.url, file_info.size, file_info.type FROM file_info, share_file_list WHERE file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+2023-08-31 15:30:20.1693467020 src/cgi/sharefiles_cgi.cpp:299 [INFO] : share files: {
+	"files":	[{
+			"account":	"222222",
+			"md5":	"ab4458c852bfe4cc86a083927e3d4987",
+			"file_name":	"trash.png",
+			"share_status":	1,
+			"downloads":	2,
+			"create_time":	"2023-08-19 15:50:04",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNr6Aed8ZAAACq5pyp6E065.png",
+			"size":	683,
+			"type":	"png"
+		}, {
+			"account":	"222222",
+			"md5":	"a1bb76fb5bae04b7af840d3f6d9aa86f",
+			"file_name":	"report.docx",
+			"share_status":	1,
+			"downloads":	1,
+			"create_time":	"2023-08-19 15:50:12",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNuOAdc4uAAJWAMZMYXA70.docx",
+			"size":	153088,
+			"type":	"docx"
+		}]
+}
+2023-08-31 15:30:27.1693467027 src/cgi/login_cgi.cpp:264 [INFO] : buf = {
+    "account": "333333",
+    "password": "1a100d2c0dab19c4430e7d73762b3423"
+}
+
+2023-08-31 15:30:27.1693467027 src/cgi/login_cgi.cpp:270 [INFO] : account = 333333, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-31 15:30:27.1693467027 src/cgi/login_cgi.cpp:118 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-31 15:30:27.1693467027 src/cgi/login_cgi.cpp:134 [INFO] : login password judge db_Password = 1a100d2c0dab19c4430e7d73762b3423, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-31 15:30:27.1693467027 src/cgi/login_cgi.cpp:157 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 15:30:27.1693467027 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 15:30:27.1693467027 src/cgi/login_cgi.cpp:178 [INFO] : tmp = 33333330285345539
+2023-08-31 15:30:27.1693467027 src/cgi/login_cgi.cpp:278 [INFO] : token = 1cbd2c45e1a641ec647063308431a74c34372e3130392e313333
+2023-08-31 15:32:52.1693467172 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = count
+2023-08-31 15:32:52.1693467172 src/cgi/sharefiles_cgi.cpp:120 [INFO] : line = 2
+2023-08-31 15:32:52.1693467172 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = count
+2023-08-31 15:32:52.1693467172 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "",
+    "token": ""
+}
+
+2023-08-31 15:32:52.1693467172 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 15:32:52.1693467172 src/redis_op.cpp:705 [INFO] : rop_get_string fail, key=
+2023-08-31 15:32:52.1693467172 src/util_cgi.cpp:152 [INFO] : token=, tmp_token=
+2023-08-31 15:32:52.1693467172 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 15:32:52.1693467172 src/cgi/myfiles_cgi.cpp:181 [INFO] : SELECT count FROM account_file_count WHERE account='' Command execution failed
+2023-08-31 15:32:52.1693467172 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = normal
+2023-08-31 15:32:52.1693467172 src/cgi/sharefiles_cgi.cpp:557 [INFO] : buf = {
+    "count": 2,
+    "start": 0
+}
+
+2023-08-31 15:32:52.1693467172 src/cgi/sharefiles_cgi.cpp:562 [INFO] : start = 0, count = 2
+2023-08-31 15:32:52.1693467172 src/cgi/sharefiles_cgi.cpp:210 [INFO] : SELECT share_file_list.*, file_info.url, file_info.size, file_info.type FROM file_info, share_file_list WHERE file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+2023-08-31 15:32:52.1693467172 src/cgi/sharefiles_cgi.cpp:299 [INFO] : share files: {
+	"files":	[{
+			"account":	"222222",
+			"md5":	"ab4458c852bfe4cc86a083927e3d4987",
+			"file_name":	"trash.png",
+			"share_status":	1,
+			"downloads":	2,
+			"create_time":	"2023-08-19 15:50:04",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNr6Aed8ZAAACq5pyp6E065.png",
+			"size":	683,
+			"type":	"png"
+		}, {
+			"account":	"222222",
+			"md5":	"a1bb76fb5bae04b7af840d3f6d9aa86f",
+			"file_name":	"report.docx",
+			"share_status":	1,
+			"downloads":	1,
+			"create_time":	"2023-08-19 15:50:12",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNuOAdc4uAAJWAMZMYXA70.docx",
+			"size":	153088,
+			"type":	"docx"
+		}]
+}
+2023-08-31 15:32:57.1693467177 src/cgi/login_cgi.cpp:264 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-31 15:32:57.1693467177 src/cgi/login_cgi.cpp:270 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-31 15:32:57.1693467177 src/cgi/login_cgi.cpp:118 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-31 15:32:57.1693467177 src/cgi/login_cgi.cpp:134 [INFO] : login password judge db_Password = e3ceb5881a0a1fdaad01296d7554868d, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-31 15:32:57.1693467177 src/cgi/login_cgi.cpp:157 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 15:32:57.1693467177 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 15:32:57.1693467177 src/cgi/login_cgi.cpp:178 [INFO] : tmp = 22222255273658694
+2023-08-31 15:32:57.1693467177 src/cgi/login_cgi.cpp:278 [INFO] : token = 3873a948cf7758537fb72298dcd1d9b234372e3130392e313333
+2023-08-31 15:33:07.1693467187 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = count
+2023-08-31 15:33:07.1693467187 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "222222",
+    "token": "3873a948cf7758537fb72298dcd1d9b234372e3130392e313333"
+}
+
+2023-08-31 15:33:07.1693467187 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 15:33:07.1693467187 src/util_cgi.cpp:152 [INFO] : token=3873a948cf7758537fb72298dcd1d9b234372e3130392e313333, tmp_token=3873a948cf7758537fb72298dcd1d9b234372e3130392e313333
+2023-08-31 15:33:07.1693467187 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 15:33:07.1693467187 src/cgi/myfiles_cgi.cpp:188 [INFO] : line = 7
+2023-08-31 15:33:07.1693467187 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = normal
+2023-08-31 15:33:07.1693467187 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "222222",
+    "count": 7,
+    "start": 0,
+    "token": "3873a948cf7758537fb72298dcd1d9b234372e3130392e313333"
+}
+
+2023-08-31 15:33:07.1693467187 src/cgi/myfiles_cgi.cpp:471 [INFO] : account=222222, token=3873a948cf7758537fb72298dcd1d9b234372e3130392e313333, start=0, count=7
+2023-08-31 15:33:07.1693467187 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 15:33:07.1693467187 src/util_cgi.cpp:152 [INFO] : token=3873a948cf7758537fb72298dcd1d9b234372e3130392e313333, tmp_token=3873a948cf7758537fb72298dcd1d9b234372e3130392e313333
+2023-08-31 15:33:07.1693467187 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 15:33:07.1693467187 src/cgi/myfiles_cgi.cpp:310 [INFO] : SELECT account_file_list.*, file_info.url, file_info.size, file_info.type FROM file_info, account_file_list WHERE account = '222222' AND file_info.md5 = account_file_list.md5 limit 0, 7 在操作
+2023-08-31 15:33:07.1693467187 src/cgi/myfiles_cgi.cpp:318 [INFO] : 生成结果集
+2023-08-31 15:33:07.1693467187 src/cgi/myfiles_cgi.cpp:355 [INFO] : 生成返回给前端的JSON数据
+2023-08-31 15:33:07.1693467187 src/cgi/myfiles_cgi.cpp:407 [INFO] : 222222 Files Info: {
+	"files":	[{
+			"account":	"222222",
+			"md5":	"ab4458c852bfe4cc86a083927e3d4987",
+			"create_time":	"2023-08-19 11:27:58",
+			"file_name":	"trash.png",
+			"share_status":	1,
+			"downloads":	2,
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNr6Aed8ZAAACq5pyp6E065.png",
+			"size":	683,
+			"type":	"png"
+		}, {
+			"account":	"222222",
+			"md5":	"a1bb76fb5bae04b7af840d3f6d9aa86f",
+			"create_time":	"2023-08-19 11:28:35",
+			"file_name":	"report.docx",
+			"share_status":	1,
+			"downloads":	2,
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNuOAdc4uAAJWAMZMYXA70.docx",
+			"size":	153088,
+			"type":	"docx"
+		}, {
+			"account":	"222222",
+			"md5":	"8308f8a1b4fd239bd160bc94b427ce48",
+			"create_time":	"2023-08-19 11:31:54",
+			"file_name":	"软工3班全体信息.xlsx",
+			"share_status":	0,
+			"downloads":	1,
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgN6qANvdFAABqca43RMY18.xlsx",
+			"size":	27249,
+			"type":	"xlsx"
+		}, {
+			"account":	"222222",
+			"md5":	"4430427f4b2844bab7f3216e33a68c78",
+			"create_time":	"2023-08-20 09:16:56",
+			"file_name":	"build.ninja",
+			"share_status":	0,
+			"downloads":	0,
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWThaYiAG6KNAADUrtUVihw4.ninja",
+			"size":	54446,
+			"type":	"ninja"
+		}, {
+			"account":	"222222",
+			"md5":	"59fcda4277480620534446406793c441",
+			"create_time":	"2023-08-20 11:00:06",
+			"file_name":	"3.jpg",
+			"share_status":	0,
+			"downloads":	0,
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWThgbaACEMeADrf79ggPOs794.jpg",
+			"size":	3858415,
+			"type":	"jpg"
+		}, {
+			"account":	"222222",
+			"md5":	"fb142bcf4f91ff34501f5fa325a13c32",
+			"create_time":	"2023-08-20 11:00:41",
+			"file_name":	"网络编程笔记.docx",
+			"share_status":	0,
+			"downloads":	1,
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWThgdmANo6jAFU2rjHl7O070.docx",
+			"size":	5584558,
+			"type":	"docx"
+		}, {
+			"account":	"222222",
+			"md5":	"5d23ce09c48bee17a6fe4f5b45932b1d",
+			"create_time":	"2023-08-20 11:01:36",
+			"file_name":	"2.png",
+			"share_status":	0,
+			"downloads":	0,
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWThghCAPtYJAC1xYXx6neQ186.png",
+			"size":	2978145,
+			"type":	"png"
+		}]
+}
+2023-08-31 16:18:13.1693469893 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = count
+2023-08-31 16:18:13.1693469893 src/cgi/sharefiles_cgi.cpp:120 [INFO] : line = 2
+2023-08-31 16:18:14.1693469894 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = count
+2023-08-31 16:18:14.1693469894 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "",
+    "token": ""
+}
+
+2023-08-31 16:18:14.1693469894 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 16:18:14.1693469894 src/redis_op.cpp:705 [INFO] : rop_get_string fail, key=
+2023-08-31 16:18:14.1693469894 src/util_cgi.cpp:152 [INFO] : token=, tmp_token=
+2023-08-31 16:18:14.1693469894 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 16:18:14.1693469894 src/cgi/myfiles_cgi.cpp:181 [INFO] : SELECT count FROM account_file_count WHERE account='' Command execution failed
+2023-08-31 16:18:14.1693469894 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = normal
+2023-08-31 16:18:14.1693469894 src/cgi/sharefiles_cgi.cpp:557 [INFO] : buf = {
+    "count": 2,
+    "start": 0
+}
+
+2023-08-31 16:18:14.1693469894 src/cgi/sharefiles_cgi.cpp:562 [INFO] : start = 0, count = 2
+2023-08-31 16:18:14.1693469894 src/cgi/sharefiles_cgi.cpp:210 [INFO] : SELECT share_file_list.*, file_info.url, file_info.size, file_info.type FROM file_info, share_file_list WHERE file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+2023-08-31 16:18:14.1693469894 src/cgi/sharefiles_cgi.cpp:299 [INFO] : share files: {
+	"files":	[{
+			"account":	"222222",
+			"md5":	"ab4458c852bfe4cc86a083927e3d4987",
+			"file_name":	"trash.png",
+			"share_status":	1,
+			"downloads":	2,
+			"create_time":	"2023-08-19 15:50:04",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNr6Aed8ZAAACq5pyp6E065.png",
+			"size":	683,
+			"type":	"png"
+		}, {
+			"account":	"222222",
+			"md5":	"a1bb76fb5bae04b7af840d3f6d9aa86f",
+			"file_name":	"report.docx",
+			"share_status":	1,
+			"downloads":	1,
+			"create_time":	"2023-08-19 15:50:12",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNuOAdc4uAAJWAMZMYXA70.docx",
+			"size":	153088,
+			"type":	"docx"
+		}]
+}
+2023-08-31 16:21:21.1693470081 src/cgi/upload_cgi.cpp:121 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 16:21:21.1693470081 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-31 16:21:21.1693470081 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 16:21:21.1693470081 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 16:21:21.1693470081 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 16:21:21.1693470081 src/cgi/sharefiles_cgi.cpp:84 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 16:21:21.1693470081 src/cgi/sharefiles_cgi.cpp:87 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 16:21:21.1693470081 src/cgi/dealsharefile_cgi.cpp:92 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 16:21:21.1693470081 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : redis:[ip=47.109.133.176, port=6379], password=123456
+2023-08-31 16:21:21.1693470081 src/cgi/myinfo_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-31 16:21:38.1693470098 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = count
+2023-08-31 16:21:38.1693470098 src/cgi/sharefiles_cgi.cpp:120 [INFO] : line = 2
+2023-08-31 16:21:38.1693470098 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = count
+2023-08-31 16:21:38.1693470098 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "",
+    "token": ""
+}
+
+2023-08-31 16:21:38.1693470098 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 16:21:38.1693470098 src/redis_op.cpp:705 [INFO] : rop_get_string fail, key=
+2023-08-31 16:21:38.1693470098 src/util_cgi.cpp:152 [INFO] : token=, tmp_token=
+2023-08-31 16:21:38.1693470098 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 16:21:38.1693470098 src/cgi/myfiles_cgi.cpp:181 [INFO] : SELECT count FROM account_file_count WHERE account='' Command execution failed
+2023-08-31 16:21:38.1693470098 src/cgi/myinfo_cgi.cpp:496 [INFO] : cmd = info
+2023-08-31 16:21:38.1693470098 src/cgi/myinfo_cgi.cpp:226 [INFO] : get my json buf: {
+    "account": ""
+}
+
+2023-08-31 16:21:38.1693470098 src/cgi/myinfo_cgi.cpp:284 [INFO] : share files number: 0
+2023-08-31 16:21:38.1693470098 src/cgi/myinfo_cgi.cpp:289 [INFO] : SELECT count FROM account_file_count WHERE account = '' Operation failed: 
+2023-08-31 16:21:38.1693470098 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = normal
+2023-08-31 16:21:38.1693470098 src/cgi/sharefiles_cgi.cpp:557 [INFO] : buf = {
+    "count": 2,
+    "start": 0
+}
+
+2023-08-31 16:21:38.1693470098 src/cgi/sharefiles_cgi.cpp:562 [INFO] : start = 0, count = 2
+2023-08-31 16:21:38.1693470098 src/cgi/sharefiles_cgi.cpp:210 [INFO] : SELECT share_file_list.*, file_info.url, file_info.size, file_info.type FROM file_info, share_file_list WHERE file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+2023-08-31 16:21:38.1693470098 src/cgi/sharefiles_cgi.cpp:299 [INFO] : share files: {
+	"files":	[{
+			"account":	"222222",
+			"md5":	"ab4458c852bfe4cc86a083927e3d4987",
+			"file_name":	"trash.png",
+			"share_status":	1,
+			"downloads":	2,
+			"create_time":	"2023-08-19 15:50:04",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNr6Aed8ZAAACq5pyp6E065.png",
+			"size":	683,
+			"type":	"png"
+		}, {
+			"account":	"222222",
+			"md5":	"a1bb76fb5bae04b7af840d3f6d9aa86f",
+			"file_name":	"report.docx",
+			"share_status":	1,
+			"downloads":	1,
+			"create_time":	"2023-08-19 15:50:12",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNuOAdc4uAAJWAMZMYXA70.docx",
+			"size":	153088,
+			"type":	"docx"
+		}]
+}
+2023-08-31 16:21:46.1693470106 src/cgi/login_cgi.cpp:264 [INFO] : buf = {
+    "account": "333333",
+    "password": "1a100d2c0dab19c4430e7d73762b3423"
+}
+
+2023-08-31 16:21:46.1693470106 src/cgi/login_cgi.cpp:270 [INFO] : account = 333333, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-31 16:21:46.1693470106 src/cgi/login_cgi.cpp:118 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-31 16:21:46.1693470106 src/cgi/login_cgi.cpp:134 [INFO] : login password judge db_Password = 1a100d2c0dab19c4430e7d73762b3423, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-31 16:21:46.1693470106 src/cgi/login_cgi.cpp:157 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 16:21:46.1693470106 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 16:21:46.1693470106 src/cgi/login_cgi.cpp:178 [INFO] : tmp = 33333319070297811
+2023-08-31 16:21:46.1693470106 src/cgi/login_cgi.cpp:278 [INFO] : token = f1ef218a0b18b3cf6b267546b3b6fa3d34372e3130392e313333
+2023-08-31 16:26:47.1693470407 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = count
+2023-08-31 16:26:47.1693470407 src/cgi/sharefiles_cgi.cpp:120 [INFO] : line = 2
+2023-08-31 16:26:47.1693470407 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = count
+2023-08-31 16:26:47.1693470407 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "",
+    "token": ""
+}
+
+2023-08-31 16:26:47.1693470407 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 16:26:47.1693470407 src/redis_op.cpp:705 [INFO] : rop_get_string fail, key=
+2023-08-31 16:26:47.1693470407 src/util_cgi.cpp:152 [INFO] : token=, tmp_token=
+2023-08-31 16:26:47.1693470407 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 16:26:47.1693470407 src/cgi/myfiles_cgi.cpp:181 [INFO] : SELECT count FROM account_file_count WHERE account='' Command execution failed
+2023-08-31 16:26:47.1693470407 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = normal
+2023-08-31 16:26:47.1693470407 src/cgi/sharefiles_cgi.cpp:557 [INFO] : buf = {
+    "count": 2,
+    "start": 0
+}
+
+2023-08-31 16:26:47.1693470407 src/cgi/sharefiles_cgi.cpp:562 [INFO] : start = 0, count = 2
+2023-08-31 16:26:47.1693470407 src/cgi/sharefiles_cgi.cpp:210 [INFO] : SELECT share_file_list.*, file_info.url, file_info.size, file_info.type FROM file_info, share_file_list WHERE file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+2023-08-31 16:26:47.1693470407 src/cgi/sharefiles_cgi.cpp:299 [INFO] : share files: {
+	"files":	[{
+			"account":	"222222",
+			"md5":	"ab4458c852bfe4cc86a083927e3d4987",
+			"file_name":	"trash.png",
+			"share_status":	1,
+			"downloads":	2,
+			"create_time":	"2023-08-19 15:50:04",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNr6Aed8ZAAACq5pyp6E065.png",
+			"size":	683,
+			"type":	"png"
+		}, {
+			"account":	"222222",
+			"md5":	"a1bb76fb5bae04b7af840d3f6d9aa86f",
+			"file_name":	"report.docx",
+			"share_status":	1,
+			"downloads":	1,
+			"create_time":	"2023-08-19 15:50:12",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNuOAdc4uAAJWAMZMYXA70.docx",
+			"size":	153088,
+			"type":	"docx"
+		}]
+}
+2023-08-31 16:26:52.1693470412 src/cgi/login_cgi.cpp:264 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-31 16:26:52.1693470412 src/cgi/login_cgi.cpp:270 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-31 16:26:52.1693470412 src/cgi/login_cgi.cpp:118 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-31 16:26:52.1693470412 src/cgi/login_cgi.cpp:134 [INFO] : login password judge db_Password = e3ceb5881a0a1fdaad01296d7554868d, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-31 16:26:52.1693470412 src/cgi/login_cgi.cpp:157 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 16:26:52.1693470412 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 16:26:52.1693470412 src/cgi/login_cgi.cpp:178 [INFO] : tmp = 222222597265466643
+2023-08-31 16:26:52.1693470412 src/cgi/login_cgi.cpp:278 [INFO] : token = 6320f7313afc473e6ad72572f24e547934372e3130392e313333
+2023-08-31 16:27:02.1693470422 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = count
+2023-08-31 16:27:02.1693470422 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "222222",
+    "token": "6320f7313afc473e6ad72572f24e547934372e3130392e313333"
+}
+
+2023-08-31 16:27:02.1693470422 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 16:27:02.1693470422 src/util_cgi.cpp:152 [INFO] : token=6320f7313afc473e6ad72572f24e547934372e3130392e313333, tmp_token=6320f7313afc473e6ad72572f24e547934372e3130392e313333
+2023-08-31 16:27:02.1693470422 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 16:27:03.1693470423 src/cgi/myfiles_cgi.cpp:188 [INFO] : line = 7
+2023-08-31 16:27:03.1693470423 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = normal
+2023-08-31 16:27:03.1693470423 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "222222",
+    "count": 7,
+    "start": 0,
+    "token": "6320f7313afc473e6ad72572f24e547934372e3130392e313333"
+}
+
+2023-08-31 16:27:03.1693470423 src/cgi/myfiles_cgi.cpp:471 [INFO] : account=222222, token=6320f7313afc473e6ad72572f24e547934372e3130392e313333, start=0, count=7
+2023-08-31 16:27:03.1693470423 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 16:27:03.1693470423 src/util_cgi.cpp:152 [INFO] : token=6320f7313afc473e6ad72572f24e547934372e3130392e313333, tmp_token=6320f7313afc473e6ad72572f24e547934372e3130392e313333
+2023-08-31 16:27:03.1693470423 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 16:27:03.1693470423 src/cgi/myfiles_cgi.cpp:310 [INFO] : SELECT account_file_list.*, file_info.url, file_info.size, file_info.type FROM file_info, account_file_list WHERE account = '222222' AND file_info.md5 = account_file_list.md5 limit 0, 7 在操作
+2023-08-31 16:27:03.1693470423 src/cgi/myfiles_cgi.cpp:318 [INFO] : 生成结果集
+2023-08-31 16:27:03.1693470423 src/cgi/myfiles_cgi.cpp:355 [INFO] : 生成返回给前端的JSON数据
+2023-08-31 16:27:03.1693470423 src/cgi/myfiles_cgi.cpp:407 [INFO] : 222222 Files Info: {
+	"files":	[{
+			"account":	"222222",
+			"md5":	"ab4458c852bfe4cc86a083927e3d4987",
+			"create_time":	"2023-08-19 11:27:58",
+			"file_name":	"trash.png",
+			"share_status":	1,
+			"downloads":	2,
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNr6Aed8ZAAACq5pyp6E065.png",
+			"size":	683,
+			"type":	"png"
+		}, {
+			"account":	"222222",
+			"md5":	"a1bb76fb5bae04b7af840d3f6d9aa86f",
+			"create_time":	"2023-08-19 11:28:35",
+			"file_name":	"report.docx",
+			"share_status":	1,
+			"downloads":	2,
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNuOAdc4uAAJWAMZMYXA70.docx",
+			"size":	153088,
+			"type":	"docx"
+		}, {
+			"account":	"222222",
+			"md5":	"8308f8a1b4fd239bd160bc94b427ce48",
+			"create_time":	"2023-08-19 11:31:54",
+			"file_name":	"软工3班全体信息.xlsx",
+			"share_status":	0,
+			"downloads":	1,
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgN6qANvdFAABqca43RMY18.xlsx",
+			"size":	27249,
+			"type":	"xlsx"
+		}, {
+			"account":	"222222",
+			"md5":	"4430427f4b2844bab7f3216e33a68c78",
+			"create_time":	"2023-08-20 09:16:56",
+			"file_name":	"build.ninja",
+			"share_status":	0,
+			"downloads":	0,
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWThaYiAG6KNAADUrtUVihw4.ninja",
+			"size":	54446,
+			"type":	"ninja"
+		}, {
+			"account":	"222222",
+			"md5":	"59fcda4277480620534446406793c441",
+			"create_time":	"2023-08-20 11:00:06",
+			"file_name":	"3.jpg",
+			"share_status":	0,
+			"downloads":	0,
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWThgbaACEMeADrf79ggPOs794.jpg",
+			"size":	3858415,
+			"type":	"jpg"
+		}, {
+			"account":	"222222",
+			"md5":	"fb142bcf4f91ff34501f5fa325a13c32",
+			"create_time":	"2023-08-20 11:00:41",
+			"file_name":	"网络编程笔记.docx",
+			"share_status":	0,
+			"downloads":	1,
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWThgdmANo6jAFU2rjHl7O070.docx",
+			"size":	5584558,
+			"type":	"docx"
+		}, {
+			"account":	"222222",
+			"md5":	"5d23ce09c48bee17a6fe4f5b45932b1d",
+			"create_time":	"2023-08-20 11:01:36",
+			"file_name":	"2.png",
+			"share_status":	0,
+			"downloads":	0,
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWThghCAPtYJAC1xYXx6neQ186.png",
+			"size":	2978145,
+			"type":	"png"
+		}]
+}
+2023-08-31 16:28:13.1693470493 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = count
+2023-08-31 16:28:13.1693470493 src/cgi/sharefiles_cgi.cpp:120 [INFO] : line = 2
+2023-08-31 16:28:13.1693470493 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = count
+2023-08-31 16:28:13.1693470493 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "",
+    "token": ""
+}
+
+2023-08-31 16:28:13.1693470493 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 16:28:13.1693470493 src/redis_op.cpp:705 [INFO] : rop_get_string fail, key=
+2023-08-31 16:28:13.1693470493 src/util_cgi.cpp:152 [INFO] : token=, tmp_token=
+2023-08-31 16:28:13.1693470493 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 16:28:13.1693470493 src/cgi/myfiles_cgi.cpp:181 [INFO] : SELECT count FROM account_file_count WHERE account='' Command execution failed
+2023-08-31 16:28:13.1693470493 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = normal
+2023-08-31 16:28:13.1693470493 src/cgi/sharefiles_cgi.cpp:557 [INFO] : buf = {
+    "count": 2,
+    "start": 0
+}
+
+2023-08-31 16:28:13.1693470493 src/cgi/sharefiles_cgi.cpp:562 [INFO] : start = 0, count = 2
+2023-08-31 16:28:14.1693470494 src/cgi/sharefiles_cgi.cpp:210 [INFO] : SELECT share_file_list.*, file_info.url, file_info.size, file_info.type FROM file_info, share_file_list WHERE file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+2023-08-31 16:28:14.1693470494 src/cgi/sharefiles_cgi.cpp:299 [INFO] : share files: {
+	"files":	[{
+			"account":	"222222",
+			"md5":	"ab4458c852bfe4cc86a083927e3d4987",
+			"file_name":	"trash.png",
+			"share_status":	1,
+			"downloads":	2,
+			"create_time":	"2023-08-19 15:50:04",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNr6Aed8ZAAACq5pyp6E065.png",
+			"size":	683,
+			"type":	"png"
+		}, {
+			"account":	"222222",
+			"md5":	"a1bb76fb5bae04b7af840d3f6d9aa86f",
+			"file_name":	"report.docx",
+			"share_status":	1,
+			"downloads":	1,
+			"create_time":	"2023-08-19 15:50:12",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNuOAdc4uAAJWAMZMYXA70.docx",
+			"size":	153088,
+			"type":	"docx"
+		}]
+}
+2023-08-31 16:28:18.1693470498 src/cgi/login_cgi.cpp:264 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-31 16:28:18.1693470498 src/cgi/login_cgi.cpp:270 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-31 16:28:18.1693470498 src/cgi/login_cgi.cpp:118 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-31 16:28:18.1693470498 src/cgi/login_cgi.cpp:134 [INFO] : login password judge db_Password = e3ceb5881a0a1fdaad01296d7554868d, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-31 16:28:18.1693470498 src/cgi/login_cgi.cpp:157 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 16:28:18.1693470498 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 16:28:18.1693470498 src/cgi/login_cgi.cpp:178 [INFO] : tmp = 22222244996570243
+2023-08-31 16:28:18.1693470498 src/cgi/login_cgi.cpp:278 [INFO] : token = e8b4035e7f2f8aa3108c6176217e06a334372e3130392e313333
+2023-08-31 16:29:51.1693470591 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = count
+2023-08-31 16:29:51.1693470591 src/cgi/sharefiles_cgi.cpp:120 [INFO] : line = 2
+2023-08-31 16:29:51.1693470591 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = count
+2023-08-31 16:29:51.1693470591 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "",
+    "token": ""
+}
+
+2023-08-31 16:29:51.1693470591 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 16:29:51.1693470591 src/redis_op.cpp:705 [INFO] : rop_get_string fail, key=
+2023-08-31 16:29:51.1693470591 src/util_cgi.cpp:152 [INFO] : token=, tmp_token=
+2023-08-31 16:29:51.1693470591 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 16:29:51.1693470591 src/cgi/myfiles_cgi.cpp:181 [INFO] : SELECT count FROM account_file_count WHERE account='' Command execution failed
+2023-08-31 16:29:51.1693470591 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = normal
+2023-08-31 16:29:51.1693470591 src/cgi/sharefiles_cgi.cpp:557 [INFO] : buf = {
+    "count": 2,
+    "start": 0
+}
+
+2023-08-31 16:29:51.1693470591 src/cgi/sharefiles_cgi.cpp:562 [INFO] : start = 0, count = 2
+2023-08-31 16:29:51.1693470591 src/cgi/sharefiles_cgi.cpp:210 [INFO] : SELECT share_file_list.*, file_info.url, file_info.size, file_info.type FROM file_info, share_file_list WHERE file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+2023-08-31 16:29:51.1693470591 src/cgi/sharefiles_cgi.cpp:299 [INFO] : share files: {
+	"files":	[{
+			"account":	"222222",
+			"md5":	"ab4458c852bfe4cc86a083927e3d4987",
+			"file_name":	"trash.png",
+			"share_status":	1,
+			"downloads":	2,
+			"create_time":	"2023-08-19 15:50:04",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNr6Aed8ZAAACq5pyp6E065.png",
+			"size":	683,
+			"type":	"png"
+		}, {
+			"account":	"222222",
+			"md5":	"a1bb76fb5bae04b7af840d3f6d9aa86f",
+			"file_name":	"report.docx",
+			"share_status":	1,
+			"downloads":	1,
+			"create_time":	"2023-08-19 15:50:12",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNuOAdc4uAAJWAMZMYXA70.docx",
+			"size":	153088,
+			"type":	"docx"
+		}]
+}
+2023-08-31 16:29:56.1693470596 src/cgi/login_cgi.cpp:264 [INFO] : buf = {
+    "account": "444444",
+    "password": "73882ab1fa529d7273da0db6b49cc4f3"
+}
+
+2023-08-31 16:29:56.1693470596 src/cgi/login_cgi.cpp:270 [INFO] : account = 444444, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-31 16:29:56.1693470596 src/cgi/login_cgi.cpp:118 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-31 16:29:56.1693470596 src/cgi/login_cgi.cpp:134 [INFO] : login password judge db_Password = 73882ab1fa529d7273da0db6b49cc4f3, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-31 16:29:56.1693470596 src/cgi/login_cgi.cpp:157 [INFO] : redis:[ip=47.109.133.176, port=6379, password=123456]
+2023-08-31 16:29:56.1693470596 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 16:29:56.1693470596 src/cgi/login_cgi.cpp:178 [INFO] : tmp = 44444442865743914
+2023-08-31 16:29:56.1693470596 src/cgi/login_cgi.cpp:278 [INFO] : token = 19d71ce587efbb4114d1b434834af2ce34372e3130392e313333
+2023-08-31 16:30:02.1693470602 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = count
+2023-08-31 16:30:02.1693470602 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "444444",
+    "token": "19d71ce587efbb4114d1b434834af2ce34372e3130392e313333"
+}
+
+2023-08-31 16:30:02.1693470602 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 16:30:02.1693470602 src/util_cgi.cpp:152 [INFO] : token=19d71ce587efbb4114d1b434834af2ce34372e3130392e313333, tmp_token=19d71ce587efbb4114d1b434834af2ce34372e3130392e313333
+2023-08-31 16:30:02.1693470602 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 16:30:02.1693470602 src/cgi/myfiles_cgi.cpp:188 [INFO] : line = 2
+2023-08-31 16:30:02.1693470602 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = normal
+2023-08-31 16:30:02.1693470602 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "444444",
+    "count": 2,
+    "start": 0,
+    "token": "19d71ce587efbb4114d1b434834af2ce34372e3130392e313333"
+}
+
+2023-08-31 16:30:02.1693470602 src/cgi/myfiles_cgi.cpp:471 [INFO] : account=444444, token=19d71ce587efbb4114d1b434834af2ce34372e3130392e313333, start=0, count=2
+2023-08-31 16:30:02.1693470602 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 16:30:02.1693470602 src/util_cgi.cpp:152 [INFO] : token=19d71ce587efbb4114d1b434834af2ce34372e3130392e313333, tmp_token=19d71ce587efbb4114d1b434834af2ce34372e3130392e313333
+2023-08-31 16:30:02.1693470602 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 16:30:02.1693470602 src/cgi/myfiles_cgi.cpp:310 [INFO] : SELECT account_file_list.*, file_info.url, file_info.size, file_info.type FROM file_info, account_file_list WHERE account = '444444' AND file_info.md5 = account_file_list.md5 limit 0, 2 在操作
+2023-08-31 16:30:02.1693470602 src/cgi/myfiles_cgi.cpp:318 [INFO] : 生成结果集
+2023-08-31 16:30:02.1693470602 src/cgi/myfiles_cgi.cpp:355 [INFO] : 生成返回给前端的JSON数据
+2023-08-31 16:30:02.1693470602 src/cgi/myfiles_cgi.cpp:407 [INFO] : 444444 Files Info: {
+	"files":	[{
+			"account":	"444444",
+			"md5":	"ab4458c852bfe4cc86a083927e3d4987",
+			"create_time":	"2023-08-19 15:59:27",
+			"file_name":	"trash.png",
+			"share_status":	0,
+			"downloads":	0,
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNr6Aed8ZAAACq5pyp6E065.png",
+			"size":	683,
+			"type":	"png"
+		}, {
+			"account":	"444444",
+			"md5":	"aa422448347eac5469107689be965315",
+			"create_time":	"2023-08-19 13:45:07",
+			"file_name":	"sudoku.hpp",
+			"share_status":	0,
+			"downloads":	0,
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgVuOAcgpxAAAogC_Nsco119.hpp",
+			"size":	10368,
+			"type":	"hpp"
+		}]
+}
+2023-08-31 16:31:01.1693470661 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = count
+2023-08-31 16:31:01.1693470661 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "444444",
+    "token": "19d71ce587efbb4114d1b434834af2ce34372e3130392e313333"
+}
+
+2023-08-31 16:31:01.1693470661 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 16:31:01.1693470661 src/util_cgi.cpp:152 [INFO] : token=19d71ce587efbb4114d1b434834af2ce34372e3130392e313333, tmp_token=19d71ce587efbb4114d1b434834af2ce34372e3130392e313333
+2023-08-31 16:31:01.1693470661 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 16:31:01.1693470661 src/cgi/myfiles_cgi.cpp:188 [INFO] : line = 2
+2023-08-31 16:31:01.1693470661 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = normal
+2023-08-31 16:31:01.1693470661 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "444444",
+    "count": 2,
+    "start": 0,
+    "token": "19d71ce587efbb4114d1b434834af2ce34372e3130392e313333"
+}
+
+2023-08-31 16:31:01.1693470661 src/cgi/myfiles_cgi.cpp:471 [INFO] : account=444444, token=19d71ce587efbb4114d1b434834af2ce34372e3130392e313333, start=0, count=2
+2023-08-31 16:31:01.1693470661 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 16:31:01.1693470661 src/util_cgi.cpp:152 [INFO] : token=19d71ce587efbb4114d1b434834af2ce34372e3130392e313333, tmp_token=19d71ce587efbb4114d1b434834af2ce34372e3130392e313333
+2023-08-31 16:31:01.1693470661 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 16:31:01.1693470661 src/cgi/myfiles_cgi.cpp:310 [INFO] : SELECT account_file_list.*, file_info.url, file_info.size, file_info.type FROM file_info, account_file_list WHERE account = '444444' AND file_info.md5 = account_file_list.md5 limit 0, 2 在操作
+2023-08-31 16:31:01.1693470661 src/cgi/myfiles_cgi.cpp:318 [INFO] : 生成结果集
+2023-08-31 16:31:01.1693470661 src/cgi/myfiles_cgi.cpp:355 [INFO] : 生成返回给前端的JSON数据
+2023-08-31 16:31:01.1693470661 src/cgi/myfiles_cgi.cpp:407 [INFO] : 444444 Files Info: {
+	"files":	[{
+			"account":	"444444",
+			"md5":	"ab4458c852bfe4cc86a083927e3d4987",
+			"create_time":	"2023-08-19 15:59:27",
+			"file_name":	"trash.png",
+			"share_status":	0,
+			"downloads":	0,
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNr6Aed8ZAAACq5pyp6E065.png",
+			"size":	683,
+			"type":	"png"
+		}, {
+			"account":	"444444",
+			"md5":	"aa422448347eac5469107689be965315",
+			"create_time":	"2023-08-19 13:45:07",
+			"file_name":	"sudoku.hpp",
+			"share_status":	0,
+			"downloads":	0,
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgVuOAcgpxAAAogC_Nsco119.hpp",
+			"size":	10368,
+			"type":	"hpp"
+		}]
+}
+2023-08-31 16:31:02.1693470662 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = count
+2023-08-31 16:31:02.1693470662 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "444444",
+    "token": "19d71ce587efbb4114d1b434834af2ce34372e3130392e313333"
+}
+
+2023-08-31 16:31:02.1693470662 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 16:31:02.1693470662 src/util_cgi.cpp:152 [INFO] : token=19d71ce587efbb4114d1b434834af2ce34372e3130392e313333, tmp_token=19d71ce587efbb4114d1b434834af2ce34372e3130392e313333
+2023-08-31 16:31:02.1693470662 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 16:31:02.1693470662 src/cgi/myfiles_cgi.cpp:188 [INFO] : line = 2
+2023-08-31 16:31:02.1693470662 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = downloadsasc
+2023-08-31 16:31:02.1693470662 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "444444",
+    "count": 2,
+    "start": 0,
+    "token": "19d71ce587efbb4114d1b434834af2ce34372e3130392e313333"
+}
+
+2023-08-31 16:31:02.1693470662 src/cgi/myfiles_cgi.cpp:471 [INFO] : account=444444, token=19d71ce587efbb4114d1b434834af2ce34372e3130392e313333, start=0, count=2
+2023-08-31 16:31:02.1693470662 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 16:31:02.1693470662 src/util_cgi.cpp:152 [INFO] : token=19d71ce587efbb4114d1b434834af2ce34372e3130392e313333, tmp_token=19d71ce587efbb4114d1b434834af2ce34372e3130392e313333
+2023-08-31 16:31:02.1693470662 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 16:31:02.1693470662 src/cgi/myfiles_cgi.cpp:310 [INFO] : SELECT account_file_list.*, file_info.url, file_info.size, file_info.type FROM file_info, account_file_list WHERE account = '444444' AND file_info.md5 = account_file_list.md5 order by downloads  asc limit 0, 2 在操作
+2023-08-31 16:31:02.1693470662 src/cgi/myfiles_cgi.cpp:318 [INFO] : 生成结果集
+2023-08-31 16:31:02.1693470662 src/cgi/myfiles_cgi.cpp:355 [INFO] : 生成返回给前端的JSON数据
+2023-08-31 16:31:02.1693470662 src/cgi/myfiles_cgi.cpp:407 [INFO] : 444444 Files Info: {
+	"files":	[{
+			"account":	"444444",
+			"md5":	"ab4458c852bfe4cc86a083927e3d4987",
+			"create_time":	"2023-08-19 15:59:27",
+			"file_name":	"trash.png",
+			"share_status":	0,
+			"downloads":	0,
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNr6Aed8ZAAACq5pyp6E065.png",
+			"size":	683,
+			"type":	"png"
+		}, {
+			"account":	"444444",
+			"md5":	"aa422448347eac5469107689be965315",
+			"create_time":	"2023-08-19 13:45:07",
+			"file_name":	"sudoku.hpp",
+			"share_status":	0,
+			"downloads":	0,
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgVuOAcgpxAAAogC_Nsco119.hpp",
+			"size":	10368,
+			"type":	"hpp"
+		}]
+}
+2023-08-31 16:31:04.1693470664 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = count
+2023-08-31 16:31:04.1693470664 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "444444",
+    "token": "19d71ce587efbb4114d1b434834af2ce34372e3130392e313333"
+}
+
+2023-08-31 16:31:04.1693470664 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 16:31:04.1693470664 src/util_cgi.cpp:152 [INFO] : token=19d71ce587efbb4114d1b434834af2ce34372e3130392e313333, tmp_token=19d71ce587efbb4114d1b434834af2ce34372e3130392e313333
+2023-08-31 16:31:04.1693470664 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 16:31:04.1693470664 src/cgi/myfiles_cgi.cpp:188 [INFO] : line = 2
+2023-08-31 16:31:04.1693470664 src/cgi/myfiles_cgi.cpp:430 [INFO] : cmd = downloadsdesc
+2023-08-31 16:31:04.1693470664 src/cgi/myfiles_cgi.cpp:455 [INFO] : buf = {
+    "account": "444444",
+    "count": 2,
+    "start": 0,
+    "token": "19d71ce587efbb4114d1b434834af2ce34372e3130392e313333"
+}
+
+2023-08-31 16:31:04.1693470664 src/cgi/myfiles_cgi.cpp:471 [INFO] : account=444444, token=19d71ce587efbb4114d1b434834af2ce34372e3130392e313333, start=0, count=2
+2023-08-31 16:31:04.1693470664 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 47.109.133.176:6379 SUCCESS!
+
+2023-08-31 16:31:04.1693470664 src/util_cgi.cpp:152 [INFO] : token=19d71ce587efbb4114d1b434834af2ce34372e3130392e313333, tmp_token=19d71ce587efbb4114d1b434834af2ce34372e3130392e313333
+2023-08-31 16:31:04.1693470664 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-31 16:31:04.1693470664 src/cgi/myfiles_cgi.cpp:310 [INFO] : SELECT account_file_list.*, file_info.url, file_info.size, file_info.type FROM file_info, account_file_list WHERE account = '444444' AND file_info.md5 = account_file_list.md5 order by downloads desc limit 0, 2 在操作
+2023-08-31 16:31:04.1693470664 src/cgi/myfiles_cgi.cpp:318 [INFO] : 生成结果集
+2023-08-31 16:31:04.1693470664 src/cgi/myfiles_cgi.cpp:355 [INFO] : 生成返回给前端的JSON数据
+2023-08-31 16:31:04.1693470664 src/cgi/myfiles_cgi.cpp:407 [INFO] : 444444 Files Info: {
+	"files":	[{
+			"account":	"444444",
+			"md5":	"ab4458c852bfe4cc86a083927e3d4987",
+			"create_time":	"2023-08-19 15:59:27",
+			"file_name":	"trash.png",
+			"share_status":	0,
+			"downloads":	0,
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNr6Aed8ZAAACq5pyp6E065.png",
+			"size":	683,
+			"type":	"png"
+		}, {
+			"account":	"444444",
+			"md5":	"aa422448347eac5469107689be965315",
+			"create_time":	"2023-08-19 13:45:07",
+			"file_name":	"sudoku.hpp",
+			"share_status":	0,
+			"downloads":	0,
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgVuOAcgpxAAAogC_Nsco119.hpp",
+			"size":	10368,
+			"type":	"hpp"
+		}]
+}
+2023-08-31 16:31:17.1693470677 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = count
+2023-08-31 16:31:17.1693470677 src/cgi/sharefiles_cgi.cpp:120 [INFO] : line = 2
+2023-08-31 16:31:17.1693470677 src/cgi/sharefiles_cgi.cpp:526 [INFO] : cmd = normal
+2023-08-31 16:31:17.1693470677 src/cgi/sharefiles_cgi.cpp:557 [INFO] : buf = {
+    "count": 2,
+    "start": 0
+}
+
+2023-08-31 16:31:17.1693470677 src/cgi/sharefiles_cgi.cpp:562 [INFO] : start = 0, count = 2
+2023-08-31 16:31:17.1693470677 src/cgi/sharefiles_cgi.cpp:210 [INFO] : SELECT share_file_list.*, file_info.url, file_info.size, file_info.type FROM file_info, share_file_list WHERE file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+2023-08-31 16:31:17.1693470677 src/cgi/sharefiles_cgi.cpp:299 [INFO] : share files: {
+	"files":	[{
+			"account":	"222222",
+			"md5":	"ab4458c852bfe4cc86a083927e3d4987",
+			"file_name":	"trash.png",
+			"share_status":	1,
+			"downloads":	2,
+			"create_time":	"2023-08-19 15:50:04",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNr6Aed8ZAAACq5pyp6E065.png",
+			"size":	683,
+			"type":	"png"
+		}, {
+			"account":	"222222",
+			"md5":	"a1bb76fb5bae04b7af840d3f6d9aa86f",
+			"file_name":	"report.docx",
+			"share_status":	1,
+			"downloads":	1,
+			"create_time":	"2023-08-19 15:50:12",
+			"url":	"http://47.109.133.176:8888/group1/M00/00/00/rBIuYWTgNuOAdc4uAAJWAMZMYXA70.docx",
+			"size":	153088,
+			"type":	"docx"
+		}]
+}

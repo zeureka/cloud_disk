@@ -1,0 +1,534 @@
+2023-08-17 11:23:47.1692242627 src/cgi/upload_cgi.cpp:121 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 11:23:47.1692242627 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-17 11:23:47.1692242627 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 11:23:47.1692242627 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 11:23:47.1692242627 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 11:23:47.1692242627 src/cgi/sharefiles_cgi.cpp:87 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 11:23:47.1692242627 src/cgi/sharefiles_cgi.cpp:92 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 11:23:47.1692242627 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 11:23:47.1692242627 src/cgi/dealsharefile_cgi.cpp:100 [INFO] : redis:[ip=172.18.46.97, port=6379], password=123456
+2023-08-17 11:24:41.1692242681 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "333333",
+    "password": "1a100d2c0dab19c4430e7d73762b3423"
+}
+
+2023-08-17 11:24:41.1692242681 src/cgi/login_cgi.cpp:268 [INFO] : account = 333333, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-17 11:24:41.1692242681 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-17 11:24:41.1692242681 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 1a100d2c0dab19c4430e7d73762b3423, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-17 11:24:41.1692242681 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 11:24:41.1692242681 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 11:24:41.1692242681 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 333333942632352335
+2023-08-17 11:24:41.1692242681 src/cgi/login_cgi.cpp:276 [INFO] : token = 951275f6e44608d17e4c4d3a5176a3053137322e31382e34362e
+2023-08-17 11:24:50.1692242690 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "333333",
+    "fileName": "null.png",
+    "md5": "18566eb2eeab122773d776f8280e0026",
+    "token": "951275f6e44608d17e4c4d3a5176a3053137322e31382e34362e"
+}
+
+2023-08-17 11:24:50.1692242690 src/cgi/md5_cgi.cpp:293 [INFO] : account=333333, token=951275f6e44608d17e4c4d3a5176a3053137322e31382e34362e, md5=18566eb2eeab122773d776f8280e0026, fileName=null.png
+2023-08-17 11:24:50.1692242690 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 11:24:50.1692242690 src/util_cgi.cpp:152 [INFO] : token=951275f6e44608d17e4c4d3a5176a3053137322e31382e34362e, tmp_token=951275f6e44608d17e4c4d3a5176a3053137322e31382e34362e
+2023-08-17 11:24:50.1692242690 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-17 11:24:50.1692242690 src/cgi/upload_cgi.cpp:170 [INFO] : wrong no  boundary!
+2023-08-17 11:24:57.1692242697 src/cgi/myfiles_cgi.cpp:422 [INFO] : cmd = count
+2023-08-17 11:24:57.1692242697 src/cgi/myfiles_cgi.cpp:447 [INFO] : buf = {
+    "account": "333333",
+    "token": "951275f6e44608d17e4c4d3a5176a3053137322e31382e34362e"
+}
+
+2023-08-17 11:24:57.1692242697 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 11:24:57.1692242697 src/util_cgi.cpp:152 [INFO] : token=951275f6e44608d17e4c4d3a5176a3053137322e31382e34362e, tmp_token=951275f6e44608d17e4c4d3a5176a3053137322e31382e34362e
+2023-08-17 11:24:57.1692242697 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-17 11:24:57.1692242697 src/cgi/myfiles_cgi.cpp:184 [INFO] : line = 0
+2023-08-17 11:26:09.1692242769 src/cgi/myfiles_cgi.cpp:422 [INFO] : cmd = count
+2023-08-17 11:26:09.1692242769 src/cgi/myfiles_cgi.cpp:447 [INFO] : buf = {
+    "account": "333333",
+    "token": "951275f6e44608d17e4c4d3a5176a3053137322e31382e34362e"
+}
+
+2023-08-17 11:26:09.1692242769 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 11:26:09.1692242769 src/util_cgi.cpp:152 [INFO] : token=951275f6e44608d17e4c4d3a5176a3053137322e31382e34362e, tmp_token=951275f6e44608d17e4c4d3a5176a3053137322e31382e34362e
+2023-08-17 11:26:09.1692242769 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-17 11:26:09.1692242769 src/cgi/myfiles_cgi.cpp:184 [INFO] : line = 0
+2023-08-17 11:35:03.1692243303 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-17 11:35:03.1692243303 src/cgi/login_cgi.cpp:268 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-17 11:35:03.1692243303 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-17 11:35:03.1692243303 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = e3ceb5881a0a1fdaad01296d7554868d, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-17 11:35:03.1692243303 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 11:35:03.1692243303 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 11:35:03.1692243303 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 22222246375495089
+2023-08-17 11:35:03.1692243303 src/cgi/login_cgi.cpp:276 [INFO] : token = ae5faa95025774e1db93dbf0d79c875c3137322e31382e34362e
+2023-08-17 11:35:13.1692243313 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "222222",
+    "fileName": "null.png",
+    "md5": "18566eb2eeab122773d776f8280e0026",
+    "token": "ae5faa95025774e1db93dbf0d79c875c3137322e31382e34362e"
+}
+
+2023-08-17 11:35:13.1692243313 src/cgi/md5_cgi.cpp:293 [INFO] : account=222222, token=ae5faa95025774e1db93dbf0d79c875c3137322e31382e34362e, md5=18566eb2eeab122773d776f8280e0026, fileName=null.png
+2023-08-17 11:35:13.1692243313 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 11:35:13.1692243313 src/util_cgi.cpp:152 [INFO] : token=ae5faa95025774e1db93dbf0d79c875c3137322e31382e34362e, tmp_token=ae5faa95025774e1db93dbf0d79c875c3137322e31382e34362e
+2023-08-17 11:35:13.1692243313 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-17 11:35:13.1692243313 src/cgi/upload_cgi.cpp:170 [INFO] : wrong no  boundary!
+2023-08-17 11:36:01.1692243361 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "222222",
+    "fileName": "other.png",
+    "md5": "153af6cc06f72211708927b58990b689",
+    "token": "ae5faa95025774e1db93dbf0d79c875c3137322e31382e34362e"
+}
+
+2023-08-17 11:36:01.1692243361 src/cgi/md5_cgi.cpp:293 [INFO] : account=222222, token=ae5faa95025774e1db93dbf0d79c875c3137322e31382e34362e, md5=153af6cc06f72211708927b58990b689, fileName=other.png
+2023-08-17 11:36:01.1692243361 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 11:36:01.1692243361 src/util_cgi.cpp:152 [INFO] : token=ae5faa95025774e1db93dbf0d79c875c3137322e31382e34362e, tmp_token=ae5faa95025774e1db93dbf0d79c875c3137322e31382e34362e
+2023-08-17 11:36:01.1692243361 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-17 11:36:01.1692243361 src/cgi/upload_cgi.cpp:170 [INFO] : wrong no  boundary!
+2023-08-17 11:41:59.1692243719 src/cgi/upload_cgi.cpp:121 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 11:41:59.1692243719 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-17 11:41:59.1692243719 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 11:42:00.1692243720 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 11:42:00.1692243720 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 11:42:00.1692243720 src/cgi/sharefiles_cgi.cpp:87 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 11:42:00.1692243720 src/cgi/sharefiles_cgi.cpp:92 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 11:42:00.1692243720 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 11:42:00.1692243720 src/cgi/dealsharefile_cgi.cpp:100 [INFO] : redis:[ip=172.18.46.97, port=6379], password=123456
+2023-08-17 11:42:15.1692243735 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "444444",
+    "password": "73882ab1fa529d7273da0db6b49cc4f3"
+}
+
+2023-08-17 11:42:15.1692243735 src/cgi/login_cgi.cpp:268 [INFO] : account = 444444, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-17 11:42:15.1692243735 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-17 11:42:15.1692243735 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 73882ab1fa529d7273da0db6b49cc4f3, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-17 11:42:15.1692243735 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 11:42:15.1692243735 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 11:42:15.1692243735 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 444444940933255766
+2023-08-17 11:42:15.1692243735 src/cgi/login_cgi.cpp:276 [INFO] : token = 20bac8e0adb62edab264badfe5d2115e3137322e31382e34362e
+2023-08-17 11:42:22.1692243742 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "444444",
+    "fileName": "null.png",
+    "md5": "18566eb2eeab122773d776f8280e0026",
+    "token": "20bac8e0adb62edab264badfe5d2115e3137322e31382e34362e"
+}
+
+2023-08-17 11:42:22.1692243742 src/cgi/md5_cgi.cpp:293 [INFO] : account=444444, token=20bac8e0adb62edab264badfe5d2115e3137322e31382e34362e, md5=18566eb2eeab122773d776f8280e0026, fileName=null.png
+2023-08-17 11:42:22.1692243742 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 11:42:22.1692243742 src/util_cgi.cpp:152 [INFO] : token=20bac8e0adb62edab264badfe5d2115e3137322e31382e34362e, tmp_token=20bac8e0adb62edab264badfe5d2115e3137322e31382e34362e
+2023-08-17 11:42:22.1692243742 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-17 11:42:22.1692243742 src/cgi/upload_cgi.cpp:641 [INFO] : 444444上传成功[null.png, 大小: 17988, md5码: 18566eb2eeab122773d776f8280e0026] 到本地
+2023-08-17 11:42:22.1692243742 src/cgi/upload_cgi.cpp:423 [INFO] : [upload FAILED]
+2023-08-17 11:42:28.1692243748 src/cgi/myfiles_cgi.cpp:422 [INFO] : cmd = count
+2023-08-17 11:42:28.1692243748 src/cgi/myfiles_cgi.cpp:447 [INFO] : buf = {
+    "account": "444444",
+    "token": "20bac8e0adb62edab264badfe5d2115e3137322e31382e34362e"
+}
+
+2023-08-17 11:42:28.1692243748 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 11:42:28.1692243748 src/util_cgi.cpp:152 [INFO] : token=20bac8e0adb62edab264badfe5d2115e3137322e31382e34362e, tmp_token=20bac8e0adb62edab264badfe5d2115e3137322e31382e34362e
+2023-08-17 11:42:28.1692243748 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-17 11:42:28.1692243748 src/cgi/myfiles_cgi.cpp:184 [INFO] : line = 0
+2023-08-17 15:19:17.1692256757 src/cgi/upload_cgi.cpp:121 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 15:19:17.1692256757 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-17 15:19:17.1692256757 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 15:19:17.1692256757 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 15:19:17.1692256757 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 15:19:17.1692256757 src/cgi/sharefiles_cgi.cpp:87 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 15:19:17.1692256757 src/cgi/sharefiles_cgi.cpp:92 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 15:19:17.1692256757 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 15:19:17.1692256757 src/cgi/dealsharefile_cgi.cpp:100 [INFO] : redis:[ip=172.18.46.97, port=6379], password=123456
+2023-08-17 15:21:11.1692256871 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-17 15:21:11.1692256871 src/cgi/login_cgi.cpp:268 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-17 15:21:11.1692256871 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-17 15:21:11.1692256871 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = e3ceb5881a0a1fdaad01296d7554868d, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-17 15:21:11.1692256871 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 15:21:11.1692256871 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 15:21:11.1692256871 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 222222814324326110
+2023-08-17 15:21:11.1692256871 src/cgi/login_cgi.cpp:276 [INFO] : token = 775518fe3a32bdf1cca9b64475de273f3137322e31382e34362e
+2023-08-17 15:21:25.1692256885 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "222222",
+    "fileName": "other.png",
+    "md5": "153af6cc06f72211708927b58990b689",
+    "token": "775518fe3a32bdf1cca9b64475de273f3137322e31382e34362e"
+}
+
+2023-08-17 15:21:25.1692256885 src/cgi/md5_cgi.cpp:293 [INFO] : account=222222, token=775518fe3a32bdf1cca9b64475de273f3137322e31382e34362e, md5=153af6cc06f72211708927b58990b689, fileName=other.png
+2023-08-17 15:21:25.1692256885 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 15:21:25.1692256885 src/util_cgi.cpp:152 [INFO] : token=775518fe3a32bdf1cca9b64475de273f3137322e31382e34362e, tmp_token=775518fe3a32bdf1cca9b64475de273f3137322e31382e34362e
+2023-08-17 15:21:25.1692256885 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-17 15:21:25.1692256885 src/cgi/upload_cgi.cpp:646 [INFO] : 222222上传成功[other.png, 大小: 11627, md5码: 153af6cc06f72211708927b58990b689] 到本地
+2023-08-17 15:21:25.1692256885 src/cgi/upload_cgi.cpp:426 [INFO] : [upload FAILED]
+2023-08-17 15:21:37.1692256897 src/cgi/myfiles_cgi.cpp:422 [INFO] : cmd = count
+2023-08-17 15:21:37.1692256897 src/cgi/myfiles_cgi.cpp:447 [INFO] : buf = {
+    "account": "222222",
+    "token": "775518fe3a32bdf1cca9b64475de273f3137322e31382e34362e"
+}
+
+2023-08-17 15:21:37.1692256897 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 15:21:37.1692256897 src/util_cgi.cpp:152 [INFO] : token=775518fe3a32bdf1cca9b64475de273f3137322e31382e34362e, tmp_token=775518fe3a32bdf1cca9b64475de273f3137322e31382e34362e
+2023-08-17 15:21:37.1692256897 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-17 15:21:37.1692256897 src/cgi/myfiles_cgi.cpp:184 [INFO] : line = 0
+2023-08-17 16:28:41.1692260921 src/cgi/upload_cgi.cpp:121 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 16:28:41.1692260921 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-17 16:28:41.1692260921 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 16:28:41.1692260921 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 16:28:41.1692260921 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 16:28:41.1692260921 src/cgi/sharefiles_cgi.cpp:87 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 16:28:41.1692260921 src/cgi/sharefiles_cgi.cpp:92 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 16:28:41.1692260921 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 16:28:41.1692260921 src/cgi/dealsharefile_cgi.cpp:100 [INFO] : redis:[ip=172.18.46.97, port=6379], password=123456
+2023-08-17 16:28:57.1692260937 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "444444",
+    "password": "73882ab1fa529d7273da0db6b49cc4f3"
+}
+
+2023-08-17 16:28:57.1692260937 src/cgi/login_cgi.cpp:268 [INFO] : account = 444444, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-17 16:28:57.1692260937 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-17 16:28:57.1692260937 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 73882ab1fa529d7273da0db6b49cc4f3, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-17 16:28:57.1692260937 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 16:28:57.1692260937 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 16:28:57.1692260937 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 444444626369245624
+2023-08-17 16:28:57.1692260937 src/cgi/login_cgi.cpp:276 [INFO] : token = 9e931145f96610d5b343d12d7e564b9f3137322e31382e34362e
+2023-08-17 16:29:07.1692260947 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "444444",
+    "fileName": "other.png",
+    "md5": "153af6cc06f72211708927b58990b689",
+    "token": "9e931145f96610d5b343d12d7e564b9f3137322e31382e34362e"
+}
+
+2023-08-17 16:29:07.1692260947 src/cgi/md5_cgi.cpp:293 [INFO] : account=444444, token=9e931145f96610d5b343d12d7e564b9f3137322e31382e34362e, md5=153af6cc06f72211708927b58990b689, fileName=other.png
+2023-08-17 16:29:07.1692260947 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 16:29:07.1692260947 src/util_cgi.cpp:152 [INFO] : token=9e931145f96610d5b343d12d7e564b9f3137322e31382e34362e, tmp_token=9e931145f96610d5b343d12d7e564b9f3137322e31382e34362e
+2023-08-17 16:29:07.1692260947 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-17 16:29:07.1692260947 src/cgi/upload_cgi.cpp:646 [INFO] : 444444上传成功[other.png, 大小: 11627, md5码: 153af6cc06f72211708927b58990b689] 到本地
+2023-08-17 16:29:07.1692260947 src/cgi/upload_cgi.cpp:426 [INFO] : [upload FAILED]
+2023-08-17 16:29:21.1692260961 src/cgi/myfiles_cgi.cpp:422 [INFO] : cmd = count
+2023-08-17 16:29:21.1692260961 src/cgi/myfiles_cgi.cpp:447 [INFO] : buf = {
+    "account": "444444",
+    "token": "9e931145f96610d5b343d12d7e564b9f3137322e31382e34362e"
+}
+
+2023-08-17 16:29:21.1692260961 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 16:29:21.1692260961 src/util_cgi.cpp:152 [INFO] : token=9e931145f96610d5b343d12d7e564b9f3137322e31382e34362e, tmp_token=9e931145f96610d5b343d12d7e564b9f3137322e31382e34362e
+2023-08-17 16:29:21.1692260961 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-17 16:29:21.1692260961 src/cgi/myfiles_cgi.cpp:184 [INFO] : line = 0
+2023-08-17 16:33:21.1692261201 src/cgi/upload_cgi.cpp:121 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 16:33:21.1692261201 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-17 16:33:21.1692261201 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 16:33:21.1692261201 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 16:33:21.1692261201 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 16:33:21.1692261201 src/cgi/sharefiles_cgi.cpp:87 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 16:33:21.1692261201 src/cgi/sharefiles_cgi.cpp:92 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 16:33:21.1692261201 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 16:33:21.1692261201 src/cgi/dealsharefile_cgi.cpp:100 [INFO] : redis:[ip=172.18.46.97, port=6379], password=123456
+2023-08-17 16:33:42.1692261222 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-17 16:33:42.1692261222 src/cgi/login_cgi.cpp:268 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-17 16:33:42.1692261222 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-17 16:33:42.1692261222 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = e3ceb5881a0a1fdaad01296d7554868d, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-17 16:33:42.1692261222 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 16:33:42.1692261222 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 16:33:42.1692261222 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 222222718927268320
+2023-08-17 16:33:42.1692261222 src/cgi/login_cgi.cpp:276 [INFO] : token = 6fb3fc0ec53d403be16dd66455857ac53137322e31382e34362e
+2023-08-17 16:33:48.1692261228 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "222222",
+    "fileName": "other.png",
+    "md5": "153af6cc06f72211708927b58990b689",
+    "token": "6fb3fc0ec53d403be16dd66455857ac53137322e31382e34362e"
+}
+
+2023-08-17 16:33:48.1692261228 src/cgi/md5_cgi.cpp:293 [INFO] : account=222222, token=6fb3fc0ec53d403be16dd66455857ac53137322e31382e34362e, md5=153af6cc06f72211708927b58990b689, fileName=other.png
+2023-08-17 16:33:48.1692261228 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 16:33:48.1692261228 src/util_cgi.cpp:152 [INFO] : token=6fb3fc0ec53d403be16dd66455857ac53137322e31382e34362e, tmp_token=6fb3fc0ec53d403be16dd66455857ac53137322e31382e34362e
+2023-08-17 16:33:48.1692261228 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-17 16:33:48.1692261228 src/cgi/upload_cgi.cpp:648 [INFO] : 222222上传成功[other.png, 大小: 11627, md5码: 153af6cc06f72211708927b58990b689] 到本地
+2023-08-17 16:33:48.1692261228 src/cgi/upload_cgi.cpp:409 [INFO] : execlp fdfs_upload_file, cme = docker cp ./other.png tracker:/tmp/other.png && docker exec tracker fdfs_upload_file /etc/fdfs/client.conf /tmp/other.png && docker exec tracker rm /tmp/other.png
+2023-08-17 16:33:48.1692261228 src/cgi/upload_cgi.cpp:427 [INFO] : [upload FAILED]
+
+==========================================================================================o
+
+
+2023-08-17 16:55:22.1692262522 src/cgi/upload_cgi.cpp:121 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 16:55:22.1692262522 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-17 16:55:23.1692262523 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 16:55:23.1692262523 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 16:55:23.1692262523 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 16:55:23.1692262523 src/cgi/sharefiles_cgi.cpp:87 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 16:55:23.1692262523 src/cgi/sharefiles_cgi.cpp:92 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 16:55:23.1692262523 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 16:55:23.1692262523 src/cgi/dealsharefile_cgi.cpp:100 [INFO] : redis:[ip=172.18.46.97, port=6379], password=123456
+2023-08-17 16:55:46.1692262546 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "333333",
+    "password": "1a100d2c0dab19c4430e7d73762b3423"
+}
+
+2023-08-17 16:55:46.1692262546 src/cgi/login_cgi.cpp:268 [INFO] : account = 333333, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-17 16:55:46.1692262546 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-17 16:55:46.1692262546 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 1a100d2c0dab19c4430e7d73762b3423, password = 1a100d2c0dab19c4430e7d73762b3423
+2023-08-17 16:55:46.1692262546 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 16:55:46.1692262546 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 16:55:46.1692262546 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 333333648477542807
+2023-08-17 16:55:46.1692262546 src/cgi/login_cgi.cpp:276 [INFO] : token = d658cb2dfd46d28cbc69ca5db0e9339d3137322e31382e34362e
+2023-08-17 16:55:58.1692262558 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "333333",
+    "fileName": "pdf.png",
+    "md5": "5bca57194380c34002c0dd086a242ee7",
+    "token": "d658cb2dfd46d28cbc69ca5db0e9339d3137322e31382e34362e"
+}
+
+2023-08-17 16:55:58.1692262558 src/cgi/md5_cgi.cpp:293 [INFO] : account=333333, token=d658cb2dfd46d28cbc69ca5db0e9339d3137322e31382e34362e, md5=5bca57194380c34002c0dd086a242ee7, fileName=pdf.png
+2023-08-17 16:55:58.1692262558 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 16:55:58.1692262558 src/util_cgi.cpp:152 [INFO] : token=d658cb2dfd46d28cbc69ca5db0e9339d3137322e31382e34362e, tmp_token=d658cb2dfd46d28cbc69ca5db0e9339d3137322e31382e34362e
+2023-08-17 16:55:58.1692262558 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-17 16:55:59.1692262559 src/cgi/upload_cgi.cpp:649 [INFO] : 333333上传成功[pdf.png, 大小: 25793, md5码: 5bca57194380c34002c0dd086a242ee7] 到本地
+2023-08-17 16:55:59.1692262559 src/cgi/upload_cgi.cpp:409 [INFO] : execlp fdfs_upload_file, cmd = docker cp ./pdf.png tracker:/tmp/pdf.png && docker exec tracker fdfs_upload_file /etc/fdfs/client.conf /tmp/pdf.png && docker exec tracker rm /tmp/pdf.png
+2023-08-17 16:55:59.1692262559 src/cgi/upload_cgi.cpp:422 [INFO] : execlp fdfs_upload_file, return fileId = 
+2023-08-17 16:55:59.1692262559 src/cgi/upload_cgi.cpp:428 [INFO] : [upload FAILED]
+2023-08-17 16:58:55.1692262735 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "333333",
+    "fileName": "db.md",
+    "md5": "e9f0ba08cfed073822555171af2db859",
+    "token": "d658cb2dfd46d28cbc69ca5db0e9339d3137322e31382e34362e"
+}
+
+2023-08-17 16:58:55.1692262735 src/cgi/md5_cgi.cpp:293 [INFO] : account=333333, token=d658cb2dfd46d28cbc69ca5db0e9339d3137322e31382e34362e, md5=e9f0ba08cfed073822555171af2db859, fileName=db.md
+2023-08-17 16:58:55.1692262735 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 16:58:55.1692262735 src/util_cgi.cpp:152 [INFO] : token=d658cb2dfd46d28cbc69ca5db0e9339d3137322e31382e34362e, tmp_token=d658cb2dfd46d28cbc69ca5db0e9339d3137322e31382e34362e
+2023-08-17 16:58:55.1692262735 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-17 16:58:55.1692262735 src/cgi/upload_cgi.cpp:649 [INFO] : 333333上传成功[db.md, 大小: 4277, md5码: e9f0ba08cfed073822555171af2db859] 到本地
+2023-08-17 16:58:55.1692262735 src/cgi/upload_cgi.cpp:409 [INFO] : execlp fdfs_upload_file, cmd = docker cp ./db.md tracker:/tmp/db.md && docker exec tracker fdfs_upload_file /etc/fdfs/client.conf /tmp/db.md && docker exec tracker rm /tmp/db.md
+2023-08-17 16:58:55.1692262735 src/cgi/upload_cgi.cpp:422 [INFO] : execlp fdfs_upload_file, return fileId = 
+2023-08-17 16:58:55.1692262735 src/cgi/upload_cgi.cpp:428 [INFO] : [upload FAILED]
+2023-08-17 17:02:11.1692262931 src/cgi/upload_cgi.cpp:121 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 17:02:12.1692262932 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-17 17:02:12.1692262932 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 17:02:12.1692262932 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 17:02:12.1692262932 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 17:02:12.1692262932 src/cgi/sharefiles_cgi.cpp:87 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 17:02:12.1692262932 src/cgi/sharefiles_cgi.cpp:92 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 17:02:12.1692262932 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 17:02:12.1692262932 src/cgi/dealsharefile_cgi.cpp:100 [INFO] : redis:[ip=172.18.46.97, port=6379], password=123456
+2023-08-17 17:02:26.1692262946 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "333333",
+    "fileName": "db.md",
+    "md5": "e9f0ba08cfed073822555171af2db859",
+    "token": "d658cb2dfd46d28cbc69ca5db0e9339d3137322e31382e34362e"
+}
+
+2023-08-17 17:02:26.1692262946 src/cgi/md5_cgi.cpp:293 [INFO] : account=333333, token=d658cb2dfd46d28cbc69ca5db0e9339d3137322e31382e34362e, md5=e9f0ba08cfed073822555171af2db859, fileName=db.md
+2023-08-17 17:02:26.1692262946 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 17:02:26.1692262946 src/util_cgi.cpp:152 [INFO] : token=d658cb2dfd46d28cbc69ca5db0e9339d3137322e31382e34362e, tmp_token=d658cb2dfd46d28cbc69ca5db0e9339d3137322e31382e34362e
+2023-08-17 17:02:26.1692262946 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-17 17:02:26.1692262946 src/cgi/upload_cgi.cpp:649 [INFO] : 333333上传成功[db.md, 大小: 4277, md5码: e9f0ba08cfed073822555171af2db859] 到本地
+2023-08-17 17:02:26.1692262946 src/cgi/upload_cgi.cpp:409 [INFO] : execlp fdfs_upload_file, cmd = docker cp ./db.md tracker:/home/db.md && docker exec tracker fdfs_upload_file /etc/fdfs/client.conf /home/db.md
+2023-08-17 17:02:26.1692262946 src/cgi/upload_cgi.cpp:422 [INFO] : execlp fdfs_upload_file, return fileId = 
+2023-08-17 17:02:26.1692262946 src/cgi/upload_cgi.cpp:428 [INFO] : [upload FAILED]
+
+=======================================================================================
+
+
+2023-08-17 17:12:46.1692263566 src/cgi/upload_cgi.cpp:121 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 17:12:46.1692263566 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-17 17:12:46.1692263566 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 17:12:46.1692263566 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 17:12:46.1692263566 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 17:12:46.1692263566 src/cgi/sharefiles_cgi.cpp:87 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 17:12:46.1692263566 src/cgi/sharefiles_cgi.cpp:92 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 17:12:46.1692263566 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 17:12:46.1692263566 src/cgi/dealsharefile_cgi.cpp:100 [INFO] : redis:[ip=172.18.46.97, port=6379], password=123456
+2023-08-17 17:12:55.1692263575 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "222222",
+    "fileName": "db.md",
+    "md5": "e9f0ba08cfed073822555171af2db859",
+    "token": "25cd9595c0e0f2550104e9fa90dbd8c43137322e31382e34362e"
+}
+
+2023-08-17 17:12:55.1692263575 src/cgi/md5_cgi.cpp:293 [INFO] : account=222222, token=25cd9595c0e0f2550104e9fa90dbd8c43137322e31382e34362e, md5=e9f0ba08cfed073822555171af2db859, fileName=db.md
+2023-08-17 17:12:55.1692263575 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 17:12:55.1692263575 src/util_cgi.cpp:152 [INFO] : token=25cd9595c0e0f2550104e9fa90dbd8c43137322e31382e34362e, tmp_token=25cd9595c0e0f2550104e9fa90dbd8c43137322e31382e34362e
+2023-08-17 17:12:55.1692263575 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-17 17:12:55.1692263575 src/cgi/upload_cgi.cpp:649 [INFO] : 222222上传成功[db.md, 大小: 4277, md5码: e9f0ba08cfed073822555171af2db859] 到本地
+2023-08-17 17:12:55.1692263575 src/cgi/upload_cgi.cpp:409 [INFO] : execlp fdfs_upload_file, cmd = docker cp /root/works/GraduationDesign/cloud_disk/server/db.md tracker:/tmp/db.md && docker exec tracker fdfs_upload_file /etc/fdfs/client.conf /tmp/db.md
+2023-08-17 17:12:55.1692263575 src/cgi/upload_cgi.cpp:422 [INFO] : execlp fdfs_upload_file, return fileId = 
+2023-08-17 17:12:55.1692263575 src/cgi/upload_cgi.cpp:428 [INFO] : [upload FAILED]
+2023-08-17 17:31:50.1692264710 src/cgi/upload_cgi.cpp:121 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 17:31:50.1692264710 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-17 17:31:50.1692264710 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 17:31:50.1692264710 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 17:31:50.1692264710 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 17:31:50.1692264710 src/cgi/sharefiles_cgi.cpp:87 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 17:31:50.1692264710 src/cgi/sharefiles_cgi.cpp:92 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 17:31:50.1692264710 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 17:31:50.1692264710 src/cgi/dealsharefile_cgi.cpp:100 [INFO] : redis:[ip=172.18.46.97, port=6379], password=123456
+2023-08-17 17:32:07.1692264727 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-17 17:32:07.1692264727 src/cgi/login_cgi.cpp:268 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-17 17:32:07.1692264727 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-17 17:32:07.1692264727 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = e3ceb5881a0a1fdaad01296d7554868d, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-17 17:32:07.1692264727 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 17:32:07.1692264727 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 17:32:07.1692264727 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 222222383120196959
+2023-08-17 17:32:07.1692264727 src/cgi/login_cgi.cpp:276 [INFO] : token = 795371d95bb93b640f1cce8cc54b1cd43137322e31382e34362e
+2023-08-17 17:32:14.1692264734 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "222222",
+    "fileName": "db.md",
+    "md5": "e9f0ba08cfed073822555171af2db859",
+    "token": "795371d95bb93b640f1cce8cc54b1cd43137322e31382e34362e"
+}
+
+2023-08-17 17:32:14.1692264734 src/cgi/md5_cgi.cpp:293 [INFO] : account=222222, token=795371d95bb93b640f1cce8cc54b1cd43137322e31382e34362e, md5=e9f0ba08cfed073822555171af2db859, fileName=db.md
+2023-08-17 17:32:14.1692264734 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 17:32:14.1692264734 src/util_cgi.cpp:152 [INFO] : token=795371d95bb93b640f1cce8cc54b1cd43137322e31382e34362e, tmp_token=795371d95bb93b640f1cce8cc54b1cd43137322e31382e34362e
+2023-08-17 17:32:14.1692264734 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-17 17:32:14.1692264734 src/cgi/upload_cgi.cpp:649 [INFO] : 222222上传成功[db.md, 大小: 4277, md5码: e9f0ba08cfed073822555171af2db859] 到本地
+2023-08-17 17:32:14.1692264734 src/cgi/upload_cgi.cpp:409 [INFO] : execlp fdfs_upload_file, cmd = docker cp ./db.md tracker:/tmp/db.md && docker exec tracker fdfs_upload_file /etc/fdfs/client.conf /tmp/db.md
+2023-08-17 17:32:14.1692264734 src/cgi/upload_cgi.cpp:422 [INFO] : execlp fdfs_upload_file, return fileId = group1/M00/00/00/rBIuYWTd6R6AdcPnAAAQtW6g7pQ5470.md
+
+2023-08-17 17:32:14.1692264734 src/cgi/upload_cgi.cpp:433 [INFO] : get [group1/M00/00/00/rBIuYWTd6R6AdcPnAAAQtW6g7pQ5470.md] success
+2023-08-17 17:32:14.1692264734 src/cgi/upload_cgi.cpp:485 [INFO] : execlp fdfs_file_info, cmd = docker exec tracker fdfs_file_info /etc/fdfs/client.conf group1/M00/00/00/rBIuYWTd6R6AdcPnAAAQtW6g7pQ5470.md
+2023-08-17 17:32:14.1692264734 src/cgi/upload_cgi.cpp:519 [INFO] : file url is: http://172.18.46.97:22122/group1/M00/00/00/rBIuYWTd6R6AdcPnAAAQtW6g7pQ5470.md
+2023-08-17 17:32:14.1692264734 src/cgi/upload_cgi.cpp:561 [INFO] : INSET INTO file_info (md5, file_id, url, size, type, count) VALUES ('e9f0ba08cfed073822555171af2db859', 'group1/M00/00/00/rBIuYWTd6R6AdcPnAAAQtW6g7pQ5470.md', 'http://172.18.46.97:22122/group1/M00/00/00/rBIuYWTd6R6AdcPnAAAQtW6g7pQ5470.md', 4277, 'md', 1) 插入失败: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSET INTO file_info (md5, file_id, url, size, type, count) VALUES ('e9f0ba08cfe' at line 1
+2023-08-17 17:42:33.1692265353 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "222222",
+    "fileName": "sudoku.hpp",
+    "md5": "aa422448347eac5469107689be965315",
+    "token": "795371d95bb93b640f1cce8cc54b1cd43137322e31382e34362e"
+}
+
+2023-08-17 17:42:33.1692265353 src/cgi/md5_cgi.cpp:293 [INFO] : account=222222, token=795371d95bb93b640f1cce8cc54b1cd43137322e31382e34362e, md5=aa422448347eac5469107689be965315, fileName=sudoku.hpp
+2023-08-17 17:42:33.1692265353 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 17:42:33.1692265353 src/util_cgi.cpp:152 [INFO] : token=795371d95bb93b640f1cce8cc54b1cd43137322e31382e34362e, tmp_token=795371d95bb93b640f1cce8cc54b1cd43137322e31382e34362e
+2023-08-17 17:42:33.1692265353 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-17 17:42:33.1692265353 src/cgi/upload_cgi.cpp:649 [INFO] : 222222上传成功[sudoku.hpp, 大小: 10368, md5码: aa422448347eac5469107689be965315] 到本地
+2023-08-17 17:42:33.1692265353 src/cgi/upload_cgi.cpp:409 [INFO] : execlp fdfs_upload_file, cmd = docker cp ./sudoku.hpp tracker:/tmp/sudoku.hpp && docker exec tracker fdfs_upload_file /etc/fdfs/client.conf /tmp/sudoku.hpp
+2023-08-17 17:42:33.1692265353 src/cgi/upload_cgi.cpp:422 [INFO] : execlp fdfs_upload_file, return fileId = group1/M00/00/00/rBIuYWTd64mARzwcAAAogC_Nsco255.hpp
+
+2023-08-17 17:42:33.1692265353 src/cgi/upload_cgi.cpp:433 [INFO] : get [group1/M00/00/00/rBIuYWTd64mARzwcAAAogC_Nsco255.hpp] success
+2023-08-17 17:42:33.1692265353 src/cgi/upload_cgi.cpp:485 [INFO] : execlp fdfs_file_info, cmd = docker exec tracker fdfs_file_info /etc/fdfs/client.conf group1/M00/00/00/rBIuYWTd64mARzwcAAAogC_Nsco255.hpp
+2023-08-17 17:42:33.1692265353 src/cgi/upload_cgi.cpp:519 [INFO] : file url is: http://172.18.46.97:8888/group1/M00/00/00/rBIuYWTd64mARzwcAAAogC_Nsco255.hpp
+2023-08-17 17:42:33.1692265353 src/cgi/upload_cgi.cpp:561 [INFO] : INSET INTO file_info (md5, file_id, url, size, type, count) VALUES ('aa422448347eac5469107689be965315', 'group1/M00/00/00/rBIuYWTd64mARzwcAAAogC_Nsco255.hpp', 'http://172.18.46.97:8888/group1/M00/00/00/rBIuYWTd64mARzwcAAAogC_Nsco255.hpp', 10368, 'hpp', 1) 插入失败: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSET INTO file_info (md5, file_id, url, size, type, count) VALUES ('aa422448347' at line 1
+2023-08-17 17:45:36.1692265536 src/cgi/upload_cgi.cpp:121 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 17:45:36.1692265536 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-17 17:45:36.1692265536 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 17:45:36.1692265536 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 17:45:36.1692265536 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 17:45:36.1692265536 src/cgi/sharefiles_cgi.cpp:87 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 17:45:36.1692265536 src/cgi/sharefiles_cgi.cpp:92 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 17:45:36.1692265536 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-17 17:45:36.1692265536 src/cgi/dealsharefile_cgi.cpp:100 [INFO] : redis:[ip=172.18.46.97, port=6379], password=123456
+2023-08-17 17:45:47.1692265547 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "444444",
+    "password": "73882ab1fa529d7273da0db6b49cc4f3"
+}
+
+2023-08-17 17:45:47.1692265547 src/cgi/login_cgi.cpp:268 [INFO] : account = 444444, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-17 17:45:47.1692265547 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-17 17:45:47.1692265547 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 73882ab1fa529d7273da0db6b49cc4f3, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-17 17:45:47.1692265547 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 17:45:47.1692265547 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 17:45:47.1692265547 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 44444458797124920
+2023-08-17 17:45:47.1692265547 src/cgi/login_cgi.cpp:276 [INFO] : token = f07fbc513a8ec382010ea7591f9c3c7b3137322e31382e34362e
+2023-08-17 17:45:59.1692265559 src/cgi/md5_cgi.cpp:272 [INFO] : buf = {
+    "account": "444444",
+    "fileName": "k-on-5.jpg",
+    "md5": "930081120c8d8cf76f8beb0b28b1d8b2",
+    "token": "f07fbc513a8ec382010ea7591f9c3c7b3137322e31382e34362e"
+}
+
+2023-08-17 17:45:59.1692265559 src/cgi/md5_cgi.cpp:293 [INFO] : account=444444, token=f07fbc513a8ec382010ea7591f9c3c7b3137322e31382e34362e, md5=930081120c8d8cf76f8beb0b28b1d8b2, fileName=k-on-5.jpg
+2023-08-17 17:45:59.1692265559 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 17:45:59.1692265559 src/util_cgi.cpp:152 [INFO] : token=f07fbc513a8ec382010ea7591f9c3c7b3137322e31382e34362e, tmp_token=f07fbc513a8ec382010ea7591f9c3c7b3137322e31382e34362e
+2023-08-17 17:45:59.1692265559 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-17 17:46:00.1692265560 src/cgi/upload_cgi.cpp:649 [INFO] : 444444上传成功[k-on-5.jpg, 大小: 770638, md5码: 930081120c8d8cf76f8beb0b28b1d8b2] 到本地
+2023-08-17 17:46:00.1692265560 src/cgi/upload_cgi.cpp:409 [INFO] : execlp fdfs_upload_file, cmd = docker cp ./k-on-5.jpg tracker:/tmp/k-on-5.jpg && docker exec tracker fdfs_upload_file /etc/fdfs/client.conf /tmp/k-on-5.jpg && docker exec tracker rm /tmp/k-on-5.jpg
+2023-08-17 17:46:00.1692265560 src/cgi/upload_cgi.cpp:422 [INFO] : execlp fdfs_upload_file, return fileId = group1/M00/00/00/rBIuYWTd7FiAMx0zAAvCTpUoUb8557.jpg
+
+2023-08-17 17:46:00.1692265560 src/cgi/upload_cgi.cpp:433 [INFO] : get [group1/M00/00/00/rBIuYWTd7FiAMx0zAAvCTpUoUb8557.jpg] success
+2023-08-17 17:46:00.1692265560 src/cgi/upload_cgi.cpp:485 [INFO] : execlp fdfs_file_info, cmd = docker exec tracker fdfs_file_info /etc/fdfs/client.conf group1/M00/00/00/rBIuYWTd7FiAMx0zAAvCTpUoUb8557.jpg
+2023-08-17 17:46:00.1692265560 src/cgi/upload_cgi.cpp:519 [INFO] : file url is: http://172.18.46.97:8888/group1/M00/00/00/rBIuYWTd7FiAMx0zAAvCTpUoUb8557.jpg
+2023-08-17 17:46:00.1692265560 src/cgi/upload_cgi.cpp:565 [INFO] : INSERT INTO file_info (md5, file_id, url, size, type, count) VALUES ('930081120c8d8cf76f8beb0b28b1d8b2', 'group1/M00/00/00/rBIuYWTd7FiAMx0zAAvCTpUoUb8557.jpg', 'http://172.18.46.97:8888/group1/M00/00/00/rBIuYWTd7FiAMx0zAAvCTpUoUb8557.jpg', 770638, 'jpg', 1) 文件信息插入成功
+2023-08-17 18:47:02.1692269222 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "444444",
+    "password": "73882ab1fa529d7273da0db6b49cc4f3"
+}
+
+2023-08-17 18:47:02.1692269222 src/cgi/login_cgi.cpp:268 [INFO] : account = 444444, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-17 18:47:02.1692269222 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-17 18:47:02.1692269222 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 73882ab1fa529d7273da0db6b49cc4f3, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-17 18:47:02.1692269222 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-17 18:47:02.1692269222 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 18:47:02.1692269222 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 444444858868207381
+2023-08-17 18:47:02.1692269222 src/cgi/login_cgi.cpp:276 [INFO] : token = 7fdba82b23ae26fc05be7c10bab650453137322e31382e34362e
+2023-08-17 18:47:05.1692269225 src/cgi/myfiles_cgi.cpp:422 [INFO] : cmd = count
+2023-08-17 18:47:05.1692269225 src/cgi/myfiles_cgi.cpp:447 [INFO] : buf = {
+    "account": "444444",
+    "token": "7fdba82b23ae26fc05be7c10bab650453137322e31382e34362e"
+}
+
+2023-08-17 18:47:05.1692269225 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-17 18:47:05.1692269225 src/util_cgi.cpp:152 [INFO] : token=7fdba82b23ae26fc05be7c10bab650453137322e31382e34362e, tmp_token=7fdba82b23ae26fc05be7c10bab650453137322e31382e34362e
+2023-08-17 18:47:05.1692269225 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-17 18:47:05.1692269225 src/cgi/myfiles_cgi.cpp:178 [INFO] : SELECT count FROM account_file_count WHERE account='444444' 操作失败

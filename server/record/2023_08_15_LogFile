@@ -1,0 +1,764 @@
+2023-08-15 09:58:54.1692064734 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 09:58:54.1692064734 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-15 09:58:54.1692064734 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 09:58:54.1692064734 src/cgi/dealfile_cgi.cpp:110 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 09:58:54.1692064734 src/cgi/dealfile_cgi.cpp:114 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 09:58:55.1692064735 src/cgi/sharefiles_cgi.cpp:86 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 09:58:55.1692064735 src/cgi/sharefiles_cgi.cpp:90 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 09:58:55.1692064735 src/cgi/dealsharefile_cgi.cpp:94 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 09:58:55.1692064735 src/cgi/dealsharefile_cgi.cpp:98 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 09:59:12.1692064752 src/cgi/login_cgi.cpp:260 [INFO] : buf = {
+    "account": "123456",
+    "password": "e10adc3949ba59abbe56e057f20f883e"
+}
+
+2023-08-15 09:59:12.1692064752 src/cgi/login_cgi.cpp:266 [INFO] :
+2023-08-15 09:59:12.1692064752 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 09:59:32.1692064772 src/cgi/enroll_cgi.cpp:197 [INFO] : buf={
+    "account": "111111",
+    "email": "111@iaee.top",
+    "password": "111111",
+    "phone": "11111111111"
+}
+
+2023-08-15 09:59:32.1692064772 src/cgi/enroll_cgi.cpp:107 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 09:59:32.1692064772 src/cgi/enroll_cgi.cpp:120 [INFO] : account=111111, password=111111, phone=11111111111, email=111@iaee.top
+2023-08-15 09:59:32.1692064772 src/cgi/enroll_cgi.cpp:136 [INFO] : 【(null)】该用户已存在
+2023-08-15 10:00:17.1692064817 src/cgi/login_cgi.cpp:260 [INFO] : buf = {
+    "account": "111111",
+    "password": "96e79218965eb72c92a549dd5a330112"
+}
+
+2023-08-15 10:00:17.1692064817 src/cgi/login_cgi.cpp:266 [INFO] :
+2023-08-15 10:00:17.1692064817 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 10:41:45.1692067305 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 10:41:45.1692067305 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-15 10:41:45.1692067305 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 10:41:45.1692067305 src/cgi/dealfile_cgi.cpp:110 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 10:41:45.1692067305 src/cgi/dealfile_cgi.cpp:114 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 10:41:45.1692067305 src/cgi/sharefiles_cgi.cpp:86 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 10:41:45.1692067305 src/cgi/sharefiles_cgi.cpp:90 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 10:41:45.1692067305 src/cgi/dealsharefile_cgi.cpp:94 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 10:41:45.1692067305 src/cgi/dealsharefile_cgi.cpp:98 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 10:43:04.1692067384 src/cgi/enroll_cgi.cpp:197 [INFO] : buf={
+    "account": "111222",
+    "email": "121@iaee.top",
+    "password": "111222",
+    "phone": "11111111111"
+}
+
+2023-08-15 10:43:04.1692067384 src/cgi/enroll_cgi.cpp:107 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 10:43:04.1692067384 src/cgi/enroll_cgi.cpp:120 [INFO] : account=111222, password=111222, phone=11111111111, email=121@iaee.top
+2023-08-15 10:43:10.1692067390 src/cgi/enroll_cgi.cpp:197 [INFO] : buf={
+    "account": "111222",
+    "email": "121@iaee.top",
+    "password": "111222",
+    "phone": "11111111111"
+}
+
+2023-08-15 10:43:10.1692067390 src/cgi/enroll_cgi.cpp:107 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 10:43:10.1692067390 src/cgi/enroll_cgi.cpp:120 [INFO] : account=111222, password=111222, phone=11111111111, email=121@iaee.top
+2023-08-15 10:43:10.1692067390 src/cgi/enroll_cgi.cpp:136 [INFO] : 【(null)】该用户已存在
+2023-08-15 10:44:11.1692067451 src/cgi/login_cgi.cpp:260 [INFO] : buf = {
+    "account": "111222",
+    "password": "00b7691d86d96aebd21dd9e138f90840"
+}
+
+2023-08-15 10:44:11.1692067451 src/cgi/login_cgi.cpp:266 [INFO] :
+2023-08-15 10:44:11.1692067451 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 10:50:56.1692067856 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 10:50:56.1692067856 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-15 10:50:56.1692067856 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 10:50:56.1692067856 src/cgi/dealfile_cgi.cpp:110 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 10:50:56.1692067856 src/cgi/dealfile_cgi.cpp:114 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 10:50:56.1692067856 src/cgi/sharefiles_cgi.cpp:86 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 10:50:56.1692067856 src/cgi/sharefiles_cgi.cpp:90 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 10:50:56.1692067856 src/cgi/dealsharefile_cgi.cpp:94 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 10:50:56.1692067856 src/cgi/dealsharefile_cgi.cpp:98 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 10:51:48.1692067908 src/cgi/enroll_cgi.cpp:199 [INFO] : buf={
+    "account": "111111",
+    "email": "111@iaee.top",
+    "password": "111111",
+    "phone": "11111111111"
+}
+
+2023-08-15 10:51:48.1692067908 src/cgi/enroll_cgi.cpp:107 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 10:51:48.1692067908 src/cgi/enroll_cgi.cpp:120 [INFO] : account=111111, password=111111, phone=11111111111, email=111@iaee.top
+2023-08-15 10:51:48.1692067908 src/cgi/enroll_cgi.cpp:132 [INFO] : select account sql_cmd: SELECT * FROM account_info WHERE account = '111111'
+2023-08-15 10:51:48.1692067908 src/cgi/enroll_cgi.cpp:138 [INFO] : 【111111】该用户已存在
+2023-08-15 10:53:01.1692067981 src/cgi/enroll_cgi.cpp:199 [INFO] : buf={
+    "account": "222222",
+    "email": "222@iaee.top",
+    "password": "222222",
+    "phone": "11111111111"
+}
+
+2023-08-15 10:53:01.1692067981 src/cgi/enroll_cgi.cpp:107 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 10:53:01.1692067981 src/cgi/enroll_cgi.cpp:120 [INFO] : account=222222, password=222222, phone=11111111111, email=222@iaee.top
+2023-08-15 10:53:01.1692067981 src/cgi/enroll_cgi.cpp:132 [INFO] : select account sql_cmd: SELECT * FROM account_info WHERE account = '222222'
+2023-08-15 11:00:36.1692068436 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 11:00:36.1692068436 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-15 11:00:36.1692068436 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 11:00:36.1692068436 src/cgi/dealfile_cgi.cpp:110 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 11:00:36.1692068436 src/cgi/dealfile_cgi.cpp:114 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 11:00:36.1692068436 src/cgi/sharefiles_cgi.cpp:86 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 11:00:36.1692068436 src/cgi/sharefiles_cgi.cpp:90 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 11:00:36.1692068436 src/cgi/dealsharefile_cgi.cpp:94 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 11:00:36.1692068436 src/cgi/dealsharefile_cgi.cpp:98 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 11:00:58.1692068458 src/cgi/login_cgi.cpp:260 [INFO] : buf = {
+    "account": "111111",
+    "password": "96e79218965eb72c92a549dd5a330112"
+}
+
+2023-08-15 11:00:58.1692068458 src/cgi/login_cgi.cpp:266 [INFO] :
+2023-08-15 11:00:58.1692068458 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 11:01:19.1692068479 src/cgi/enroll_cgi.cpp:199 [INFO] : buf={
+    "account": "111111",
+    "email": "111@iaee.top",
+    "password": "111111",
+    "phone": "11111111111"
+}
+
+2023-08-15 11:01:19.1692068479 src/cgi/enroll_cgi.cpp:107 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 11:01:19.1692068479 src/cgi/enroll_cgi.cpp:120 [INFO] : account=111111, password=111111, phone=11111111111, email=111@iaee.top
+2023-08-15 11:01:19.1692068479 src/cgi/enroll_cgi.cpp:132 [INFO] : select account sql_cmd: SELECT * FROM account_info WHERE account = '111111'
+2023-08-15 11:01:19.1692068479 src/cgi/enroll_cgi.cpp:138 [INFO] : 【111111】该用户已存在
+2023-08-15 11:01:19.1692068479 src/cgi/enroll_cgi.cpp:206 [INFO] : account_enroll(buf) ret = -2
+2023-08-15 11:05:47.1692068747 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 11:05:47.1692068747 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-15 11:05:47.1692068747 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 11:05:47.1692068747 src/cgi/dealfile_cgi.cpp:110 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 11:05:47.1692068747 src/cgi/dealfile_cgi.cpp:114 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 11:05:47.1692068747 src/cgi/sharefiles_cgi.cpp:86 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 11:05:47.1692068747 src/cgi/sharefiles_cgi.cpp:90 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 11:05:48.1692068748 src/cgi/dealsharefile_cgi.cpp:94 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 11:05:48.1692068748 src/cgi/dealsharefile_cgi.cpp:98 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 11:06:21.1692068781 src/cgi/enroll_cgi.cpp:199 [INFO] : buf={
+    "account": "111111",
+    "email": "111@iaee.top",
+    "password": "111111",
+    "phone": "11111111111"
+}
+
+2023-08-15 11:06:21.1692068781 src/cgi/enroll_cgi.cpp:107 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 11:06:21.1692068781 src/cgi/enroll_cgi.cpp:120 [INFO] : account=111111, password=111111, phone=11111111111, email=111@iaee.top
+2023-08-15 11:06:21.1692068781 src/cgi/enroll_cgi.cpp:132 [INFO] : select account sql_cmd: SELECT * FROM account_info WHERE account = '111111'
+2023-08-15 11:06:21.1692068781 src/cgi/enroll_cgi.cpp:138 [INFO] : 【111111】该用户已存在
+2023-08-15 11:06:21.1692068781 src/cgi/enroll_cgi.cpp:206 [INFO] : account_enroll(buf) ret = -2
+2023-08-15 11:06:21.1692068781 src/util_cgi.cpp:124 [INFO] : out1 = {
+	"code":	"003"
+}
+2023-08-15 11:06:21.1692068781 src/util_cgi.cpp:126 [INFO] : out2 = {
+	"code":	"003"
+}
+
+
+
+
+2023-08-15 11:09:33.1692068973 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 11:09:34.1692068974 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-15 11:09:34.1692068974 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 11:09:34.1692068974 src/cgi/dealfile_cgi.cpp:110 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 11:09:34.1692068974 src/cgi/dealfile_cgi.cpp:114 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 11:09:34.1692068974 src/cgi/sharefiles_cgi.cpp:86 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 11:09:34.1692068974 src/cgi/sharefiles_cgi.cpp:90 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 11:09:34.1692068974 src/cgi/dealsharefile_cgi.cpp:94 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 11:09:34.1692068974 src/cgi/dealsharefile_cgi.cpp:98 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 11:09:39.1692068979 src/cgi/enroll_cgi.cpp:199 [INFO] : buf={
+    "account": "111111",
+    "email": "111@iaee.top",
+    "password": "111111",
+    "phone": "11111111111"
+}
+
+2023-08-15 11:09:39.1692068979 src/cgi/enroll_cgi.cpp:107 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 11:09:39.1692068979 src/cgi/enroll_cgi.cpp:120 [INFO] : account=111111, password=111111, phone=11111111111, email=111@iaee.top
+2023-08-15 11:09:39.1692068979 src/cgi/enroll_cgi.cpp:132 [INFO] : select account sql_cmd: SELECT * FROM account_info WHERE account = '111111'
+2023-08-15 11:09:39.1692068979 src/cgi/enroll_cgi.cpp:138 [INFO] : 【111111】该用户已存在
+2023-08-15 11:09:39.1692068979 src/cgi/enroll_cgi.cpp:206 [INFO] : account_enroll(buf) ret = -2
+2023-08-15 11:09:39.1692068979 src/cgi/enroll_cgi.cpp:217 [INFO] : ret = -2, return_status() = {
+	"code":	"003"
+}
+2023-08-15 11:09:43.1692068983 src/cgi/enroll_cgi.cpp:199 [INFO] : buf={
+    "account": "111111",
+    "email": "111@iaee.top",
+    "password": "111111",
+    "phone": "11111111111"
+}
+
+2023-08-15 11:09:43.1692068983 src/cgi/enroll_cgi.cpp:107 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 11:09:43.1692068983 src/cgi/enroll_cgi.cpp:120 [INFO] : account=111111, password=111111, phone=11111111111, email=111@iaee.top
+2023-08-15 11:09:43.1692068983 src/cgi/enroll_cgi.cpp:132 [INFO] : select account sql_cmd: SELECT * FROM account_info WHERE account = '111111'
+2023-08-15 11:09:43.1692068983 src/cgi/enroll_cgi.cpp:138 [INFO] : 【111111】该用户已存在
+2023-08-15 11:09:43.1692068983 src/cgi/enroll_cgi.cpp:206 [INFO] : account_enroll(buf) ret = -2
+2023-08-15 11:09:43.1692068983 src/cgi/enroll_cgi.cpp:217 [INFO] : ret = -2, return_status() = {
+	"code":	"003"
+}
+2023-08-15 11:16:22.1692069382 src/cgi/enroll_cgi.cpp:199 [INFO] : buf={
+    "account": "111111",
+    "email": "111@iaee.top",
+    "password": "111111",
+    "phone": "11111111111"
+}
+
+2023-08-15 11:16:22.1692069382 src/cgi/enroll_cgi.cpp:107 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 11:16:22.1692069382 src/cgi/enroll_cgi.cpp:120 [INFO] : account=111111, password=111111, phone=11111111111, email=111@iaee.top
+2023-08-15 11:16:22.1692069382 src/cgi/enroll_cgi.cpp:132 [INFO] : select account sql_cmd: SELECT * FROM account_info WHERE account = '111111'
+2023-08-15 11:16:22.1692069382 src/cgi/enroll_cgi.cpp:138 [INFO] : 【111111】该用户已存在
+2023-08-15 11:16:22.1692069382 src/cgi/enroll_cgi.cpp:206 [INFO] : account_enroll(buf) ret = -2
+2023-08-15 11:16:22.1692069382 src/cgi/enroll_cgi.cpp:217 [INFO] : ret = -2, return_status() = {
+	"code":	"003"
+}
+2023-08-15 11:18:57.1692069537 src/cgi/enroll_cgi.cpp:199 [INFO] : buf={
+    "account": "111111",
+    "email": "111@iaee.top",
+    "password": "111111",
+    "phone": "11111111111"
+}
+
+2023-08-15 11:18:57.1692069537 src/cgi/enroll_cgi.cpp:107 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 11:18:57.1692069537 src/cgi/enroll_cgi.cpp:120 [INFO] : account=111111, password=111111, phone=11111111111, email=111@iaee.top
+2023-08-15 11:18:57.1692069537 src/cgi/enroll_cgi.cpp:132 [INFO] : select account sql_cmd: SELECT * FROM account_info WHERE account = '111111'
+2023-08-15 11:18:57.1692069537 src/cgi/enroll_cgi.cpp:138 [INFO] : 【111111】该用户已存在
+2023-08-15 11:18:57.1692069537 src/cgi/enroll_cgi.cpp:206 [INFO] : account_enroll(buf) ret = -2
+2023-08-15 11:18:57.1692069537 src/cgi/enroll_cgi.cpp:217 [INFO] : ret = -2, return_status() = {
+	"code":	"003"
+}
+2023-08-15 11:22:31.1692069751 src/cgi/enroll_cgi.cpp:199 [INFO] : buf={
+    "account": "111111",
+    "email": "111@iaee.top",
+    "password": "111111",
+    "phone": "11111111111"
+}
+
+2023-08-15 11:22:31.1692069751 src/cgi/enroll_cgi.cpp:107 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 11:22:31.1692069751 src/cgi/enroll_cgi.cpp:120 [INFO] : account=111111, password=111111, phone=11111111111, email=111@iaee.top
+2023-08-15 11:22:31.1692069751 src/cgi/enroll_cgi.cpp:132 [INFO] : select account sql_cmd: SELECT * FROM account_info WHERE account = '111111'
+2023-08-15 11:22:31.1692069751 src/cgi/enroll_cgi.cpp:138 [INFO] : 【111111】该用户已存在
+2023-08-15 11:22:31.1692069751 src/cgi/enroll_cgi.cpp:206 [INFO] : account_enroll(buf) ret = -2
+2023-08-15 11:22:31.1692069751 src/cgi/enroll_cgi.cpp:217 [INFO] : ret = -2, return_status() = {
+	"code":	"003"
+}
+2023-08-15 11:29:30.1692070170 src/cgi/enroll_cgi.cpp:199 [INFO] : buf={
+    "account": "111111",
+    "email": "111@iaee.top",
+    "password": "111111",
+    "phone": "11111111111"
+}
+
+2023-08-15 11:29:30.1692070170 src/cgi/enroll_cgi.cpp:107 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 11:29:30.1692070170 src/cgi/enroll_cgi.cpp:120 [INFO] : account=111111, password=111111, phone=11111111111, email=111@iaee.top
+2023-08-15 11:29:30.1692070170 src/cgi/enroll_cgi.cpp:132 [INFO] : select account sql_cmd: SELECT * FROM account_info WHERE account = '111111'
+2023-08-15 11:29:30.1692070170 src/cgi/enroll_cgi.cpp:138 [INFO] : 【111111】该用户已存在
+2023-08-15 11:29:30.1692070170 src/cgi/enroll_cgi.cpp:206 [INFO] : account_enroll(buf) ret = -2
+2023-08-15 11:29:30.1692070170 src/cgi/enroll_cgi.cpp:217 [INFO] : ret = -2, return_status() = {
+	"code":	"003"
+}
+2023-08-15 11:33:07.1692070387 src/cgi/enroll_cgi.cpp:199 [INFO] : buf={
+    "account": "111111",
+    "email": "111@iaee.top",
+    "password": "111111",
+    "phone": "11111111111"
+}
+
+2023-08-15 11:33:07.1692070387 src/cgi/enroll_cgi.cpp:107 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 11:33:07.1692070387 src/cgi/enroll_cgi.cpp:120 [INFO] : account=111111, password=111111, phone=11111111111, email=111@iaee.top
+2023-08-15 11:33:07.1692070387 src/cgi/enroll_cgi.cpp:132 [INFO] : select account sql_cmd: SELECT * FROM account_info WHERE account = '111111'
+2023-08-15 11:33:07.1692070387 src/cgi/enroll_cgi.cpp:138 [INFO] : 【111111】该用户已存在
+2023-08-15 11:33:07.1692070387 src/cgi/enroll_cgi.cpp:206 [INFO] : account_enroll(buf) ret = -2
+2023-08-15 11:33:07.1692070387 src/cgi/enroll_cgi.cpp:217 [INFO] : ret = -2, return_status() = {
+	"code":	"003"
+}
+2023-08-15 11:36:01.1692070561 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 11:36:01.1692070561 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-15 11:36:02.1692070562 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 11:36:02.1692070562 src/cgi/dealfile_cgi.cpp:110 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 11:36:02.1692070562 src/cgi/dealfile_cgi.cpp:114 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 11:36:02.1692070562 src/cgi/sharefiles_cgi.cpp:86 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 11:36:02.1692070562 src/cgi/sharefiles_cgi.cpp:90 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 11:36:02.1692070562 src/cgi/dealsharefile_cgi.cpp:94 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 11:36:02.1692070562 src/cgi/dealsharefile_cgi.cpp:98 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 11:36:30.1692070590 src/cgi/enroll_cgi.cpp:199 [INFO] : buf={
+    "account": "111111",
+    "email": "111@iaee.top",
+    "password": "111111",
+    "phone": "11111111111"
+}
+
+2023-08-15 11:36:30.1692070590 src/cgi/enroll_cgi.cpp:107 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 11:36:30.1692070590 src/cgi/enroll_cgi.cpp:120 [INFO] : account=111111, password=111111, phone=11111111111, email=111@iaee.top
+2023-08-15 11:36:30.1692070590 src/cgi/enroll_cgi.cpp:132 [INFO] : select account sql_cmd: SELECT * FROM account_info WHERE account = '111111'
+2023-08-15 11:36:30.1692070590 src/cgi/enroll_cgi.cpp:138 [INFO] : 【111111】该用户已存在
+2023-08-15 11:36:30.1692070590 src/cgi/enroll_cgi.cpp:216 [INFO] : ret = -2, return_status() = {
+	"code":	"003"
+}
+2023-08-15 11:37:00.1692070620 src/cgi/enroll_cgi.cpp:199 [INFO] : buf={
+    "account": "222222",
+    "email": "111@iaee.top",
+    "password": "222222",
+    "phone": "11111111111"
+}
+
+2023-08-15 11:37:00.1692070620 src/cgi/enroll_cgi.cpp:107 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 11:37:00.1692070620 src/cgi/enroll_cgi.cpp:120 [INFO] : account=222222, password=222222, phone=11111111111, email=111@iaee.top
+2023-08-15 11:37:00.1692070620 src/cgi/enroll_cgi.cpp:132 [INFO] : select account sql_cmd: SELECT * FROM account_info WHERE account = '222222'
+2023-08-15 11:37:00.1692070620 src/cgi/enroll_cgi.cpp:138 [INFO] : 【222222】该用户已存在
+2023-08-15 11:37:00.1692070620 src/cgi/enroll_cgi.cpp:216 [INFO] : ret = -2, return_status() = {
+	"code":	"003"
+}
+2023-08-15 11:37:16.1692070636 src/cgi/enroll_cgi.cpp:199 [INFO] : buf={
+    "account": "333333",
+    "email": "111@iaee.top",
+    "password": "333333",
+    "phone": "11111111111"
+}
+
+2023-08-15 11:37:16.1692070636 src/cgi/enroll_cgi.cpp:107 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 11:37:16.1692070636 src/cgi/enroll_cgi.cpp:120 [INFO] : account=333333, password=333333, phone=11111111111, email=111@iaee.top
+2023-08-15 11:37:16.1692070636 src/cgi/enroll_cgi.cpp:132 [INFO] : select account sql_cmd: SELECT * FROM account_info WHERE account = '333333'
+2023-08-15 11:37:16.1692070636 src/cgi/enroll_cgi.cpp:216 [INFO] : ret = 0, return_status() = {
+	"code":	"002"
+}
+2023-08-15 11:39:22.1692070762 src/cgi/login_cgi.cpp:260 [INFO] : buf = {
+    "account": "111111",
+    "password": "96e79218965eb72c92a549dd5a330112"
+}
+
+2023-08-15 11:39:22.1692070762 src/cgi/login_cgi.cpp:266 [INFO] :
+2023-08-15 11:39:22.1692070762 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 12:11:10.1692072670 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 12:11:10.1692072670 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-15 12:11:10.1692072670 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 12:11:10.1692072670 src/cgi/dealfile_cgi.cpp:110 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 12:11:10.1692072670 src/cgi/dealfile_cgi.cpp:114 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 12:11:10.1692072670 src/cgi/sharefiles_cgi.cpp:86 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 12:11:10.1692072670 src/cgi/sharefiles_cgi.cpp:90 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 12:11:11.1692072671 src/cgi/dealsharefile_cgi.cpp:94 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 12:11:11.1692072671 src/cgi/dealsharefile_cgi.cpp:98 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 12:11:27.1692072687 src/cgi/login_cgi.cpp:260 [INFO] : buf = {
+    "account": "111111",
+    "password": "96e79218965eb72c92a549dd5a330112"
+}
+
+2023-08-15 12:11:27.1692072687 src/cgi/login_cgi.cpp:266 [INFO] : account = 111111, password = 96e79218965eb72c92a549dd5a330112
+2023-08-15 12:11:27.1692072687 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 12:16:18.1692072978 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 12:16:18.1692072978 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-15 12:16:18.1692072978 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 12:16:18.1692072978 src/cgi/dealfile_cgi.cpp:110 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 12:16:18.1692072978 src/cgi/dealfile_cgi.cpp:114 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 12:16:18.1692072978 src/cgi/sharefiles_cgi.cpp:86 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 12:16:18.1692072978 src/cgi/sharefiles_cgi.cpp:90 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 12:16:19.1692072979 src/cgi/dealsharefile_cgi.cpp:94 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 12:16:19.1692072979 src/cgi/dealsharefile_cgi.cpp:98 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 12:16:33.1692072993 src/cgi/login_cgi.cpp:260 [INFO] : buf = {
+    "account": "111111",
+    "password": "96e79218965eb72c92a549dd5a330112"
+}
+
+2023-08-15 12:16:33.1692072993 src/cgi/login_cgi.cpp:266 [INFO] : account = 111111, password = 96e79218965eb72c92a549dd5a330112
+2023-08-15 12:16:33.1692072993 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 12:25:01.1692073501 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 12:25:01.1692073501 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-15 12:25:01.1692073501 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 12:25:01.1692073501 src/cgi/dealfile_cgi.cpp:110 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 12:25:01.1692073501 src/cgi/dealfile_cgi.cpp:114 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 12:25:01.1692073501 src/cgi/sharefiles_cgi.cpp:86 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 12:25:01.1692073501 src/cgi/sharefiles_cgi.cpp:90 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 12:25:01.1692073501 src/cgi/dealsharefile_cgi.cpp:94 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 12:25:01.1692073501 src/cgi/dealsharefile_cgi.cpp:98 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 12:25:16.1692073516 src/cgi/login_cgi.cpp:261 [INFO] : buf = {
+    "account": "111111",
+    "password": "96e79218965eb72c92a549dd5a330112"
+}
+
+2023-08-15 12:25:16.1692073516 src/cgi/login_cgi.cpp:267 [INFO] : account = 111111, password = 96e79218965eb72c92a549dd5a330112
+2023-08-15 12:25:16.1692073516 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 12:25:16.1692073516 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 111111, password = 96e79218965eb72c92a549dd5a330112
+2023-08-15 12:25:27.1692073527 src/cgi/login_cgi.cpp:261 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-15 12:25:27.1692073527 src/cgi/login_cgi.cpp:267 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-15 12:25:27.1692073527 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 12:25:27.1692073527 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-15 13:41:21.1692078081 src/cgi/enroll_cgi.cpp:199 [INFO] : buf={
+    "account": "111111",
+    "email": "111@iaee.top",
+    "password": "111111",
+    "phone": "11111111111"
+}
+
+2023-08-15 13:41:21.1692078081 src/cgi/enroll_cgi.cpp:107 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 13:41:21.1692078081 src/cgi/enroll_cgi.cpp:120 [INFO] : account=111111, password=111111, phone=11111111111, email=111@iaee.top
+2023-08-15 13:41:21.1692078081 src/cgi/enroll_cgi.cpp:132 [INFO] : select account sql_cmd: SELECT * FROM account_info WHERE account = '111111'
+2023-08-15 13:41:21.1692078081 src/cgi/enroll_cgi.cpp:216 [INFO] : ret = 0, return_status() = {
+	"code":	"002"
+}
+2023-08-15 13:41:32.1692078092 src/cgi/login_cgi.cpp:261 [INFO] : buf = {
+    "account": "111111",
+    "password": "96e79218965eb72c92a549dd5a330112"
+}
+
+2023-08-15 13:41:32.1692078092 src/cgi/login_cgi.cpp:267 [INFO] : account = 111111, password = 96e79218965eb72c92a549dd5a330112
+2023-08-15 13:41:32.1692078092 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 13:41:32.1692078092 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 111111, password = 96e79218965eb72c92a549dd5a330112
+2023-08-15 13:47:40.1692078460 src/cgi/login_cgi.cpp:261 [INFO] : buf = {
+    "account": "111111",
+    "password": "96e79218965eb72c92a549dd5a330112"
+}
+
+2023-08-15 13:47:40.1692078460 src/cgi/login_cgi.cpp:267 [INFO] : account = 111111, password = 96e79218965eb72c92a549dd5a330112
+2023-08-15 13:47:40.1692078460 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 13:47:40.1692078460 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 111111, password = 96e79218965eb72c92a549dd5a330112
+2023-08-15 13:47:50.1692078470 src/cgi/login_cgi.cpp:261 [INFO] : buf = {
+    "account": "111111",
+    "password": "96e79218965eb72c92a549dd5a330112"
+}
+
+2023-08-15 13:47:50.1692078470 src/cgi/login_cgi.cpp:267 [INFO] : account = 111111, password = 96e79218965eb72c92a549dd5a330112
+2023-08-15 13:47:50.1692078470 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 13:47:50.1692078470 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 111111, password = 96e79218965eb72c92a549dd5a330112
+2023-08-15 13:51:10.1692078670 src/cgi/login_cgi.cpp:261 [INFO] : buf = {
+    "account": "111111",
+    "password": "96e79218965eb72c92a549dd5a330112"
+}
+
+2023-08-15 13:51:10.1692078670 src/cgi/login_cgi.cpp:267 [INFO] : account = 111111, password = 96e79218965eb72c92a549dd5a330112
+2023-08-15 13:51:10.1692078670 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 13:51:10.1692078670 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 111111, password = 96e79218965eb72c92a549dd5a330112
+2023-08-15 13:52:08.1692078728 src/cgi/login_cgi.cpp:261 [INFO] : buf = {
+    "account": "111111",
+    "password": "96e79218965eb72c92a549dd5a330112"
+}
+
+2023-08-15 13:52:08.1692078728 src/cgi/login_cgi.cpp:267 [INFO] : account = 111111, password = 96e79218965eb72c92a549dd5a330112
+2023-08-15 13:52:08.1692078728 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 13:52:09.1692078729 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 111111, password = 96e79218965eb72c92a549dd5a330112
+2023-08-15 13:53:05.1692078785 src/cgi/login_cgi.cpp:261 [INFO] : buf = {
+    "account": "111111",
+    "password": "96e79218965eb72c92a549dd5a330112"
+}
+
+2023-08-15 13:53:05.1692078785 src/cgi/login_cgi.cpp:267 [INFO] : account = 111111, password = 96e79218965eb72c92a549dd5a330112
+2023-08-15 13:53:05.1692078785 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 13:53:05.1692078785 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 111111, password = 96e79218965eb72c92a549dd5a330112
+2023-08-15 13:56:30.1692078990 src/cgi/enroll_cgi.cpp:199 [INFO] : buf={
+    "account": "222222",
+    "email": "111@iaee.top",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d",
+    "phone": "11111111111"
+}
+
+2023-08-15 13:56:30.1692078990 src/cgi/enroll_cgi.cpp:107 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 13:56:30.1692078990 src/cgi/enroll_cgi.cpp:120 [INFO] : account=222222, password=e3ceb5881a0a1fdaad01296d7554868d, phone=11111111111, email=111@iaee.top
+2023-08-15 13:56:30.1692078990 src/cgi/enroll_cgi.cpp:132 [INFO] : select account sql_cmd: SELECT * FROM account_info WHERE account = '222222'
+2023-08-15 13:56:30.1692078990 src/cgi/enroll_cgi.cpp:216 [INFO] : ret = 0, return_status() = {
+	"code":	"002"
+}
+2023-08-15 13:56:46.1692079006 src/cgi/login_cgi.cpp:261 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-15 13:56:46.1692079006 src/cgi/login_cgi.cpp:267 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-15 13:56:46.1692079006 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 13:56:46.1692079006 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = e3ceb5881a0a1fdaad01296d7554868d, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-15 13:56:46.1692079006 src/cgi/login_cgi.cpp:153 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 13:56:46.1692079006 src/redis_op.cpp:15 [INFO] : [-][GMS_REDIS]Connect 172.18.46.97:6379 ERROR: Connection refused
+2023-08-15 13:56:46.1692079006 src/cgi/login_cgi.cpp:158 [INFO] : redis connected error
+2023-08-15 13:56:46.1692079006 src/cgi/login_cgi.cpp:275 [INFO] : token = 
+2023-08-15 14:11:48.1692079908 src/cgi/login_cgi.cpp:261 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-15 14:11:48.1692079908 src/cgi/login_cgi.cpp:267 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-15 14:11:48.1692079908 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 14:11:48.1692079908 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = e3ceb5881a0a1fdaad01296d7554868d, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-15 14:11:48.1692079908 src/cgi/login_cgi.cpp:153 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 14:11:48.1692079908 src/redis_op.cpp:15 [INFO] : [-][GMS_REDIS]Connect 172.18.46.97:6379 ERROR: Connection refused
+2023-08-15 14:11:48.1692079908 src/cgi/login_cgi.cpp:158 [INFO] : redis connected error
+2023-08-15 14:11:48.1692079908 src/cgi/login_cgi.cpp:275 [INFO] : token = 
+2023-08-15 15:46:50.1692085610 src/cgi/enroll_cgi.cpp:199 [INFO] : buf={
+    "account": "333333",
+    "email": "111@iaee.com",
+    "password": "1a100d2c0dab19c4430e7d73762b3423",
+    "phone": "11111111111"
+}
+
+2023-08-15 15:46:50.1692085610 src/cgi/enroll_cgi.cpp:107 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 15:46:50.1692085610 src/cgi/enroll_cgi.cpp:120 [INFO] : account=333333, password=1a100d2c0dab19c4430e7d73762b3423, phone=11111111111, email=111@iaee.com
+2023-08-15 15:46:50.1692085610 src/cgi/enroll_cgi.cpp:132 [INFO] : select account sql_cmd: SELECT * FROM account_info WHERE account = '333333'
+2023-08-15 15:46:50.1692085610 src/cgi/enroll_cgi.cpp:216 [INFO] : ret = 0, return_status() = {
+	"code":	"002"
+}
+2023-08-15 16:08:56.1692086936 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:08:57.1692086937 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-15 16:08:57.1692086937 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:08:57.1692086937 src/cgi/dealfile_cgi.cpp:110 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:08:57.1692086937 src/cgi/dealfile_cgi.cpp:114 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:08:57.1692086937 src/cgi/sharefiles_cgi.cpp:86 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:08:57.1692086937 src/cgi/sharefiles_cgi.cpp:90 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:08:57.1692086937 src/cgi/dealsharefile_cgi.cpp:94 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:08:57.1692086937 src/cgi/dealsharefile_cgi.cpp:98 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:09:13.1692086953 src/cgi/login_cgi.cpp:261 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-15 16:09:13.1692086953 src/cgi/login_cgi.cpp:267 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-15 16:09:13.1692086953 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 16:09:13.1692086953 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = e3ceb5881a0a1fdaad01296d7554868d, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-15 16:09:13.1692086953 src/cgi/login_cgi.cpp:153 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:09:13.1692086953 src/redis_op.cpp:21 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+2023-08-15 16:09:13.1692086953 src/cgi/login_cgi.cpp:174 [INFO] : tmp = 222222306830878981
+2023-08-15 16:10:32.1692087032 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:10:32.1692087032 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-15 16:10:32.1692087032 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:10:32.1692087032 src/cgi/dealfile_cgi.cpp:110 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:10:32.1692087032 src/cgi/dealfile_cgi.cpp:114 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:10:32.1692087032 src/cgi/sharefiles_cgi.cpp:86 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:10:32.1692087032 src/cgi/sharefiles_cgi.cpp:90 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:10:32.1692087032 src/cgi/dealsharefile_cgi.cpp:94 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:10:32.1692087032 src/cgi/dealsharefile_cgi.cpp:98 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:10:50.1692087050 src/cgi/login_cgi.cpp:261 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-15 16:10:50.1692087050 src/cgi/login_cgi.cpp:267 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-15 16:10:50.1692087050 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 16:10:50.1692087050 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = e3ceb5881a0a1fdaad01296d7554868d, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-15 16:10:50.1692087050 src/cgi/login_cgi.cpp:153 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:10:50.1692087050 src/redis_op.cpp:21 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+2023-08-15 16:10:50.1692087050 src/cgi/login_cgi.cpp:174 [INFO] : tmp = 22222224636617807
+
+
+
+
+=======================================================================================================
+
+2023-08-15 16:16:25.1692087385 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:16:25.1692087385 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-15 16:16:25.1692087385 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:16:25.1692087385 src/cgi/dealfile_cgi.cpp:110 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:16:25.1692087385 src/cgi/dealfile_cgi.cpp:114 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:16:25.1692087385 src/cgi/sharefiles_cgi.cpp:86 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:16:25.1692087385 src/cgi/sharefiles_cgi.cpp:90 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:16:25.1692087385 src/cgi/dealsharefile_cgi.cpp:94 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:16:25.1692087385 src/cgi/dealsharefile_cgi.cpp:98 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:16:48.1692087408 src/cgi/login_cgi.cpp:261 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-15 16:16:48.1692087408 src/cgi/login_cgi.cpp:267 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-15 16:16:48.1692087408 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 16:16:48.1692087408 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = e3ceb5881a0a1fdaad01296d7554868d, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-15 16:16:48.1692087408 src/cgi/login_cgi.cpp:153 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:16:48.1692087408 src/redis_op.cpp:21 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+2023-08-15 16:16:48.1692087408 src/cgi/login_cgi.cpp:174 [INFO] : tmp = 222222835785961227
+
+=======================================================================================================
+
+2023-08-15 16:36:32.1692088592 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:36:32.1692088592 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-15 16:36:32.1692088592 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:36:32.1692088592 src/cgi/dealfile_cgi.cpp:110 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:36:32.1692088592 src/cgi/dealfile_cgi.cpp:114 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:36:32.1692088592 src/cgi/sharefiles_cgi.cpp:86 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:36:32.1692088592 src/cgi/sharefiles_cgi.cpp:90 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:36:32.1692088592 src/cgi/dealsharefile_cgi.cpp:94 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:36:32.1692088592 src/cgi/dealsharefile_cgi.cpp:98 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:36:50.1692088610 src/cgi/login_cgi.cpp:263 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-15 16:36:50.1692088610 src/cgi/login_cgi.cpp:269 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-15 16:36:50.1692088610 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 16:36:50.1692088610 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = e3ceb5881a0a1fdaad01296d7554868d, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-15 16:36:50.1692088610 src/cgi/login_cgi.cpp:153 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:36:50.1692088610 src/redis_op.cpp:21 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+2023-08-15 16:36:50.1692088610 src/cgi/login_cgi.cpp:174 [INFO] : tmp = 22222299837580052
+
+=======================================================================================================
+
+2023-08-15 16:40:11.1692088811 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:40:12.1692088812 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-15 16:40:12.1692088812 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:40:12.1692088812 src/cgi/dealfile_cgi.cpp:110 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:40:12.1692088812 src/cgi/dealfile_cgi.cpp:114 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:40:12.1692088812 src/cgi/sharefiles_cgi.cpp:86 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:40:12.1692088812 src/cgi/sharefiles_cgi.cpp:90 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:40:12.1692088812 src/cgi/dealsharefile_cgi.cpp:94 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:40:12.1692088812 src/cgi/dealsharefile_cgi.cpp:98 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:40:28.1692088828 src/cgi/login_cgi.cpp:264 [INFO] : buf = {
+    "account": "222222",
+    "password": "e3ceb5881a0a1fdaad01296d7554868d"
+}
+
+2023-08-15 16:40:28.1692088828 src/cgi/login_cgi.cpp:270 [INFO] : account = 222222, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-15 16:40:28.1692088828 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 16:40:28.1692088828 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = e3ceb5881a0a1fdaad01296d7554868d, password = e3ceb5881a0a1fdaad01296d7554868d
+2023-08-15 16:40:28.1692088828 src/cgi/login_cgi.cpp:153 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:40:28.1692088828 src/redis_op.cpp:21 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+2023-08-15 16:40:28.1692088828 src/cgi/login_cgi.cpp:174 [INFO] : tmp = 222222539105978263
+2023-08-15 16:40:28.1692088828 src/cgi/login_cgi.cpp:177 [INFO] : Start setting encryption token
+2023-08-15 16:50:30.1692089430 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:50:30.1692089430 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-15 16:50:30.1692089430 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:50:30.1692089430 src/cgi/dealfile_cgi.cpp:110 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:50:30.1692089430 src/cgi/dealfile_cgi.cpp:114 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:50:30.1692089430 src/cgi/sharefiles_cgi.cpp:86 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:50:30.1692089430 src/cgi/sharefiles_cgi.cpp:90 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:50:30.1692089430 src/cgi/dealsharefile_cgi.cpp:94 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:50:30.1692089430 src/cgi/dealsharefile_cgi.cpp:98 [INFO] : redis:[ip=172.18.46.97, port=6379]
+
+=======================================================================================================
+
+2023-08-15 16:54:12.1692089652 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:54:12.1692089652 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-15 16:54:13.1692089653 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:54:13.1692089653 src/cgi/dealfile_cgi.cpp:110 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:54:13.1692089653 src/cgi/dealfile_cgi.cpp:114 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:54:13.1692089653 src/cgi/sharefiles_cgi.cpp:86 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:54:13.1692089653 src/cgi/sharefiles_cgi.cpp:90 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:54:13.1692089653 src/cgi/dealsharefile_cgi.cpp:94 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 16:54:13.1692089653 src/cgi/dealsharefile_cgi.cpp:98 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:54:29.1692089669 src/cgi/login_cgi.cpp:264 [INFO] : buf = {
+    "account": "444444",
+    "password": "73882ab1fa529d7273da0db6b49cc4f3"
+}
+
+2023-08-15 16:54:29.1692089669 src/cgi/login_cgi.cpp:270 [INFO] : account = 444444, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-15 16:54:29.1692089669 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 16:54:29.1692089669 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 73882ab1fa529d7273da0db6b49cc4f3, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-15 16:54:29.1692089669 src/cgi/login_cgi.cpp:153 [INFO] : redis:[ip=172.18.46.97, port=6379]
+2023-08-15 16:54:29.1692089669 src/redis_op.cpp:21 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+2023-08-15 16:54:29.1692089669 src/cgi/login_cgi.cpp:174 [INFO] : tmp = 44444496634126889
+2023-08-15 16:54:29.1692089669 src/cgi/login_cgi.cpp:177 [INFO] : Start setting encryption token
+2023-08-15 16:54:29.1692089669 src/cgi/login_cgi.cpp:187 [INFO] : Login DesEnc Success, enc = <0��Ʃ�mM��-\�Ȯ�B�5
+2023-08-15 16:54:29.1692089669 src/cgi/login_cgi.cpp:192 [INFO] : Login Base64 Success, base64 = PDCp6Mapgm0XE00YHt/hLVzqyK7PQug1
+2023-08-15 16:54:29.1692089669 src/cgi/login_cgi.cpp:200 [INFO] : Login Md5 Success
+2023-08-15 16:54:29.1692089669 src/cgi/login_cgi.cpp:278 [INFO] : token = cb646e93cb139e82045bdd26c55876a63137322e31382e34362e
+2023-08-15 18:09:48.1692094188 src/cgi/upload_cgi.cpp:123 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 18:09:48.1692094188 src/cgi/md5_cgi.cpp:71 [INFO] : mysql:[user=root, pwd=123456, database=cloud_disk]
+2023-08-15 18:09:48.1692094188 src/cgi/myfiles_cgi.cpp:97 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 18:09:49.1692094189 src/cgi/dealfile_cgi.cpp:111 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 18:09:49.1692094189 src/cgi/dealfile_cgi.cpp:116 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-15 18:09:49.1692094189 src/cgi/sharefiles_cgi.cpp:87 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 18:09:49.1692094189 src/cgi/sharefiles_cgi.cpp:92 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-15 18:09:49.1692094189 src/cgi/dealsharefile_cgi.cpp:95 [INFO] : mysql:[user=root, password=123456, database=cloud_disk]
+2023-08-15 18:09:49.1692094189 src/cgi/dealsharefile_cgi.cpp:100 [INFO] : redis:[ip=172.18.46.97, port=6379], password=123456
+2023-08-15 18:10:14.1692094214 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "444444",
+    "password": "73882ab1fa529d7273da0db6b49cc4f3"
+}
+
+2023-08-15 18:10:14.1692094214 src/cgi/login_cgi.cpp:268 [INFO] : account = 444444, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-15 18:10:14.1692094214 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 18:10:14.1692094214 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 73882ab1fa529d7273da0db6b49cc4f3, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-15 18:10:14.1692094214 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-15 18:10:14.1692094214 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-15 18:10:14.1692094214 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 444444547170637875
+2023-08-15 18:10:14.1692094214 src/cgi/login_cgi.cpp:276 [INFO] : token = 0f5782e7b879207279a53b8ace18f29f3137322e31382e34362e
+2023-08-15 18:30:47.1692095447 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "444444",
+    "password": "73882ab1fa529d7273da0db6b49cc4f3"
+}
+
+2023-08-15 18:30:47.1692095447 src/cgi/login_cgi.cpp:268 [INFO] : account = 444444, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-15 18:30:47.1692095447 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 18:30:47.1692095447 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 73882ab1fa529d7273da0db6b49cc4f3, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-15 18:30:47.1692095447 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-15 18:30:47.1692095447 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-15 18:30:47.1692095447 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 444444448881206154
+2023-08-15 18:30:47.1692095447 src/cgi/login_cgi.cpp:276 [INFO] : token = 704cd5f82ccd9e864abd2cc44cee10373137322e31382e34362e
+2023-08-15 18:31:03.1692095463 src/cgi/md5_cgi.cpp:265 [INFO] : buf = {
+    "account": "000",
+    "fileName": "db.md",
+    "md5": "e9f0ba08cfed073822555171af2db859",
+    "token": "704cd5f82ccd9e864abd2cc44cee10373137322e31382e34362e"
+}
+
+2023-08-15 18:31:03.1692095463 src/cgi/md5_cgi.cpp:286 [INFO] : account=000, token=704cd5f82ccd9e864abd2cc44cee10373137322e31382e34362e, md5=e9f0ba08cfed073822555171af2db859, fileName=db.md
+2023-08-15 18:31:03.1692095463 src/redis_op.cpp:21 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+2023-08-15 18:31:03.1692095463 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-15 18:32:39.1692095559 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "444444",
+    "password": "73882ab1fa529d7273da0db6b49cc4f3"
+}
+
+2023-08-15 18:32:39.1692095559 src/cgi/login_cgi.cpp:268 [INFO] : account = 444444, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-15 18:32:39.1692095559 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 18:32:39.1692095559 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 73882ab1fa529d7273da0db6b49cc4f3, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-15 18:32:39.1692095559 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-15 18:32:39.1692095559 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-15 18:32:39.1692095559 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 444444553585576489
+2023-08-15 18:32:39.1692095559 src/cgi/login_cgi.cpp:276 [INFO] : token = 8f3c4641d45e75c3b7e143b26742e5d63137322e31382e34362e
+2023-08-15 18:33:04.1692095584 src/cgi/md5_cgi.cpp:265 [INFO] : buf = {
+    "account": "000",
+    "fileName": "db.md",
+    "md5": "e9f0ba08cfed073822555171af2db859",
+    "token": "8f3c4641d45e75c3b7e143b26742e5d63137322e31382e34362e"
+}
+
+2023-08-15 18:33:04.1692095584 src/cgi/md5_cgi.cpp:286 [INFO] : account=000, token=8f3c4641d45e75c3b7e143b26742e5d63137322e31382e34362e, md5=e9f0ba08cfed073822555171af2db859, fileName=db.md
+2023-08-15 18:33:04.1692095584 src/redis_op.cpp:21 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+2023-08-15 18:33:04.1692095584 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-15 19:45:59.1692099959 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "444444",
+    "password": "73882ab1fa529d7273da0db6b49cc4f3"
+}
+
+2023-08-15 19:45:59.1692099959 src/cgi/login_cgi.cpp:268 [INFO] : account = 444444, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-15 19:45:59.1692099959 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 19:45:59.1692099959 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 73882ab1fa529d7273da0db6b49cc4f3, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-15 19:45:59.1692099959 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-15 19:45:59.1692099959 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-15 19:45:59.1692099959 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 444444542254190915
+2023-08-15 19:45:59.1692099959 src/cgi/login_cgi.cpp:276 [INFO] : token = 0aee7fbd829cf65c38e16bb362ac8b763137322e31382e34362e
+2023-08-15 19:46:17.1692099977 src/cgi/md5_cgi.cpp:265 [INFO] : buf = {
+    "account": "000",
+    "fileName": "db.md",
+    "md5": "e9f0ba08cfed073822555171af2db859",
+    "token": "0aee7fbd829cf65c38e16bb362ac8b763137322e31382e34362e"
+}
+
+2023-08-15 19:46:17.1692099977 src/cgi/md5_cgi.cpp:286 [INFO] : account=000, token=0aee7fbd829cf65c38e16bb362ac8b763137322e31382e34362e, md5=e9f0ba08cfed073822555171af2db859, fileName=db.md
+2023-08-15 19:46:17.1692099977 src/redis_op.cpp:21 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+2023-08-15 19:46:17.1692099977 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
+2023-08-15 19:52:45.1692100365 src/cgi/login_cgi.cpp:262 [INFO] : buf = {
+    "account": "444444",
+    "password": "73882ab1fa529d7273da0db6b49cc4f3"
+}
+
+2023-08-15 19:52:45.1692100365 src/cgi/login_cgi.cpp:268 [INFO] : account = 444444, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-15 19:52:45.1692100365 src/cgi/login_cgi.cpp:116 [INFO] : mysql_user=root, mysql_password=123456, mysql_db=cloud_disk
+2023-08-15 19:52:45.1692100365 src/cgi/login_cgi.cpp:132 [INFO] : login password judge db_Password = 73882ab1fa529d7273da0db6b49cc4f3, password = 73882ab1fa529d7273da0db6b49cc4f3
+2023-08-15 19:52:45.1692100365 src/cgi/login_cgi.cpp:155 [INFO] : redis:[ip=172.18.46.97, port=6379, password=123456]
+2023-08-15 19:52:45.1692100365 src/redis_op.cpp:59 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+
+2023-08-15 19:52:45.1692100365 src/cgi/login_cgi.cpp:176 [INFO] : tmp = 444444831470152762
+2023-08-15 19:52:45.1692100365 src/cgi/login_cgi.cpp:276 [INFO] : token = 463c0f9a6be9dc1975347279ade8c69c3137322e31382e34362e
+2023-08-15 19:52:56.1692100376 src/cgi/md5_cgi.cpp:265 [INFO] : buf = {
+    "account": "000",
+    "fileName": "db.md",
+    "md5": "e9f0ba08cfed073822555171af2db859",
+    "token": "463c0f9a6be9dc1975347279ade8c69c3137322e31382e34362e"
+}
+
+2023-08-15 19:52:56.1692100376 src/cgi/md5_cgi.cpp:286 [INFO] : account=000, token=463c0f9a6be9dc1975347279ade8c69c3137322e31382e34362e, md5=e9f0ba08cfed073822555171af2db859, fileName=db.md
+2023-08-15 19:52:56.1692100376 src/redis_op.cpp:21 [INFO] : [+][GMS_REDIS]Connect 172.18.46.97:6379 SUCCESS!
+2023-08-15 19:52:56.1692100376 src/redis_op.cpp:135 [INFO] : [+][GMS_REDIS]Disconnect SUCCESS!
+
