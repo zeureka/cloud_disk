@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/">
+        <file>fileType/3d.png</file>
+        <file>fileType/archive.png</file>
+        <file>fileType/avi.png</file>
+        <file>fileType/c.png</file>
+        <file>fileType/cmake.png</file>
+        <file>fileType/conf.png</file>
+        <file>fileType/cpp.png</file>
+        <file>fileType/css.png</file>
+        <file>fileType/doc.png</file>
+        <file>fileType/docx.png</file>
+        <file>fileType/exe.png</file>
+        <file>fileType/floder.png</file>
+        <file>fileType/gif.png</file>
+        <file>fileType/h.png</file>
+        <file>fileType/hpp.png</file>
+        <file>fileType/html.png</file>
+        <file>fileType/icon.png</file>
+        <file>fileType/java.png</file>
+        <file>fileType/jpg.png</file>
+        <file>fileType/js.png</file>
+        <file>fileType/link.png</file>
+        <file>fileType/mail.png</file>
+        <file>fileType/md.png</file>
+        <file>fileType/me.png</file>
+        <file>fileType/mp3.png</file>
+        <file>fileType/other.png</file>
+        <file>fileType/pdf.png</file>
+        <file>fileType/png.png</file>
+        <file>fileType/pptx.png</file>
+        <file>fileType/py.png</file>
+        <file>fileType/search.png</file>
+        <file>fileType/setting.png</file>
+        <file>fileType/share.png</file>
+        <file>fileType/sql.png</file>
+        <file>fileType/trash.png</file>
+        <file>fileType/txt.png</file>
+        <file>fileType/vue.png</file>
+        <file>fileType/wps.png</file>
+        <file>fileType/xls.png</file>
+        <file>fileType/xlsx.png</file>
+    </qresource>
+</RCC>
