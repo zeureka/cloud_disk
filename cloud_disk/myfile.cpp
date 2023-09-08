@@ -31,10 +31,18 @@ MyFile::~MyFile() {
 
 void MyFile::initListWidget() { // 设置图标显示模式
     setItemViewMode();
+    auto connection = [=](QListWidget* listWidget){
+        // listItem 右键菜单
+        listWidget->setContextMenuPolicy(Qt::CustomContextMenu);
+        connect(listWidget, &QListWidget::customContextMenuRequested, this, &MyFile::rightMenu);
+    };
 
-    // listItem 右键菜单
-    ui->listWidget->setContextMenuPolicy(Qt::CustomContextMenu);
-    connect(ui->listWidget, &QListWidget::customContextMenuRequested, this, &MyFile::rightMenu);
+    connection(ui->total);
+    connection(ui->vedio);
+    connection(ui->audio);
+    connection(ui->picture);
+    connection(ui->book);
+    connection(ui->document);
 }
 
 void MyFile::addActionMenu() {
@@ -133,26 +141,31 @@ void MyFile::addActionMenu() {
 }
 
 void MyFile::setItemViewMode(QListView::ViewMode mode) {
-    if (QListView::ListMode == mode) {
-        // 设置item显示模式
-        ui->listWidget->setViewMode(QListView::ListMode);
-        // 设置item宽度和高度
-        ui->listWidget->setIconSize(QSize(ui->listWidget->width() - 20, 50));
-        // 设置图标之间的间距
-        ui->listWidget->setSpacing(5);
-    } else if (QListView::IconMode == mode) {
-        ui->listWidget->setViewMode(QListView::IconMode);
-        ui->listWidget->setIconSize(QSize(50, 50));
-        ui->listWidget->setSpacing(15);
-    }
+    auto setViewMode = [](QListWidget* listWidget, QListView::ViewMode mode){
+        listWidget->setViewMode(mode);
+        if (QListView::ListMode == mode) {
+            listWidget->setIconSize(QSize(listWidget->width() - 10, 50));
+            listWidget->setSpacing(5);
+        } else {
+            listWidget->setIconSize(QSize(50, 50));
+            listWidget->setSpacing(15);
+        }
 
-    // 统一项目大小
-    ui->listWidget->setUniformItemSizes(true);
-    // 设置QListWidget的调整模式为adjust, 自适应布局
-    ui->listWidget->setResizeMode(QListView::Adjust);
-    // 设置列表固定不能拖动
-    ui->listWidget->setMovement(QListView::Static);
-    ui->listWidget->show();
+        // 统一项目大小
+        listWidget->setUniformItemSizes(true);
+        // 设置QListWidget的调整模式为adjust, 自适应布局
+        listWidget->setResizeMode(QListView::Adjust);
+        // 设置列表固定不能拖动
+        listWidget->setMovement(QListView::Static);
+        listWidget->show();
+    };
+
+    setViewMode(ui->total, mode);
+    setViewMode(ui->vedio, mode);
+    setViewMode(ui->audio, mode);
+    setViewMode(ui->picture, mode);
+    setViewMode(ui->book, mode);
+    setViewMode(ui->document, mode);
 }
 
 void MyFile::addUploadFiles() {
@@ -414,12 +427,21 @@ void MyFile::clearFileList() {
 }
 
 void MyFile::clearItems() {
-    int n = ui->listWidget->count();
-    for (int i = 0; i < n; ++i) {
-        QListWidgetItem* item = ui->listWidget->takeItem(0);
-        delete item;
-        item = nullptr;
-    }
+    auto helper = [](QListWidget* listWidget){
+        int n = listWidget->count();
+        for (int i = 0; i < n; ++i) {
+            QListWidgetItem* item = listWidget->takeItem(0);
+            delete item;
+            item = nullptr;
+        }
+    };
+
+    helper(ui->total);
+    helper(ui->vedio);
+    helper(ui->audio);
+    helper(ui->picture);
+    helper(ui->document);
+    helper(ui->book);
 }
 
 void MyFile::refreshFileItems() {
@@ -434,8 +456,21 @@ void MyFile::refreshFileItems() {
         int n = this->m_fileList.size();
         for (int i = 0; i < n; ++i) {
             FileInfo* tmp = this->m_fileList.at(i);
+            QString type = tmp->type;
             QListWidgetItem* item = tmp->item;
-            ui->listWidget->addItem(item);
+            ui->total->addItem(item);
+
+            if ("mp3" == type || "wav" == type) {
+                ui->audio->addItem(new QListWidgetItem(*item));
+            } else if ("mp4" == type || "avi" == type) {
+                ui->vedio->addItem(new QListWidgetItem(*item));
+            } else if ("epub" == type || "mobi" == type) {
+                ui->book->addItem(new QListWidgetItem(*item));
+            } else if ("jpg" == type || "png" == type || "jpeg" == type || "gif" == type || "svg" == type) {
+                ui->picture->addItem(new QListWidgetItem(*item));
+            } else if("doc" == type || "docx" == type || "xls" == type || "xlsx" == type || "ppt" == type || "pdf" == type || "txt" == type) {
+                ui->document->addItem(new QListWidgetItem(*item));
+            }
         }
     }
 }
@@ -734,8 +769,24 @@ void MyFile::getFileJsonInfo(QByteArray data) {
 }
 
 void MyFile::dealSelectFile(QString cmd) {
+    QString currTable = ui->tabWidget->tabText(ui->tabWidget->currentIndex());
+    QListWidgetItem* item = nullptr;
+
     // 获取当前选中的Item
-    QListWidgetItem* item = ui->listWidget->currentItem();
+    if ("全部" == currTable) {
+        item = ui->total->currentItem();
+    } else if ("视频" == currTable) {
+        item = ui->vedio->currentItem();
+    } else if ("音频" == currTable) {
+        item = ui->audio->currentItem();
+    } else if ("图片" == currTable) {
+        item = ui->picture->currentItem();
+    } else if ("图书" == currTable) {
+        item = ui->book->currentItem();
+    } else if ("文档" == currTable) {
+        item = ui->document->currentItem();
+    }
+
     if (nullptr == item) {
         return;
     }
@@ -743,7 +794,7 @@ void MyFile::dealSelectFile(QString cmd) {
     // 查找文件列表匹配的元素
     int n = this->m_fileList.size();
     for (int i = 0; i < n; ++i) {
-        if (item == this->m_fileList.at(i)->item) {
+        if (item->text() == this->m_fileList.at(i)->item->text()) {
             if ("share" == cmd) {
                     shareFile(this->m_fileList.at(i));
             } else if ("delete" == cmd) {
@@ -891,7 +942,22 @@ void MyFile::deleteFile(FileInfo *info) {
             for (int i = 0; i < n; ++i) {
                 if (info == this->m_fileList.at(i)) {
                     QListWidgetItem* item = info->item;
-                    ui->listWidget->removeItemWidget(item);
+                    QString currTable = ui->tabWidget->tabText(ui->tabWidget->currentIndex());
+
+                    // 获取当前选中的Item
+                    if ("视频" == currTable) {
+                        ui->vedio->removeItemWidget(item);
+                    } else if ("音频" == currTable) {
+                        ui->audio->removeItemWidget(item);
+                    } else if ("图片" == currTable) {
+                        ui->picture->removeItemWidget(item);
+                    } else if ("图书" == currTable) {
+                        ui->book->removeItemWidget(item);
+                    } else if ("文档" == currTable) {
+                        ui->document->removeItemWidget(item);
+                    }
+
+                    ui->total->removeItemWidget(item);
                     delete item;
 
                     this->m_fileList.removeAt(i);
@@ -922,7 +988,25 @@ void MyFile::getFileProperty(FileInfo *info) {
 
 void MyFile::addDownloadFiles() {
     emit gotoTransfer(TransferStatus::Download);
-    QListWidgetItem* item = ui->listWidget->currentItem();
+
+    QString currTable = ui->tabWidget->tabText(ui->tabWidget->currentIndex());
+    QListWidgetItem* item = nullptr;
+
+    // 获取当前选中的Item
+    if ("全部" == currTable) {
+        item = ui->total->currentItem();
+    } else if ("视频" == currTable) {
+        item = ui->vedio->currentItem();
+    } else if ("音频" == currTable) {
+        item = ui->audio->currentItem();
+    } else if ("图片" == currTable) {
+        item = ui->picture->currentItem();
+    } else if ("图书" == currTable) {
+        item = ui->book->currentItem();
+    } else if ("文档" == currTable) {
+        item = ui->document->currentItem();
+    }
+
     if (nullptr == item) {
 #if DEBUGPRINTF
         cout << "item is nullptr";
@@ -1144,18 +1228,42 @@ void MyFile::on_uploadFile_clicked() {
     this->addUploadFiles();
 }
 
-void MyFile::on_newFloder_clicked() {
-
-}
-
 void MyFile::rightMenu(const QPoint &pos) {
-    QListWidgetItem* item = ui->listWidget->itemAt(pos);
+    QString currTable = ui->tabWidget->tabText(ui->tabWidget->currentIndex());
+    QListWidgetItem* item = nullptr;
+
+    // 获取当前选中的Item
+    if ("全部" == currTable) {
+        item = ui->total->itemAt(pos);
+    } else if ("视频" == currTable) {
+        item = ui->vedio->itemAt(pos);
+    } else if ("音频" == currTable) {
+        item = ui->audio->itemAt(pos);
+    } else if ("图片" == currTable) {
+        item = ui->picture->itemAt(pos);
+    } else if ("图书" == currTable) {
+        item = ui->book->itemAt(pos);
+    } else if ("文档" == currTable) {
+        item = ui->document->itemAt(pos);
+    }
 
     // 没有点击item
     if (nullptr == item) {
         this->m_menuEmpty->exec(QCursor::pos());
     } else {
-        ui->listWidget->setCurrentItem(item);
+        if ("全部" == currTable) {
+            ui->total->setCurrentItem(item);
+        } else if ("视频" == currTable) {
+            ui->vedio->setCurrentItem(item);
+        } else if ("音频" == currTable) {
+            ui->audio->setCurrentItem(item);
+        } else if ("图片" == currTable) {
+            ui->picture->setCurrentItem(item);
+        } else if ("图书" == currTable) {
+            ui->book->setCurrentItem(item);
+        } else if ("文档" == currTable) {
+            ui->document->setCurrentItem(item);
+        }
         this->m_menuItem->exec(QCursor::pos());
     }
 }

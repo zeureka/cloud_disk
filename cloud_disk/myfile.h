@@ -48,6 +48,9 @@ public:
     // asc 是 ascend 升序意思
     // Normal：普通用户列表，DownloadsAsc：按下载量升序， DownloadsDesc：按下载量降序
     enum class Display : char {Normal, DownloadsAsc, DownloadsDesc};
+    // current tabWidget
+    enum class CurrTable : char {Total, Vedio, Audio, Picture, Document, Book};
+
     // 得到服务器的JSON文件
     QStringList getCountStatus(QByteArray json);
     // 显示用户的文件列表
@@ -89,7 +92,6 @@ signals:
 
 private slots:
     void on_uploadFile_clicked();
-    void on_newFloder_clicked();
 
     // 右键菜单信号的槽函数
     void rightMenu(const QPoint& pos);

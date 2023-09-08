@@ -8,7 +8,6 @@
 #include "myfile.h"
 #include "sharelist.h"
 #include "transferlist.h"
-#include "frmtrash.h"
 #include "myinfo.h"
 
 QT_BEGIN_NAMESPACE
