@@ -4,6 +4,7 @@
 #include "common/downloadtask.h"
 #include "common/logininfoinstance.h"
 #include "selfwidget/filepropertyinfo.h"
+#include "selfwidget/filepreview.h"
 #include <QFileDialog>
 #include <QMessageBox>
 #include <QString>
@@ -13,6 +14,11 @@
 #include <QJsonDocument>
 #include <QJsonObject>
 #include <QJsonArray>
+#include <qeventloop.h>
+#include <qlabel.h>
+#include <qnetworkreply.h>
+#include <qobjectdefs.h>
+#include <QPixmap>
 
 MyFile::MyFile(QWidget *parent) : QWidget(parent), ui(new Ui::MyFile) {
     ui->setupUi(this);
@@ -56,6 +62,7 @@ void MyFile::addActionMenu() {
     list1.append(new QAction("删除", this));
     list1.append(new QAction("分享", this));
     list1.append(new QAction("属性", this));
+    list1.append(new QAction("预览", this));
 
     // 将菜单项添加到菜单中
     this->m_menuItem->addActions(list1);
@@ -105,6 +112,14 @@ void MyFile::addActionMenu() {
 #endif
         // 处理选中的文件
         dealSelectFile("property");
+    });
+
+    connect(list1.at(4), &QAction::triggered, this, [=](){
+#if DEBUGPRINTF
+        cout << "文件预览动作";
+#endif
+        // 处理选中的文件
+        dealSelectFile("preview");
     });
 
     connect(list2.at(0), &QAction::triggered, this, [=](){
@@ -796,11 +811,14 @@ void MyFile::dealSelectFile(QString cmd) {
     for (int i = 0; i < n; ++i) {
         if (item->text() == this->m_fileList.at(i)->item->text()) {
             if ("share" == cmd) {
-                    shareFile(this->m_fileList.at(i));
+                shareFile(this->m_fileList.at(i));
             } else if ("delete" == cmd) {
-                    deleteFile(this->m_fileList.at(i));
+                deleteFile(this->m_fileList.at(i));
+                item = nullptr;
             } else if ("property" == cmd) {
-                    getFileProperty(this->m_fileList.at(i));
+                getFileProperty(this->m_fileList.at(i));
+            } else if ("preview" == cmd) {
+                filePreview(this->m_fileList.at(i));
             }
             break;
         }
@@ -983,6 +1001,13 @@ void MyFile::getFileProperty(FileInfo *info) {
     FilePropertyInfo dlg;
     dlg.setInfo(info);
     // 模拟方式运行
+    dlg.exec();
+}
+
+void MyFile::filePreview(FileInfo *info){
+    // TODO
+    FilePreview dlg;
+    dlg.setInfo(info);
     dlg.exec();
 }
 

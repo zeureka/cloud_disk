@@ -28,18 +28,6 @@ MyInfo::MyInfo(QWidget *parent) : QWidget(parent), ui(new Ui::MyInfo) {
     connect(this, &QWidget::customContextMenuRequested, this, [=](){
         this->m_menu->exec(QCursor::pos());
     });
-
-//    QTimer* timer = new QTimer;
-//    QMetaObject::Connection connection = connect(timer, &QTimer::timeout, [this, timer, &connection](){
-//        cout << LoginInfoInstance::getInstance()->getAccount();
-//        if (LoginInfoInstance::getInstance()->getAccount() != "") {
-//            this->getMyInfo();
-//            timer->stop();
-//            delete timer;
-//            disconnect(connection);
-//        }
-//    });
-//    timer->start(1000);
 }
 
 MyInfo::~MyInfo() {

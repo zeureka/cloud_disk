@@ -74,6 +74,8 @@ public:
     void deleteFile(FileInfo* info);
     // 获取文件属性
     void getFileProperty(FileInfo* info);
+    // 文件预览
+    void filePreview(FileInfo* info);
     // 添加文件到下载任务列表
     void addDownloadFiles();
     // 下载文件处理，取出下载任务队列的队首任务，下载完成后，再取下一个任务

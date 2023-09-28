@@ -8,6 +8,8 @@ set(CMAKE_AUTORCC ON)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_PREFIX_PATH "/home/iaee/Qt/6.2.4/gcc_64/lib/cmake/")
 
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
@@ -66,9 +68,11 @@ set(PROJECT_SOURCES
         ./selfwidget/changepassword.cpp
         ./selfwidget/changepassword.h
         ./selfwidget/changepassword.ui
+        ./selfwidget/filepreview.cpp
+        ./selfwidget/filepreview.h
+        ./selfwidget/filepreview.ui
         res.qrc
 )
-
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Cloud_DIsk
